@@ -1,0 +1,10 @@
+jupyterlab
+notebook
+ipykernel
+jupyter
+tensorflow
+tqdm
+scikit-learn
+matplotlib
+catppuccin-jupyterlab
+pillow
