@@ -1,1 +1,5 @@
 data_augment
+.DS_Store
+.ipynb_checkpoints
+*.tflite
+*.h5
