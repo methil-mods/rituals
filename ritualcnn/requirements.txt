@@ -1,10 +1,22 @@
-jupyterlab
-notebook
-ipykernel
-jupyter
-tensorflow
-tqdm
-scikit-learn
-matplotlib
+# Core Jupyter environment
+jupyterlab>=4.1
+notebook>=7.0
+ipykernel>=6.29
+jupyter>=1.0
+
+# Machine learning & deep learning
+tensorflow==2.15.0
+scikit-learn>=1.5
+tf2onnx>=1.16
+
+# Utilities & visualization
+tqdm>=4.66
+matplotlib>=3.9
+pillow>=10.4
+
+# Theming
 catppuccin-jupyterlab
-pillow
+
+# Compatibility fix for deprecated numpy aliases (np.object, etc.)
+numpy<1.24
+
