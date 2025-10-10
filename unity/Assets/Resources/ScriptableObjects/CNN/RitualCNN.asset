@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9508ddb37ac4584a08798c9220602a4, type: 3}
+  m_Name: RitualCNN
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.CNN.CNNData
+  modelName: RitualCNN
+  model: {fileID: 5022602860645237092, guid: 21edb8d6a489d4bdd84a4563f0e8abb7, type: 3}
+  rituals:
+  - {fileID: 11400000, guid: 1c955ecc4ade64f38ac9e26ca8621264, type: 2}
+  - {fileID: 11400000, guid: 5083af34e7a0d40c8b98d5814cdebb02, type: 2}
+  - {fileID: 11400000, guid: c7c32d529eb3c460d82041e45a0202ea, type: 2}
