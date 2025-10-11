@@ -13,6 +13,7 @@ namespace Player
 
         public void Update()
         {
+            Debug.Log(transform.position);
             playerMovement.Update(this);
             playerInteraction.Update(this);
         }
