@@ -1,3 +1,4 @@
+using Core.UserInterface;
 using ScriptableObjects.Book;
 using UnityEngine;
 
@@ -9,7 +10,7 @@ namespace Core.Props
 
         public void OpenBook()
         {
-            
+            BookUserInterfaceController.Instance.OpenBook(bookData);
         }
     }
 }

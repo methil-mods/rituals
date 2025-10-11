@@ -4,7 +4,7 @@ using UnityEngine.Tilemaps;
 
 namespace Player
 {
-    public class PlayerMouvement : MonoBehaviour
+    public class PlayerMovement : MonoBehaviour
     {
         public Tilemap tilemap;
         private void Update()

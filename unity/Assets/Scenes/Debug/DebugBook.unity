@@ -300,17 +300,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &592587534 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3999308168568943248, guid: ecff70373e6e34d2896f6c6c8cdc7319, type: 3}
-  m_PrefabInstance: {fileID: 1955553266375471209}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1 &1115030202
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,17 +397,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8998113651262158395, guid: ecff70373e6e34d2896f6c6c8cdc7319, type: 3}
   m_PrefabInstance: {fileID: 1955553266375471209}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1966395314 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2691689127471949314, guid: ecff70373e6e34d2896f6c6c8cdc7319, type: 3}
-  m_PrefabInstance: {fileID: 1955553266375471209}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1 &2084747419
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,10 +450,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 459759112}
     m_Modifications:
-    - target: {fileID: 2691689127471949314, guid: ecff70373e6e34d2896f6c6c8cdc7319, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3437797164649081303, guid: ecff70373e6e34d2896f6c6c8cdc7319, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -500,22 +474,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3999308168568943248, guid: ecff70373e6e34d2896f6c6c8cdc7319, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7898994778435589027, guid: ecff70373e6e34d2896f6c6c8cdc7319, type: 3}
       propertyPath: m_Name
       value: BookPanelUi
       objectReference: {fileID: 0}
-    - target: {fileID: 8491566221495671250, guid: ecff70373e6e34d2896f6c6c8cdc7319, type: 3}
-      propertyPath: nextButton
-      value: 
-      objectReference: {fileID: 1966395314}
-    - target: {fileID: 8491566221495671250, guid: ecff70373e6e34d2896f6c6c8cdc7319, type: 3}
-      propertyPath: previousButton
-      value: 
-      objectReference: {fileID: 592587534}
     - target: {fileID: 8754160540952114692, guid: ecff70373e6e34d2896f6c6c8cdc7319, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
