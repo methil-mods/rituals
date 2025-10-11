@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Framework.Controller;
 using UnityEngine;
@@ -11,6 +12,13 @@ namespace World
         private List<Tilemap> tilemaps;
         [SerializeField]
         private Grid worldGrid;
+        [SerializeField]
+        private WorldTileHover worldTileHover;
+
+        public void Update()
+        {
+            worldTileHover.Update(this);
+        }
 
         private Tilemap GetTilemapFromTag(string tagName)
         {
