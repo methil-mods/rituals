@@ -198,10 +198,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 555614830586796085, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: tilemap
-      value: 
-      objectReference: {fileID: 1694117925}
     - target: {fileID: 1282034839412788102, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
       propertyPath: m_Name
       value: PlayerController
@@ -246,6 +242,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
+      propertyPath: playerMovement.tilemap
+      value: 
+      objectReference: {fileID: 1694117925}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

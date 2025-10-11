@@ -9,26 +9,22 @@ namespace Core.CNN
 {
     public class CNNController : BaseController<CNNController>
     {
-        private const string inputName = "input";
-        private const string outputName = "dense_1";
-        private IWorker worker;
+        private IWorker _worker;
         private CNNData _cnnData;
 
         void OnEnable()
         {
             _cnnData = CNNDatabase.Instance.ritualsCNN;
             var runtimeModel = ModelLoader.Load(_cnnData.model);
-            worker = WorkerFactory.CreateWorker(WorkerFactory.Type.Auto, runtimeModel);
+            _worker = WorkerFactory.CreateWorker(WorkerFactory.Type.Auto, runtimeModel);
         }
 
         void OnDisable()
         {
-            worker?.Dispose();
+            _worker?.Dispose();
         }
 
-        public RitualInferenceResult[] RunInference(Texture2D texture)
-        {
-            return InferenceUtils.RunRitualInference(_cnnData, worker, texture, inputName, outputName);
-        }
+        public RitualInferenceResult[] RunInference(Texture2D texture) =>
+             InferenceUtils.RunRitualInference(_cnnData, _worker, texture, _cnnData.InputName, _cnnData.OutputName);
     }
 }

@@ -1,17 +1,20 @@
+using System;
+using Framework;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
 
 namespace Player
 {
-    public class PlayerMovement : MonoBehaviour
+    [Serializable]
+    public class PlayerMovement : Updatable<PlayerController>
     {
         public Tilemap tilemap;
 
         private Vector3 lastClickTilePos;
         private Vector3 lastWorldClickPos;
 
-        private void Update()
+        public override void Update(PlayerController controller)
         {
             if (!Mouse.current.leftButton.isPressed) return;
             Vector2 mousePos = Mouse.current.position.ReadValue();
@@ -21,13 +24,13 @@ namespace Player
             Vector3 tilePos = tilemap.layoutGrid.GetCellCenterWorld(cellPos);
             tilePos.z = 0;
 
-            transform.position = tilePos;
+            controller.transform.position = tilePos;
 
             lastClickTilePos = tilePos;
             lastWorldClickPos = worldClickPos;
         }
 
-        private void OnDrawGizmos()
+        public override void OnDrawGizmos()
         {
             Gizmos.color = Color.red;
             Gizmos.DrawSphere(lastClickTilePos, 0.15f);

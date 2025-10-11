@@ -8,5 +8,18 @@ namespace ScriptableObjects.CNN
     public class CNNDatabase : SingletonScriptableObject<CNNDatabase>
     {
         public CNNData ritualsCNN;
+        
+        private void OnEnable()
+        {
+            ValidateData();
+        }
+
+        private void ValidateData()
+        {
+            if (ritualsCNN == null)
+            {
+                Debug.LogWarning($"[CNNDatabase] ritualsCNN is not assigned in {name}. Please assign a CNNData asset.", this);
+            }
+        }
     }
 }
