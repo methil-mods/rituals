@@ -1,9 +1,8 @@
 using System;
-using System.Runtime.InteropServices.WindowsRuntime;
 using Framework;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.InputSystem;
-using UnityEngine.Tilemaps;
 using World;
 
 namespace Player
@@ -11,6 +10,7 @@ namespace Player
     [Serializable]
     public class PlayerMovement : Updatable<PlayerController>
     {
+        public NavMeshAgent agent;
         public WorldController worldController;
 
         private Vector3 lastClickTilePos;
@@ -25,13 +25,13 @@ namespace Player
             Vector2 mousePos = Mouse.current.position.ReadValue();
             Vector2 worldClickPos = Camera.main.ScreenToWorldPoint(mousePos);
             
-            Vector3 tilePos = worldController.WorldToCellCenter(worldClickPos);
+            Vector3 tileWorldPos = worldController.WorldToCellCenter(worldClickPos);
 
-            if (worldController.IsCellMovable(tilePos))
-                controller.transform.position = tilePos;
+            if (worldController.IsCellMovable(tileWorldPos))
+                agent.SetDestination(tileWorldPos);
 
             if (!debug) return;
-            lastClickTilePos = tilePos;
+            lastClickTilePos = tileWorldPos;
             lastWorldClickPos = worldClickPos;
         }
 
