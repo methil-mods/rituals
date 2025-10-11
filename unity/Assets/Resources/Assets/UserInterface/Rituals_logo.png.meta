@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 7abd00249e9dc49c88d1247eded78f37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -675190387508582751
+    second: Rituals_logo_0
+  - first:
+      213: -5924253668565623306
+    second: Rituals_logo_1
+  - first:
+      213: -3489774163670928775
+    second: Rituals_logo_2
+  - first:
+      213: -1086361189354873649
+    second: Rituals_logo_3
+  - first:
+      213: 7979155885202683267
+    second: Rituals_logo_4
+  - first:
+      213: 4847024167180538284
+    second: Rituals_logo_5
+  - first:
+      213: 3799633002635243665
+    second: Rituals_logo_6
+  - first:
+      213: 5813950220896982006
+    second: Rituals_logo_7
+  - first:
+      213: 2992087718336594928
+    second: Rituals_logo_8
+  - first:
+      213: -934707728417772096
+    second: Rituals_logo_9
+  - first:
+      213: -3606040425448257940
+    second: Rituals_logo_10
+  - first:
+      213: -1333203540091774686
+    second: Rituals_logo_11
+  - first:
+      213: -5163215959840216110
+    second: Rituals_logo_12
+  - first:
+      213: -5285454349157022392
+    second: Rituals_logo_13
+  - first:
+      213: 6944228972102036627
+    second: Rituals_logo_14
+  - first:
+      213: -5047190270880246240
+    second: Rituals_logo_15
+  - first:
+      213: 7737182067873650579
+    second: Rituals_logo_16
+  - first:
+      213: -9164764668902231398
+    second: Rituals_logo_17
+  - first:
+      213: 4214004404665966995
+    second: Rituals_logo_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rituals_logo_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 234
+        width: 295
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6eacc7bed31a6f0800000000000000
+      internalID: -675190387508582751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 162
+        width: 170
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd57dd2da2d8cda0800000000000000
+      internalID: -5924253668565623306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 230
+        width: 279
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972fe0443e4d19fc0800000000000000
+      internalID: -3489774163670928775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_3
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 155
+        width: 292
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc5bba01487ce0f0800000000000000
+      internalID: -1086361189354873649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_4
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 200
+        width: 274
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38539f09008abbe60800000000000000
+      internalID: 7979155885202683267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_5
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 160
+        width: 258
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca19786acc6144340800000000000000
+      internalID: 4847024167180538284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_6
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 294
+        width: 166
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190bce6a5120bb430800000000000000
+      internalID: 3799633002635243665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_7
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 6
+        width: 77
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f35e5a1cec4fa050800000000000000
+      internalID: 5813950220896982006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 6
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f303445de7068920800000000000000
+      internalID: 2992087718336594928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 6
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cda8d6f5404703f0800000000000000
+      internalID: -934707728417772096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_10
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 6
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c664573b655c4fdc0800000000000000
+      internalID: -3606040425448257940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_11
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 5
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2295983a1728f7de0800000000000000
+      internalID: -1333203540091774686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_12
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 5
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dba81fb0729858b0800000000000000
+      internalID: -5163215959840216110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_13
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 6
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845c3f1e54b46a6b0800000000000000
+      internalID: -5285454349157022392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_14
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 6
+        width: 12
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c2e11457bde5060800000000000000
+      internalID: 6944228972102036627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_15
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 5
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02610669037c4f9b0800000000000000
+      internalID: -5047190270880246240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_16
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 6
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397912ee81eff5b60800000000000000
+      internalID: 7737182067873650579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_17
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 6
+        width: 13
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a923804371730d080800000000000000
+      internalID: -9164764668902231398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rituals_logo_18
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 6
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391eb06eda62b7a30800000000000000
+      internalID: 4214004404665966995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Rituals_logo_0: -675190387508582751
+      Rituals_logo_1: -5924253668565623306
+      Rituals_logo_10: -3606040425448257940
+      Rituals_logo_11: -1333203540091774686
+      Rituals_logo_12: -5163215959840216110
+      Rituals_logo_13: -5285454349157022392
+      Rituals_logo_14: 6944228972102036627
+      Rituals_logo_15: -5047190270880246240
+      Rituals_logo_16: 7737182067873650579
+      Rituals_logo_17: -9164764668902231398
+      Rituals_logo_18: 4214004404665966995
+      Rituals_logo_2: -3489774163670928775
+      Rituals_logo_3: -1086361189354873649
+      Rituals_logo_4: 7979155885202683267
+      Rituals_logo_5: 4847024167180538284
+      Rituals_logo_6: 3799633002635243665
+      Rituals_logo_7: 5813950220896982006
+      Rituals_logo_8: 2992087718336594928
+      Rituals_logo_9: -934707728417772096
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
