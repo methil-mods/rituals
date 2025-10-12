@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace Utils
 {
-    public class InferenceUtils
+    public static class InferenceUtils
     {
         public static RitualInferenceResult[] RunRitualInference(
             CNNData cnnData, 

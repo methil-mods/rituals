@@ -16,6 +16,11 @@ namespace World
 
         private Vector3Int oldCellPos = Vector3Int.zero;
 
+        public override void Start(WorldController controller)
+        {
+            // Silent should be golden
+        }
+
         public override void Update(WorldController controller)
         {
             effectedTilemap.SetTile(oldCellPos, null);

@@ -10,6 +10,12 @@ namespace Player
         private PlayerMovement playerMovement;
         [SerializeField]
         private PlayerInteraction playerInteraction;
+        
+        public void Start()
+        {
+            playerMovement.Start(this);
+            playerInteraction.Start(this);
+        }
 
         public void Update()
         {
@@ -21,6 +27,12 @@ namespace Player
         {
             playerMovement.OnDrawGizmos();
             playerInteraction.OnDrawGizmos();
+        }
+
+        public void OnDestroy()
+        {
+            playerMovement.OnDestroy();
+            playerInteraction.OnDestroy();
         }
     }
 }

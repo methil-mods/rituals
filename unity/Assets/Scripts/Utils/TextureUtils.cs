@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Utils
 {
-    public class TextureUtils
+    public static class TextureUtils
     {
         public static Texture2D ResizeTexture(Texture2D source, int width, int height)
         {
