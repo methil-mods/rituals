@@ -1420,7 +1420,7 @@ GameObject:
   - component: {fileID: 948430082132029353}
   - component: {fileID: 9085395765904177696}
   m_Layer: 0
-  m_Name: WorldGrid
+  m_Name: WorldGridClassic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
