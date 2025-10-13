@@ -22,7 +22,6 @@ namespace Core.Props
 
         public void OpenBook()
         {
-            Debug.Log("OpenBook");
             BookUserInterfaceController.Instance.OpenBook(bookData);
         }
 
