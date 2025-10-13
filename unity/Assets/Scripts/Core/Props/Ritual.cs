@@ -21,6 +21,7 @@ namespace Core.Props
 
         public void StartRitual()
         {
+            // TODO: Ethan ton taff de plugger le CNN ici
             Debug.Log("Start ritual here" + ritualData.ritualName);
         }
 
