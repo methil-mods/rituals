@@ -2,13 +2,14 @@ using System.Collections.Generic;
 using Framework.Controller;
 using Framework.ExtendedGrid;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 namespace World
 {
     public class WorldController: BaseController<WorldController>
     {
         [SerializeField]
-        private List<ExtendedTilemap> tilemaps;
+        private List<Tilemap> tilemaps;
         [SerializeField]
         private Grid worldGrid;
         [SerializeField]
@@ -19,9 +20,14 @@ namespace World
             worldTileHover.Update(this);
         }
 
-        private ExtendedTilemap GetTilemapFromTag(string tagName)
+        private Tilemap GetTilemapFromTag(string tagName)
         {
             return  tilemaps.Find(t => t.CompareTag(tagName));
+        }
+
+        public Vector3Int WorldToCell(Vector3 worldPosition)
+        {
+            return worldGrid.WorldToCell(worldPosition);
         }
 
         public Vector3 WorldToCellCenter(Vector3 worldPos)
@@ -36,9 +42,9 @@ namespace World
         public bool IsCellMovable(Vector3 worldPos)
         {
             Vector3Int cellPos = worldGrid.WorldToCell(worldPos);
-            ExtendedTilemap ground = GetTilemapFromTag("Ground");
-            GridTile hasGround = ground.GetTile(new Vector2Int(cellPos.x, cellPos.y));
-            return hasGround != null;
+            Tilemap ground = GetTilemapFromTag("Ground");
+            bool hasGround = ground.HasTile(cellPos);
+            return hasGround;
         }
     }
 }

@@ -31,10 +31,11 @@ namespace Core.UserInterface
         {
             previousButton?.onClick.AddListener(PreviousPage);
             nextButton?.onClick.AddListener(NextPage);
+            bookPanel.gameObject.SetActive(false);
         }
 
-        public void OpenBook(BookData bookData)
-        {
+         public void OpenBook(BookData bookData) 
+         {
             if (bookData == null || bookData.bookContent.Count == 0)
                 return;
 

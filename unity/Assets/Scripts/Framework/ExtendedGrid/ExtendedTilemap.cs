@@ -44,6 +44,7 @@ namespace Framework.ExtendedGrid
                 return tiles[cell];
 
             Vector3 worldPos = layoutGrid.CellToWorld(new Vector3Int(cell.x, cell.y, 0));
+            worldPos += new Vector3(0, 0.3f, 0);
             var tile = Instantiate(tilePrefab, worldPos, Quaternion.identity, transform);
             tile.name = $"Tile_{cell.x}_{cell.y}";
             tiles[cell] = tile;

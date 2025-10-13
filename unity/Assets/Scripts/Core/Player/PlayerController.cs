@@ -17,6 +17,11 @@ namespace Player
             playerInteraction.Start(this);
         }
 
+        void OnTriggerEnter2D(Collider2D other)
+        {
+            Debug.Log("OnTriggerEnter2D");
+        }
+
         public void Update()
         {
             playerMovement.Update(this);
