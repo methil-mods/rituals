@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
 
@@ -9,44 +8,6 @@ namespace Utils
 {
     public static class PathFindingUtils
     {
-        public static List<Vector3> CalculateSimplePath(Vector3 start, Vector3 end, Tilemap groundTilemap, Tilemap collisionTilemap, int maxSteps = 100)
-        {
-            List<Vector3> path = new List<Vector3>();
-            Vector3Int startCell = groundTilemap.WorldToCell(start);
-            Vector3Int endCell = groundTilemap.WorldToCell(end);
-
-            Vector3Int current = startCell;
-            int steps = 0;
-
-            while (current != endCell && steps < maxSteps)
-            {
-                Vector3Int next = current;
-                
-                if (current.x < endCell.x)
-                    next.x++;
-                else if (current.x > endCell.x)
-                    next.x--;
-                else if (current.y < endCell.y)
-                    next.y++;
-                else if (current.y > endCell.y)
-                    next.y--;
-
-                if (IsTileWalkable(next, groundTilemap, collisionTilemap))
-                {
-                    current = next;
-                    path.Add(groundTilemap.GetCellCenterWorld(current));
-                }
-                else
-                {
-                    break;
-                }
-
-                steps++;
-            }
-
-            return path;
-        }
-
         public static List<Vector3> CalculatePathAStar(Vector3 start, Vector3 end, Tilemap groundTilemap, Tilemap collisionTilemap, int maxIterations = 500)
         {
             List<Vector3> path = new List<Vector3>();

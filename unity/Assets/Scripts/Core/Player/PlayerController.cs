@@ -1,43 +1,38 @@
+using System.Collections.Generic;
+using Framework;
 using Framework.Controller;
 using UnityEngine;
 using UnityEngine.Events;
+using World;
 
 namespace Player
 {
     public class PlayerController : BaseController<PlayerController>
     {
         [SerializeField]
-        private PlayerMovement playerMovement;
-        [SerializeField]
-        private PlayerInteraction playerInteraction;
+        public PlayerData playerData;
+        
+        [SerializeReference, SubclassSelector]
+        public List<Updatable<PlayerController>> updatables = new List<Updatable<PlayerController>>();
         
         public void Start()
         {
-            playerMovement.Start(this);
-            playerInteraction.Start(this);
-        }
-
-        void OnTriggerEnter2D(Collider2D other)
-        {
-            Debug.Log("OnTriggerEnter2D");
+            foreach (var updatable in updatables) updatable.Start(this);
         }
 
         public void Update()
         {
-            playerMovement.Update(this);
-            playerInteraction.Update(this);
+            foreach (var updatable in updatables) updatable.Update(this);
         }
 
         public void OnDrawGizmos()
         {
-            playerMovement.OnDrawGizmos();
-            playerInteraction.OnDrawGizmos();
+            foreach (var updatable in updatables) updatable.OnDrawGizmos();
         }
 
         public void OnDestroy()
         {
-            playerMovement.OnDestroy();
-            playerInteraction.OnDestroy();
+            foreach (var updatable in updatables) updatable.OnDestroy();
         }
     }
 }

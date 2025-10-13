@@ -1,7 +1,9 @@
+using System;
 using UnityEngine;
 
 namespace Framework
 {
+    [Serializable]
     public abstract class Updatable<T> where T : MonoBehaviour
     {
         public abstract void Start(T controller);

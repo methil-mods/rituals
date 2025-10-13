@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e83a1db1e824ba9b674305c4117c708, type: 3}
+  m_Name: Flosculus
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Entity.EntityData
+  entityName: "F\u0338\u0305\u031El\u0338\u0315\u0323o\u0334\u030E\u033As\u0334\u0351\u0348c\u0334\u0346\u0339u\u0338\u0313\u0316l\u0336\u030E\u0354u\u0336\u0343\u0332s\u0335\u0302\u033A"
+  entitySprite: {fileID: -9031895453532203577, guid: b8d79e1cee69d4918a44b3bab183d55d, type: 3}
+  entityDescription: Apparently, a former half-dead man who fell into limbo, he was
+    a good guy though.

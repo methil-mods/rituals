@@ -15,9 +15,6 @@ namespace Player
         public Tilemap groundTilemap;
         public Tilemap collisionTilemap;
 
-        [Header("Settings")]
-        public float moveSpeed = 3f;
-
         private bool isMoving = false;
         private List<Vector3> currentPath;
         private int currentWaypointIndex = 0;
@@ -69,7 +66,7 @@ namespace Player
 
             Vector3 targetPos = currentPath[currentWaypointIndex];
             float distance = Vector3.Distance(controller.transform.position, targetPos);
-            float duration = distance / moveSpeed;
+            float duration = distance / controller.playerData.moveSpeed;
 
             LeanTween.move(controller.gameObject, targetPos, duration).setEase(LeanTweenType.linear)
                 .setOnComplete(() =>

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1184d09ecd41a88c91ff5b95e69a0b, type: 3}
+  m_Name: Flosculus1
+  m_EditorClassIdentifier: Assembly-CSharp::Core.Dialog.DialogData
+  contents:
+  - entity: {fileID: 11400000, guid: a3516d02b1c7749cfa0d9dc1d1b180ff, type: 2}
+    content: "s\u0338\u0340\u034Du\u0336\u030C\u033Ac\u0337\u0315\u0331e\u0335\u0303\u035A
+      \u0338\u0302\u0321m\u0334\u0340\u0349a\u0334\u0311\u0354 \u0334\u0308\u0333b\u0334\u0344\u035Ai\u0337\u0300\u0327t\u0336\u0310\u0320e\u0336\u0312\u0330"
+    typingSpeed: 0.05
+  - entity: {fileID: 11400000, guid: a3516d02b1c7749cfa0d9dc1d1b180ff, type: 2}
+    content: Tu sais j'ai une bite elle est toute
+    typingSpeed: 0.05
+  - entity: {fileID: 11400000, guid: a3516d02b1c7749cfa0d9dc1d1b180ff, type: 2}
+    content: Tu sais j'ai une bite elle est toute toute petite
+    typingSpeed: 0.05
