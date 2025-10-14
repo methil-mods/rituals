@@ -9,33 +9,23 @@ namespace Core.Props
 {
     public class Ritual : Interactible<Ritual>
     {
-        private Vector3Int cellPos;
-
-        [SerializeField] private Vector3Int detectionTileOffset = Vector3Int.zero;
-
-        void Start()
-        {
-            this.cellPos = WorldController.Instance.WorldToCell(transform.position);
-        }
+        public RitualData ritualData;
 
         public void StartRitual()
         {
-            RitualUserInterfaceController.Instance.OpenRitualPanel();
+            if (!ritualData)
+            {
+                Debug.LogWarning($"No book data found on tile ${gameObject.name}");
+                return;
+            }
+            // TODO: Ethan ton taff de plugger le CNN ici
+            Debug.Log("Start ritual here" + ritualData.ritualName);
         }
 
         public new void Interact()
         {
             base.Interact();
             StartRitual();
-        }
-
-        void Update()
-        {
-            Vector3 playerPos = PlayerController.Instance.transform.position;
-            Vector3Int playerCellPos = WorldController.Instance.WorldToCell(playerPos);
-            bool isOnDetectionCell = (this.cellPos + this.detectionTileOffset) - playerCellPos == Vector3Int.zero;
-            if (!isOnDetectionCell) return;
-            this.Interact();
         }
     }
 }

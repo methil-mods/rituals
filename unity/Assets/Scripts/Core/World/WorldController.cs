@@ -10,8 +10,7 @@ namespace World
     {
         [SerializeField]
         private List<Tilemap> tilemaps;
-        [SerializeField]
-        private Grid worldGrid;
+        public Grid worldGrid;
         [SerializeField]
         private WorldTileHover worldTileHover;
 
