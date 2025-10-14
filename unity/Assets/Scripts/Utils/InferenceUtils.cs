@@ -5,6 +5,11 @@ using UnityEngine;
 using Unity.Barracuda;
 using System.Linq;
 
+#if UNITY_EDITOR
+using UnityEditor;
+using System.IO;
+#endif
+
 namespace Utils
 {
     public static class InferenceUtils
@@ -14,9 +19,17 @@ namespace Utils
             IWorker worker, 
             Texture2D inputTexture, 
             string inputName, 
-            string outputName)
+            string outputName,
+            bool saveDebugImage = false)
         {
             Texture2D resized = TextureUtils.ResizeTexture(inputTexture, 128, 128);
+            
+            // Save the resized texture before inference if requested (Editor only)
+            if (saveDebugImage)
+            {
+                SaveTextureToResourcesFolder(resized, "InferenceInput");
+            }
+            
             Color[] pixels = resized.GetPixels();
             float[] grayscale = new float[pixels.Length];
 
@@ -44,6 +57,27 @@ namespace Utils
             }
 
             return inferenceResults.OrderByDescending(r => r.similarity).ToArray();
+        }
+
+        private static void SaveTextureToResourcesFolder(Texture2D texture, string filename)
+        {
+#if UNITY_EDITOR
+            // Ensure Resources folder exists
+            string resourcesPath = "Assets/Resources/DebugImages";
+            if (!Directory.Exists(resourcesPath))
+            {
+                Directory.CreateDirectory(resourcesPath);
+            }
+            
+            byte[] bytes = texture.EncodeToPNG();
+            string timestamp = System.DateTime.Now.ToString("yyyyMMdd_HHmmss");
+            string filepath = $"{resourcesPath}/{filename}_{timestamp}.png";
+            
+            File.WriteAllBytes(filepath, bytes);
+            AssetDatabase.Refresh();
+            
+            Debug.Log($"Debug image saved to: {filepath}");
+#endif
         }
     }
 

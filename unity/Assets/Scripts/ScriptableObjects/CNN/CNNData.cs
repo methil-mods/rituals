@@ -9,8 +9,8 @@ namespace ScriptableObjects.CNN
     [CreateAssetMenu(fileName = "CNNData", menuName = "CNN/CNNData")]
     public class CNNData : ScriptableObject
     {
-        public readonly string InputName = "input";
-        public readonly string OutputName = "dense_1";
+        public string inputName = "input";
+        public string outputName = "dense_3";
         
         public string modelName;
         public NNModel model;

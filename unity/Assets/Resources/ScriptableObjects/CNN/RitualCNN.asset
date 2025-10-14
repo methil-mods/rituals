@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9508ddb37ac4584a08798c9220602a4, type: 3}
   m_Name: RitualCNN
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.CNN.CNNData
+  inputName: input
+  outputName: output
   modelName: RitualCNN
-  model: {fileID: 5022602860645237092, guid: 21edb8d6a489d4bdd84a4563f0e8abb7, type: 3}
+  model: {fileID: 5022602860645237092, guid: f8b3428949e3b466ca4880b63ecf4cc4, type: 3}
   rituals:
-  - {fileID: 11400000, guid: 1c955ecc4ade64f38ac9e26ca8621264, type: 2}
-  - {fileID: 11400000, guid: 5083af34e7a0d40c8b98d5814cdebb02, type: 2}
+  - {fileID: 11400000, guid: 19f4529ddfc024e3d889a205dca590b5, type: 2}
+  - {fileID: 11400000, guid: 16b7e765d7ffb4b99b0431f244fc4b90, type: 2}
+  - {fileID: 11400000, guid: 98aba3ffc73714bfe872ffdd2cb95b32, type: 2}
+  - {fileID: 11400000, guid: 32a084ee7850e488cb7ffe5e1c47bfd2, type: 2}
   - {fileID: 11400000, guid: c7c32d529eb3c460d82041e45a0202ea, type: 2}
+  - {fileID: 11400000, guid: 9e368ecc5386648ba9271d50fc279e14, type: 2}
+  - {fileID: 11400000, guid: 27fc7fe5db3484d3f924e5f7a7284a68, type: 2}

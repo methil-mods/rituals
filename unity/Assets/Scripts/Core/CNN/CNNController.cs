@@ -25,6 +25,6 @@ namespace Core.CNN
         }
 
         public RitualInferenceResult[] RunInference(Texture2D texture) =>
-             InferenceUtils.RunRitualInference(_cnnData, _worker, texture, _cnnData.InputName, _cnnData.OutputName);
+             InferenceUtils.RunRitualInference(_cnnData, _worker, texture, _cnnData.inputName, _cnnData.outputName);
     }
 }
