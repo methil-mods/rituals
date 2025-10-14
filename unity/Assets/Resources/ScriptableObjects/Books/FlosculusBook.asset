@@ -25,3 +25,9 @@ MonoBehaviour:
     contentLeftImage: {fileID: 0}
     contentRight: 
     contentRightImage: {fileID: 0}
+    unlockableQuestData: {fileID: 0}
+  - contentLeft: Fils de timp t'y connais rien
+    contentLeftImage: {fileID: 0}
+    contentRight: 
+    contentRightImage: {fileID: 0}
+    unlockableQuestData: {fileID: 11400000, guid: ee8954e47b04849bb9a4dfb859ebc231, type: 2}
