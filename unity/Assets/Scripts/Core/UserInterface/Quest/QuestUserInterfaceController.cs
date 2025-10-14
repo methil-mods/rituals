@@ -10,16 +10,41 @@ namespace Core.UserInterface
     {
         public List<QuestData> currentQuests = new List<QuestData>();
         public List<QuestData> finishedQuests = new List<QuestData>();
+        public GameObject questPanel;
+        public GameObject questPrefab;
 
         void Start()
         {
             BookUserInterfaceController.Instance.OnPageChanged += CheckPageBookForAQuest;
+            UpdateQuestUserInterface();
         }
 
         private void CheckPageBookForAQuest(BookPage pageBefore, BookPage newPage, BookData bookData)
         {
             if (newPage.unlockableQuestData == null) return;
             AddQuest(quest: newPage.unlockableQuestData);
+        }
+
+        private void UpdateQuestUserInterface()
+        {
+            if (currentQuests.Count == 0)
+            {
+                questPanel.SetActive(false);
+                return;
+            }
+
+            questPanel.SetActive(true);
+
+            foreach (Transform child in questPanel.transform)
+                Destroy(child.gameObject);
+
+            foreach (QuestData quest in currentQuests)
+            {
+                GameObject questGO = Instantiate(questPrefab, questPanel.transform);
+                QuestComponent uiItem = questGO.GetComponent<QuestComponent>();
+                if (uiItem != null)
+                    uiItem.SetQuest(quest);
+            }
         }
 
         public bool AddQuest(QuestData quest)
@@ -29,13 +54,17 @@ namespace Core.UserInterface
             if (currentQuests.Contains(quest)) return false;
 
             currentQuests.Add(quest);
+            UpdateQuestUserInterface();
             return true;
         }
 
         public void FinishQuest(QuestData quest)
         {
             if (currentQuests.Remove(quest))
+            {
                 finishedQuests.Add(quest);
+                UpdateQuestUserInterface();
+            }
         }
         
         [ContextMenu("Reset Quests")]
