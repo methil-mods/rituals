@@ -60,6 +60,7 @@ namespace Core.UserInterface.Ritual
         
         public void OpenRitualPanel()
         {
+            if (unlockedRituals.Count == 0) return;
             makeRitualPanel.SetActive(true);
         }
 

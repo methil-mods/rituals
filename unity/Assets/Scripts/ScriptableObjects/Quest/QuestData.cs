@@ -11,5 +11,8 @@ namespace ScriptableObjects.Quest
 
         [SerializeReference, SubclassSelector]
         public QuestAction[] onQuestStartActions;
+        
+        [SerializeReference, SubclassSelector]
+        public QuestAction[] onQuestFinishActions;
     }
 }
