@@ -19,6 +19,7 @@ namespace Core.UserInterface
         [SerializeField] private TMP_Text rightPagination;
         [SerializeField] private Button previousButton;
         [SerializeField] private Button nextButton;
+        [SerializeField] private Button quitButton;
 
         private BookData currentBook;
         private int currentPageIndex;
@@ -31,6 +32,7 @@ namespace Core.UserInterface
         {
             previousButton?.onClick.AddListener(PreviousPage);
             nextButton?.onClick.AddListener(NextPage);
+            quitButton?.onClick.AddListener(CloseBook);
             bookPanel.gameObject.SetActive(false);
         }
 
@@ -48,6 +50,8 @@ namespace Core.UserInterface
 
         public void CloseBook()
         {
+            Debug.Log("Close book");
+            bookPanel.gameObject.SetActive(false);
             OnBookClosed?.Invoke(currentBook);
         }
 
@@ -97,7 +101,7 @@ namespace Core.UserInterface
             var newPage = currentBook.bookContent[currentPageIndex];
 
             UpdatePage();
-            OnPageChanged?.Invoke(newPage, lastPage, currentBook);
+            OnPageChanged?.Invoke(lastPage, newPage, currentBook);
         }
 
         public void NextPage()
@@ -110,7 +114,7 @@ namespace Core.UserInterface
             var newPage = currentBook.bookContent[currentPageIndex];
 
             UpdatePage();
-            OnPageChanged?.Invoke(newPage, lastPage, currentBook);
+            OnPageChanged?.Invoke(lastPage, newPage, currentBook);
         }
     }
 }

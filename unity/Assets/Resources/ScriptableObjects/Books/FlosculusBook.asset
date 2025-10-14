@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28b3a13a893547ebb80aeae556b8b2fb, type: 3}
+  m_Name: FlosculusBook
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Book.BookData
+  bookName: Flosculus Book
+  bookContent:
+  - contentLeft: 'Flosculus was once a priest in a 14th-century almshouse. Gradually
+      delving into the occult arts, he spiraled into madness while gradually losing
+      his human form and mutating into something half-monster, half-humanoid.
+
+
+      Flosculus
+      eventually grew horns on his head and then donned a mask to hide the monstrosity
+      he had become.'
+    contentLeftImage: {fileID: 0}
+    contentRight: 
+    contentRightImage: {fileID: 0}

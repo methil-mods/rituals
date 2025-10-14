@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using ScriptableObjects.Quest;
 using UnityEngine;
 
 namespace ScriptableObjects.Book
@@ -20,5 +21,8 @@ namespace ScriptableObjects.Book
         [TextArea]
         public string contentRight;
         public Sprite contentRightImage;
+        
+        // ! This can be nullable
+        public QuestData unlockableQuestData;
     }
 }
