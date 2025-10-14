@@ -6,6 +6,7 @@ using Core.CNN;
 using TMPro;
 using System.Collections.Generic;
 using Utils;
+using Utils.Extensions;
 
 namespace Core.UserInterface.Ritual
 {
@@ -14,7 +15,10 @@ namespace Core.UserInterface.Ritual
         [Header("Canvas & Drawing")]
         public RawImage drawImage;
         public int brushSize = 8;
+        [Header("Controls")]
         [SerializeField] private Button finishRitualButton;
+        [SerializeField] private Button cleanButton;
+        [SerializeField] private TextMeshProUGUI resultText;
         private Texture2D canvasTexture;
 
         public void Start()
@@ -26,6 +30,7 @@ namespace Core.UserInterface.Ritual
             ClearCanvas();
             drawImage.texture = canvasTexture;
             finishRitualButton.onClick.AddListener(FinishRitual);
+            cleanButton.onClick.AddListener(ClearCanvas);
         }
         
         private void DrawCircle(int centerX, int centerY, int radius, Color color)
@@ -61,8 +66,11 @@ namespace Core.UserInterface.Ritual
         private void FinishRitual()
         {
             var results = CNNController.Instance.RunInference(canvasTexture);
+            results.SortByBestMatch();
+            var bestMatch = results.GetBestMatch();
             Debug.Log("Finish Ritual");
-            Debug.Log(results);
+            Debug.Log(bestMatch);
+            resultText.text = bestMatch.RitualData.ritualName;
         }
         
         private void Update()

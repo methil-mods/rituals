@@ -10,10 +10,13 @@ namespace Core.UserInterface.Ritual
     public class RitualUserInterfaceController : BaseController<RitualUserInterfaceController>
     {
         public List<RitualData> unlockedRituals = new List<RitualData>();
-        public GameObject ritualPanel;
-        public GameObject makeRitualPanel;
+        [Header("Rituals panel")]
         public GameObject ritualPrefab;
-        
+        public GameObject ritualPanel;
+        [Header("Make rituals")]
+        public GameObject makeRitualPanel;
+        [SerializeField] private GameObject ritualListInPanel;
+        [Header("Controls")]
         public Button closeButton;
 
         public void Start()
@@ -48,13 +51,21 @@ namespace Core.UserInterface.Ritual
 
             foreach (Transform child in ritualPanel.transform)
                 Destroy(child.gameObject);
+            foreach (Transform child in ritualListInPanel.transform)
+                Destroy(child.gameObject);
 
             foreach (RitualData ritual in unlockedRituals)
             {
                 GameObject ritualGo = Instantiate(ritualPrefab, ritualPanel.transform);
                 RitualComponent uiItem = ritualGo.GetComponent<RitualComponent>();
-                if (uiItem != null)
-                    uiItem.SetRitual(ritual);
+                if (uiItem != null) uiItem.SetRitual(ritual);
+            }
+
+            foreach (RitualData ritual in unlockedRituals)
+            {
+                GameObject ritualGo = Instantiate(ritualPrefab, ritualListInPanel.transform);
+                RitualComponent uiItem = ritualGo.GetComponent<RitualComponent>();
+                if (uiItem != null) uiItem.SetRitual(ritual);
             }
         }
         
