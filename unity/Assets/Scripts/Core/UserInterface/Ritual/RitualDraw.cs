@@ -49,6 +49,7 @@ namespace Core.UserInterface.Ritual
                     }
                 }
             }
+            
             canvasTexture.Apply();
         }
 
@@ -68,8 +69,6 @@ namespace Core.UserInterface.Ritual
             var results = CNNController.Instance.RunInference(canvasTexture);
             results.SortByBestMatch();
             var bestMatch = results.GetBestMatch();
-            Debug.Log("Finish Ritual");
-            Debug.Log(bestMatch);
             resultText.text = bestMatch.RitualData.ritualName;
             
             DialogUserInterfaceController.Instance.LaunchDialog(bestMatch.RitualData.entityData.dialogs[0]);

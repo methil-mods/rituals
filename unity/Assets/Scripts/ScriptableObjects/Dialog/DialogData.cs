@@ -1,4 +1,5 @@
 using System;
+using Core.Dialog.Action;
 using ScriptableObjects.Entity;
 using UnityEngine;
 
@@ -9,6 +10,9 @@ namespace Core.Dialog
     {
         [SerializeField]
         public DialogContent[] contents;
+        
+        [SerializeReference, SubclassSelector]
+        public DialogAction[] actions;
     }
 
     [Serializable]

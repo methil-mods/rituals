@@ -21,7 +21,7 @@ namespace Core.Props
             BookUserInterfaceController.Instance.OpenBook(bookData);
         }
 
-        public new void Interact()
+        public override void Interact()
         {
             base.Interact();
             OpenBook();

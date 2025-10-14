@@ -1,4 +1,5 @@
 using Player;
+using ScriptableObjects.Input;
 using UnityEngine;
 using UnityEngine.Events;
 using World;
@@ -14,44 +15,50 @@ namespace Framework.Props
         [SerializeField] private GameObject interactionIndicator;
         
         private Vector3Int cellPos;
-        private InputSystem_Actions inputActions;
-
-        void Awake()
-        {
-            inputActions = new InputSystem_Actions();
-        }
-
+        
         void OnEnable()
         {
-            inputActions.Player.Enable();
+            InputDatabase.Instance.interactAction.action.Enable();
         }
 
         void OnDisable()
         {
-            inputActions.Player.Disable();
+            InputDatabase.Instance.interactAction.action.Disable();
         }
 
-        void Start()
+        protected void Start()
         {
             this.cellPos = WorldController.Instance.WorldToCell(transform.position);
+            InputDatabase.Instance.interactAction.action.performed += CallbackInteraction;
         }
         
         void Update()
         {
-            Vector3 playerPos = PlayerController.Instance.transform.position;
-            Vector3Int playerCellPos = WorldController.Instance.WorldToCell(playerPos);
-            bool isOnDetectionCell = (this.cellPos + this.detectionTileOffset) - playerCellPos == Vector3Int.zero;
-            if (!isOnDetectionCell)
+            if (!IsPlayerDetected())
             {
                 SetInteractionIndicator(false);
                 return;
             }
             SetInteractionIndicator(true);
-            if (inputActions.Player.Interact.WasPerformedThisFrame())
+        }
+
+        private void CallbackInteraction(InputAction.CallbackContext context)
+        {
+            if (IsPlayerDetected())
+            {
                 this.Interact();
+            }
+        }
+
+        private bool IsPlayerDetected()
+        {
+            Vector3 playerPos = PlayerController.Instance.transform.position;
+            Vector3Int playerCellPos = WorldController.Instance.WorldToCell(playerPos);
+            bool isOnDetectionCell = (this.cellPos + this.detectionTileOffset) - playerCellPos == Vector3Int.zero;
+            return isOnDetectionCell;
         }
         
-        public void Interact()
+        public virtual void Interact()
         {
             SetInteractionIndicator(false);
             OnInteract?.Invoke((T)this);

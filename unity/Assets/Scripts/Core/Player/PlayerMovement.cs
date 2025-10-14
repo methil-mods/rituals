@@ -16,7 +16,6 @@ namespace Player
         public Tilemap groundTilemap;
         public Tilemap collisionTilemap;
 
-        private bool isMoving = false;
         private List<Vector3> currentPath;
         private int currentWaypointIndex = 0;
         
@@ -53,7 +52,6 @@ namespace Player
             {
                 LeanTween.cancel(controller.gameObject);
                 currentWaypointIndex = 0;
-                isMoving = true;
                 MoveToNextWaypoint();
             }
         }
@@ -62,7 +60,6 @@ namespace Player
         {
             if (currentWaypointIndex >= currentPath.Count)
             {
-                isMoving = false;
                 return;
             }
 

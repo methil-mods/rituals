@@ -50,7 +50,6 @@ namespace Core.UserInterface
 
         public void CloseBook()
         {
-            Debug.Log("Close book");
             bookPanel.gameObject.SetActive(false);
             OnBookClosed?.Invoke(currentBook);
         }

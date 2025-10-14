@@ -666,6 +666,10 @@ PrefabInstance:
       value: 2914540652523421774
       objectReference: {fileID: 0}
     - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
+      propertyPath: 'updatables.Array.data[2]'
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
       propertyPath: playerMovement.groundTilemap
       value: 
       objectReference: {fileID: 1277652258}

@@ -19,6 +19,7 @@ MonoBehaviour:
     \u0338\u0340\u0323t\u0337\u030E\u0355e\u0337\u0341\u0323"
   onQuestStartActions:
   - rid: 4367808074176528459
+  onQuestFinishActions: []
   references:
     version: 2
     RefIds:

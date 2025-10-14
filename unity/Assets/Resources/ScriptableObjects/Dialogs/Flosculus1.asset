@@ -23,3 +23,12 @@ MonoBehaviour:
   - entity: {fileID: 11400000, guid: a3516d02b1c7749cfa0d9dc1d1b180ff, type: 2}
     content: Tu sais j'ai une bite elle est toute toute petite
     typingSpeed: 0.05
+  actions:
+  - rid: 4367808074176528460
+  references:
+    version: 2
+    RefIds:
+    - rid: 4367808074176528460
+      type: {class: EndQuestAction, ns: Core.Dialog.Action, asm: Assembly-CSharp}
+      data:
+        questToEnd: {fileID: 11400000, guid: ee8954e47b04849bb9a4dfb859ebc231, type: 2}
