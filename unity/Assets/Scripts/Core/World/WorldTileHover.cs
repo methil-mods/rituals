@@ -1,6 +1,7 @@
 using System;
 using Framework;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
 
@@ -24,6 +25,9 @@ namespace World
         public override void Update(WorldController controller)
         {
             effectedTilemap.SetTile(oldCellPos, null);
+            
+            if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+                return; 
             
             Vector2 mousePos = Mouse.current.position.ReadValue();
             Vector2 worldPos = Camera.main.ScreenToWorldPoint(mousePos);

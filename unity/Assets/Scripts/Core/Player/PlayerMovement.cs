@@ -3,6 +3,7 @@ using Framework;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
+using UnityEngine.EventSystems;
 using UnityEngine.Tilemaps;
 using Utils;
 
@@ -29,6 +30,9 @@ namespace Player
         
         public override void Update(PlayerController controller)
         {
+            if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+                return; 
+            
             if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
             {
                 Vector3 mouseWorld = CameraUtils.ScreenToWorld(Mouse.current.position.ReadValue());
