@@ -10,21 +10,34 @@ namespace Core.Draw
 {
     public class DrawAndInferUI : MonoBehaviour
     {
+        [Header("Canvas & Drawing")]
         public RawImage drawImage;
         public int brushSize = 8;
+
+        [Header("Debug UI")]
         public RectTransform debugPanel; // Optional debug UI parent
         public TextMeshProUGUI textPrefab; // Assign a TMP prefab
-        private List<TextMeshProUGUI> debugTexts = new List<TextMeshProUGUI>();
 
+        [Header("Buttons")]
+        public Button saveButton;
+        public Button resetButton;
+
+        private List<TextMeshProUGUI> debugTexts = new List<TextMeshProUGUI>();
         private Texture2D canvasTexture;
-        private bool isDrawing;
 
         private void Start()
         {
+            // Création du canvas
             RectTransform rt = drawImage.rectTransform;
-            canvasTexture = new Texture2D((int)rt.rect.width, (int)rt.rect.height, TextureFormat.RGBA32, false);
+            int width = Mathf.RoundToInt(rt.rect.width);
+            int height = Mathf.RoundToInt(rt.rect.height);
+            canvasTexture = new Texture2D(width, height, TextureFormat.RGBA32, false);
             ClearCanvas();
             drawImage.texture = canvasTexture;
+
+            // Assign buttons
+            if (saveButton != null) saveButton.onClick.AddListener(SaveCanvasImage);
+            if (resetButton != null) resetButton.onClick.AddListener(ClearCanvas);
         }
 
         private void Update()
@@ -35,13 +48,18 @@ namespace Core.Draw
             RectTransform rt = drawImage.rectTransform;
             Canvas canvas = drawImage.canvas;
 
-            if (RectTransformUtility.ScreenPointToLocalPointInRectangle(rt, mousePos, canvas.renderMode == RenderMode.ScreenSpaceOverlay ? null : canvas.worldCamera, out Vector2 localPos))
+            if (RectTransformUtility.ScreenPointToLocalPointInRectangle(rt, mousePos,
+                canvas.renderMode == RenderMode.ScreenSpaceOverlay ? null : canvas.worldCamera, out Vector2 localPos))
             {
                 float x = localPos.x + rt.rect.width * rt.pivot.x;
                 float y = localPos.y + rt.rect.height * rt.pivot.y;
 
-                DrawCircle((int)x, (int)y, brushSize, Color.white);
-                SendToInference();
+                // Vérifie que le point est dans le canvas
+                if (x >= 0 && x < canvasTexture.width && y >= 0 && y < canvasTexture.height)
+                {
+                    DrawCircle((int)x, (int)y, brushSize, Color.white);
+                    SendToInference();
+                }
             }
         }
 
@@ -66,10 +84,35 @@ namespace Core.Draw
 
         private void ClearCanvas()
         {
+            if (canvasTexture == null) return;
+
             Color[] fill = new Color[canvasTexture.width * canvasTexture.height];
-            for (int i = 0; i < fill.Length; i++) fill[i] = Color.black;
+            for (int i = 0; i < fill.Length; i++)
+                fill[i] = Color.black; // couleur de fond
             canvasTexture.SetPixels(fill);
             canvasTexture.Apply();
+
+            // Désactive les textes de debug
+            foreach (var txt in debugTexts)
+                txt.gameObject.SetActive(false);
+        }
+
+        private void SaveCanvasImage()
+        {
+#if UNITY_EDITOR
+            // Crée une copie propre pour éviter les pixels blancs
+            Texture2D copy = new Texture2D(canvasTexture.width, canvasTexture.height, TextureFormat.RGBA32, false);
+            copy.SetPixels(canvasTexture.GetPixels());
+            copy.Apply();
+
+            string path = $"Assets/Resources/DebugImages/Canvas_{System.DateTime.Now:yyyyMMdd_HHmmss}.png";
+            byte[] bytes = copy.EncodeToPNG();
+            System.IO.File.WriteAllBytes(path, bytes);
+            UnityEditor.AssetDatabase.Refresh();
+            Debug.Log($"Canvas saved to: {path}");
+
+            Destroy(copy);
+#endif
         }
 
         private void SendToInference()
