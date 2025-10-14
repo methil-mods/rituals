@@ -1,11 +1,12 @@
 using ScriptableObjects.Quest;
 using System;
-using Core.UserInterface;
+using Core.UserInterface.Quest;
+using Action = Framework.Action.Action;
 
-namespace Core.Dialog.Action
+namespace Core.Actions
 {
     [Serializable]
-    public class EndQuestAction : DialogAction
+    public class EndQuestAction : Action
     {
         public QuestData questToEnd;
         

@@ -1,3 +1,4 @@
+using Framework.Action;
 using Framework.Controller;
 using ScriptableObjects.Book;
 using UnityEngine;
@@ -57,6 +58,8 @@ namespace Core.UserInterface
         private void UpdatePage()
         {
             var page = currentBook.bookContent[currentPageIndex];
+            
+            foreach (Action action in page.onPageOpen) action.Execute();
 
             SetPageContent(leftSideText, leftSideImage, page.contentLeft, page.contentLeftImage);
             SetPageContent(rightSideText, rightSideImage, page.contentRight, page.contentRightImage);

@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 
-namespace ScriptableObjects.Quest.Action
+namespace Framework.Action
 {
 	[Serializable]
-    public abstract class QuestAction
+    public abstract class Action
     {
         public abstract void Execute();
     }

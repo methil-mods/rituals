@@ -18,9 +18,12 @@ MonoBehaviour:
     contentLeftImage: {fileID: 0}
     contentRight: 
     contentRightImage: {fileID: 0}
-    unlockableQuestData: {fileID: 0}
+    onPageOpen: []
   - contentLeft: Please, find the savior
     contentLeftImage: {fileID: 0}
     contentRight: 
     contentRightImage: {fileID: 0}
-    unlockableQuestData: {fileID: 11400000, guid: 239d15062bc1b4e3aaf4d77e2e9d9e03, type: 2}
+    onPageOpen: []
+  references:
+    version: 2
+    RefIds: []

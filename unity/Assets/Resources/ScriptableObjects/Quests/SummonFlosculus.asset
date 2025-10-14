@@ -18,12 +18,12 @@ MonoBehaviour:
     \u0336\u0351\u031Fd\u0337\u0302\u0355e\u0334\u035D\u0339s\u0334\u0315\u033Ci\u0335\u0309\u033Cd\u0338\u0300\u035Ce\u0335\u0313\u0316r\u0336\u0311\u0348o\u0335\u0342\u0349
     \u0338\u0340\u0323t\u0337\u030E\u0355e\u0337\u0341\u0323"
   onQuestStartActions:
-  - rid: 4367808074176528459
+  - rid: 4367808074176528470
   onQuestFinishActions: []
   references:
     version: 2
     RefIds:
-    - rid: 4367808074176528459
-      type: {class: AddRitualAction, ns: ScriptableObjects.Quest.Action, asm: Assembly-CSharp}
+    - rid: 4367808074176528470
+      type: {class: AddRitualAction, ns: Core.Actions, asm: Assembly-CSharp}
       data:
         ritual: {fileID: 11400000, guid: 98aba3ffc73714bfe872ffdd2cb95b32, type: 2}

@@ -1,4 +1,4 @@
-using ScriptableObjects.Quest.Action;
+using Framework.Action;
 using UnityEngine;
 
 namespace ScriptableObjects.Quest
@@ -10,9 +10,9 @@ namespace ScriptableObjects.Quest
         public string questDescription;
 
         [SerializeReference, SubclassSelector]
-        public QuestAction[] onQuestStartActions;
+        public Action[] onQuestStartActions;
         
         [SerializeReference, SubclassSelector]
-        public QuestAction[] onQuestFinishActions;
+        public Action[] onQuestFinishActions;
     }
 }

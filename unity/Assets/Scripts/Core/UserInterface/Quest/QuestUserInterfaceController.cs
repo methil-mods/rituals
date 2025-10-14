@@ -1,11 +1,11 @@
 using System.Collections.Generic;
+using Framework.Action;
 using Framework.Controller;
 using ScriptableObjects.Book;
 using ScriptableObjects.Quest;
-using ScriptableObjects.Quest.Action;
 using UnityEngine;
 
-namespace Core.UserInterface
+namespace Core.UserInterface.Quest
 {
     public class QuestUserInterfaceController : BaseController<QuestUserInterfaceController>
     {
@@ -16,14 +16,7 @@ namespace Core.UserInterface
 
         void Start()
         {
-            BookUserInterfaceController.Instance.OnPageChanged += CheckPageBookForAQuest;
             UpdateQuestUserInterface();
-        }
-
-        private void CheckPageBookForAQuest(BookPage pageBefore, BookPage newPage, BookData bookData)
-        {
-            if (newPage.unlockableQuestData == null) return;
-            AddQuest(quest: newPage.unlockableQuestData);
         }
 
         private void UpdateQuestUserInterface()
@@ -55,7 +48,7 @@ namespace Core.UserInterface
             if (currentQuests.Contains(quest)) return false;
 
             currentQuests.Add(quest);
-            foreach (QuestAction action in quest.onQuestStartActions) action.Execute();
+            foreach (Action action in quest.onQuestStartActions) action.Execute();
             UpdateQuestUserInterface();
             return true;
         }
@@ -64,6 +57,7 @@ namespace Core.UserInterface
         {
             if (currentQuests.Remove(quest))
             {
+                foreach (Action action in quest.onQuestFinishActions) action.Execute();
                 finishedQuests.Add(quest);
                 UpdateQuestUserInterface();
             }

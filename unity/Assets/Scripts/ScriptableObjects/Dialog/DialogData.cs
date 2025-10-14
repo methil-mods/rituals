@@ -1,7 +1,7 @@
 using System;
-using Core.Dialog.Action;
 using ScriptableObjects.Entity;
 using UnityEngine;
+using Framework.Action;
 
 namespace Core.Dialog
 {
@@ -12,7 +12,10 @@ namespace Core.Dialog
         public DialogContent[] contents;
         
         [SerializeReference, SubclassSelector]
-        public DialogAction[] onEndDialogAction;
+        public Framework.Action.Action[] onStartDialogAction;
+        
+        [SerializeReference, SubclassSelector]
+        public Framework.Action.Action[] onEndDialogAction;
     }
 
     [Serializable]

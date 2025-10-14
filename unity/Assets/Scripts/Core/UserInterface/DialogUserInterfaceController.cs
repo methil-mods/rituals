@@ -1,6 +1,6 @@
 using System.Collections;
 using Core.Dialog;
-using Core.Dialog.Action;
+using Framework.Action;
 using Framework.Controller;
 using TMPro;
 using UnityEngine;
@@ -48,6 +48,8 @@ namespace Core.UserInterface
             dialogPanel.SetActive(true);
             
             ShowCurrentDialog();
+            foreach (Action dialogAction in currentDialogData.onStartDialogAction) 
+                dialogAction.Execute();
             OnDialogStart?.Invoke();
         }
 
@@ -104,7 +106,7 @@ namespace Core.UserInterface
         private void EndDialog()
         {
             dialogPanel.SetActive(false);
-            foreach (DialogAction dialogAction in currentDialogData.onEndDialogAction) 
+            foreach (Action dialogAction in currentDialogData.onEndDialogAction) 
                 dialogAction.Execute();
             currentDialogData = null;
             currentDialogIndex = 0;
