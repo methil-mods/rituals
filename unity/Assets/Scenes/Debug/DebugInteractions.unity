@@ -29992,6 +29992,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5682072482026704486, guid: 7d6e13e0c9d154c9298c60194783a3ad, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682072482026704486, guid: 7d6e13e0c9d154c9298c60194783a3ad, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682072482026704486, guid: 7d6e13e0c9d154c9298c60194783a3ad, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682072482026704486, guid: 7d6e13e0c9d154c9298c60194783a3ad, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7649343749873405502, guid: 7d6e13e0c9d154c9298c60194783a3ad, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -30015,6 +30031,14 @@ PrefabInstance:
     - target: {fileID: 7649343749873405502, guid: 7d6e13e0c9d154c9298c60194783a3ad, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -89.005005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8036590262660000035, guid: 7d6e13e0c9d154c9298c60194783a3ad, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8036590262660000035, guid: 7d6e13e0c9d154c9298c60194783a3ad, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30149,38 +30173,6 @@ PrefabInstance:
     - target: {fileID: 4482526042902507197, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: 'managedReferences[-2]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: updatables.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: 'updatables.Array.data[0]'
-      value: 2914540652523421773
-      objectReference: {fileID: 0}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: 'updatables.Array.data[1]'
-      value: 2914540652523421774
-      objectReference: {fileID: 0}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: playerMovement.groundTilemap
-      value: 
-      objectReference: {fileID: 1277652258}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: playerMovement.collisionTilemap
-      value: 
-      objectReference: {fileID: 334553288}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: 'managedReferences[2914540652523421773]'
-      value: Assembly-CSharp Player.PlayerInteraction
-      objectReference: {fileID: 0}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: 'managedReferences[2914540652523421774]'
-      value: Assembly-CSharp Player.PlayerMovement
       objectReference: {fileID: 0}
     - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
       propertyPath: managedReferences[2914540652523421774].groundTilemap

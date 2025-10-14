@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4482526042902507197}
   - component: {fileID: 7069889905143133058}
+  - component: {fileID: 2984745573968067664}
   m_Layer: 0
   m_Name: PlayerController
   m_TagString: Untagged
@@ -45,10 +46,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af2a56f630ed4860b617a71e320e3796, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player.PlayerController
-  playerMovement:
-    groundTilemap: {fileID: 0}
-    collisionTilemap: {fileID: 0}
+  playerData:
+    craziness: 0
+    maximumCraziness: 100
     moveSpeed: 3
+  updatables:
+  - rid: 2914540652523421773
+  - rid: 2914540652523421774
+  references:
+    version: 2
+    RefIds:
+    - rid: 2914540652523421773
+      type: {class: PlayerInteraction, ns: Player, asm: Assembly-CSharp}
+      data: 
+    - rid: 2914540652523421774
+      type: {class: PlayerMovement, ns: Player, asm: Assembly-CSharp}
+      data:
+        groundTilemap: {fileID: 0}
+        collisionTilemap: {fileID: 0}
+--- !u!114 &2984745573968067664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282034839412788102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f872597c23fb41399494051896e97a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Core.Inventory.InventoryController
+  itemsDatas: []
 --- !u!1 &3909104553614437469
 GameObject:
   m_ObjectHideFlags: 0
