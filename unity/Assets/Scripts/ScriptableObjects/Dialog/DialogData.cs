@@ -12,7 +12,7 @@ namespace Core.Dialog
         public DialogContent[] contents;
         
         [SerializeReference, SubclassSelector]
-        public DialogAction[] actions;
+        public DialogAction[] onEndDialogAction;
     }
 
     [Serializable]

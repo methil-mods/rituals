@@ -14,7 +14,7 @@ namespace Core.Props
             RitualUserInterfaceController.Instance.OpenRitualPanel();
         }
 
-        public new void Interact()
+        public override void Interact()
         {
             base.Interact();
             StartRitual();

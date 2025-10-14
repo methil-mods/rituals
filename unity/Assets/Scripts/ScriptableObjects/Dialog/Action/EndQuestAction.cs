@@ -1,5 +1,6 @@
 using ScriptableObjects.Quest;
 using System;
+using Core.UserInterface;
 
 namespace Core.Dialog.Action
 {
@@ -10,7 +11,7 @@ namespace Core.Dialog.Action
         
         public override void Execute()
         {
-            // TODO : Implémenter la con de logique
+            QuestUserInterfaceController.Instance.FinishQuest(questToEnd);
         }
     }
 }
