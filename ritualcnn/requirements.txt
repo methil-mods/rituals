@@ -19,4 +19,8 @@ catppuccin-jupyterlab
 
 # Compatibility fix for deprecated numpy aliases (np.object, etc.)
 numpy<1.24
+torch
+torchvision
+torch
+torchsummary
 
