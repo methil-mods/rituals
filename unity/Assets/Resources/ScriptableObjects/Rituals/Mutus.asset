@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Mutus
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Ritual.RitualData
   ritualName: Mutus
+  ritualImage: {fileID: -8229493860548996968, guid: fc5787326404947408300be8a513a9fd, type: 3}

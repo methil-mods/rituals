@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Flosculus
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Ritual.RitualData
   ritualName: Flosculus
+  ritualImage: {fileID: 6007765449469682596, guid: 37af287688ce84c4fb2372315a9980f9, type: 3}

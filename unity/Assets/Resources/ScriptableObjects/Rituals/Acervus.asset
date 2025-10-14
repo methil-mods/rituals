@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Acervus
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Ritual.RitualData
   ritualName: Acervus
+  ritualImage: {fileID: 7192900536736586957, guid: 43c711b193c7a444299cccaed4e3db20, type: 3}

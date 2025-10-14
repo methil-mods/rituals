@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Framework.Controller;
 using ScriptableObjects.Book;
 using ScriptableObjects.Quest;
+using ScriptableObjects.Quest.Action;
 using UnityEngine;
 
 namespace Core.UserInterface
@@ -54,6 +55,7 @@ namespace Core.UserInterface
             if (currentQuests.Contains(quest)) return false;
 
             currentQuests.Add(quest);
+            foreach (QuestAction action in quest.onQuestStartActions) action.Execute();
             UpdateQuestUserInterface();
             return true;
         }

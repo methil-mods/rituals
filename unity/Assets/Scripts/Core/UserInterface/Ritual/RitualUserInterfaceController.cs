@@ -27,11 +27,13 @@ namespace Core.UserInterface.Ritual
         {
             if(unlockedRituals.Contains(ritual)) return;
             unlockedRituals.Add(ritual);
+            UpdateRitualUserInterface();
         }
 
         public void RemoveRitual(RitualData ritual)
         {
             if(unlockedRituals.Contains(ritual)) unlockedRituals.Remove(ritual);
+            UpdateRitualUserInterface();
         }
 
         private void UpdateRitualUserInterface()

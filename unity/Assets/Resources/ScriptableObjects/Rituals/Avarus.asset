@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Avarus
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Ritual.RitualData
   ritualName: Avarus
+  ritualImage: {fileID: 1716781202413384962, guid: 829b1bbdcc01e4fb6b0f09eca0679622, type: 3}

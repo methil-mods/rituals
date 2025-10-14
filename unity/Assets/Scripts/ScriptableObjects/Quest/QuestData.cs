@@ -1,3 +1,4 @@
+using ScriptableObjects.Quest.Action;
 using UnityEngine;
 
 namespace ScriptableObjects.Quest
@@ -7,5 +8,8 @@ namespace ScriptableObjects.Quest
         public string questName;
         [TextArea]
         public string questDescription;
+
+        [SerializeReference, SubclassSelector]
+        public QuestAction[] onQuestStartActions;
     }
 }

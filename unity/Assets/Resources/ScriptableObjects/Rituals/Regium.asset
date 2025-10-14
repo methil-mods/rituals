@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Regium
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Ritual.RitualData
   ritualName: Pudor
+  ritualImage: {fileID: 6365111816871415076, guid: 483a1feb957f446bf8a7638627057a1a, type: 3}
