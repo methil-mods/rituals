@@ -22,7 +22,10 @@ namespace Core.UserInterface.Ritual
         public void Start()
         {
             makeRitualPanel.SetActive(false);
+            
             closeButton.onClick.AddListener(CloseRitualPanel);
+            DialogUserInterfaceController.Instance.OnDialogStart += CloseRitualPanel;
+            
             UpdateRitualUserInterface();
         }
 

@@ -3,6 +3,7 @@ using Core.Dialog;
 using Framework.Controller;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace Core.UserInterface
@@ -15,13 +16,13 @@ namespace Core.UserInterface
         public TextMeshProUGUI entityNameText;
         public Button skipButton;
 
-        [Header("Settings")]
-        [SerializeField] private DialogData debugDialogData;
-
         private DialogData currentDialogData;
         private int currentDialogIndex = 0;
         private Coroutine typingCoroutine;
         private bool isTyping = false;
+
+        public UnityAction OnDialogStart;
+        public UnityAction OnDialogEnd;
 
         public void Start()
         {
@@ -30,11 +31,6 @@ namespace Core.UserInterface
             if (skipButton != null)
             {
                 skipButton.onClick.AddListener(OnSkipButtonClick);
-            }
-
-            if (debugDialogData != null)
-            {
-                LaunchDialog(debugDialogData);
             }
         }
 
@@ -51,6 +47,7 @@ namespace Core.UserInterface
             dialogPanel.SetActive(true);
             
             ShowCurrentDialog();
+            OnDialogStart?.Invoke();
         }
 
         private void ShowCurrentDialog()
@@ -108,6 +105,7 @@ namespace Core.UserInterface
             dialogPanel.SetActive(false);
             currentDialogData = null;
             currentDialogIndex = 0;
+            OnDialogEnd?.Invoke();
         }
 
         private void OnDestroy()

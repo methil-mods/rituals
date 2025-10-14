@@ -1,3 +1,4 @@
+using Core.Dialog;
 using UnityEngine;
 
 namespace ScriptableObjects.Entity
@@ -9,5 +10,7 @@ namespace ScriptableObjects.Entity
         public Sprite entitySprite;
         [TextArea]
         public string entityDescription;
+        
+        public DialogData[] dialogs;
     }
 }

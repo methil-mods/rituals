@@ -71,6 +71,8 @@ namespace Core.UserInterface.Ritual
             Debug.Log("Finish Ritual");
             Debug.Log(bestMatch);
             resultText.text = bestMatch.RitualData.ritualName;
+            
+            DialogUserInterfaceController.Instance.LaunchDialog(bestMatch.RitualData.entityData.dialogs[0]);
         }
         
         private void Update()

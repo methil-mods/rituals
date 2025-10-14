@@ -1,8 +1,5 @@
-using System.Collections.Generic;
-using ScriptableObjects.Ritual;
-using Unity.Barracuda;
+using ScriptableObjects.Entity;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace ScriptableObjects.Ritual
 {
@@ -11,5 +8,6 @@ namespace ScriptableObjects.Ritual
     {
         public string ritualName;
         public Sprite ritualImage;
+        public EntityData entityData;
     }
 }
