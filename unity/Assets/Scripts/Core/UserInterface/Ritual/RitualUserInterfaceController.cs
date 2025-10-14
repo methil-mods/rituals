@@ -9,7 +9,7 @@ namespace Core.UserInterface.Ritual
 {
     public class RitualUserInterfaceController : BaseController<RitualUserInterfaceController>
     {
-        public List<RitualData> unlockedRitual = new List<RitualData>();
+        public List<RitualData> unlockedRituals = new List<RitualData>();
         public GameObject ritualPanel;
         public GameObject makeRitualPanel;
         public GameObject ritualPrefab;
@@ -20,11 +20,23 @@ namespace Core.UserInterface.Ritual
         {
             makeRitualPanel.SetActive(false);
             closeButton.onClick.AddListener(CloseRitualPanel);
+            UpdateRitualUserInterface();
+        }
+
+        public void AddRitual(RitualData ritual)
+        {
+            if(unlockedRituals.Contains(ritual)) return;
+            unlockedRituals.Add(ritual);
+        }
+
+        public void RemoveRitual(RitualData ritual)
+        {
+            if(unlockedRituals.Contains(ritual)) unlockedRituals.Remove(ritual);
         }
 
         private void UpdateRitualUserInterface()
         {
-            if (unlockedRitual.Count == 0)
+            if (unlockedRituals.Count == 0)
             {
                 ritualPanel.SetActive(false);
                 return;
@@ -35,7 +47,7 @@ namespace Core.UserInterface.Ritual
             foreach (Transform child in ritualPanel.transform)
                 Destroy(child.gameObject);
 
-            foreach (RitualData ritual in unlockedRitual)
+            foreach (RitualData ritual in unlockedRituals)
             {
                 GameObject ritualGo = Instantiate(ritualPrefab, ritualPanel.transform);
                 RitualComponent uiItem = ritualGo.GetComponent<RitualComponent>();
