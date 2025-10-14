@@ -31,8 +31,6 @@ namespace Player
         {
             if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
             {
-                if (isMoving) return;
-                
                 Vector3 mouseWorld = CameraUtils.ScreenToWorld(Mouse.current.position.ReadValue());
                 Vector3Int clickedTile = groundTilemap.WorldToCell(mouseWorld);
 
