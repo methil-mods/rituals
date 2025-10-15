@@ -28,7 +28,7 @@ namespace Framework.Props
 
         protected void Start()
         {
-            this.cellPos = WorldController.Instance.WorldToCell(transform.position);
+            this.cellPos = WorldController.Instance.worldGrid.WorldToCell(transform.position);
             InputDatabase.Instance.interactAction.action.performed += CallbackInteraction;
         }
         
@@ -53,7 +53,7 @@ namespace Framework.Props
         private bool IsPlayerDetected()
         {
             Vector3 playerPos = PlayerController.Instance.transform.position;
-            Vector3Int playerCellPos = WorldController.Instance.WorldToCell(playerPos);
+            Vector3Int playerCellPos = WorldController.Instance.worldGrid.WorldToCell(playerPos);
             bool isOnDetectionCell = (this.cellPos + this.detectionTileOffset) - playerCellPos == Vector3Int.zero;
             return isOnDetectionCell;
         }

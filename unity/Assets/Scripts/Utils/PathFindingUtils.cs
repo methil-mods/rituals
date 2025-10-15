@@ -8,11 +8,13 @@ namespace Utils
 {
     public static class PathFindingUtils
     {
-        public static List<Vector3> CalculatePathAStar(Vector3 start, Vector3 end, Tilemap groundTilemap, Tilemap collisionTilemap, int maxIterations = 500)
+        public static List<Vector3> CalculatePathAStar(Vector3 start, Vector3 end, Tilemap[] groundTilemaps, Tilemap[] collisionTilemaps, int maxIterations = 500)
         {
             List<Vector3> path = new List<Vector3>();
-            Vector3Int startCell = groundTilemap.WorldToCell(start);
-            Vector3Int endCell = groundTilemap.WorldToCell(end);
+            
+            Tilemap referenceTilemap = groundTilemaps[0];
+            Vector3Int startCell = referenceTilemap.WorldToCell(start);
+            Vector3Int endCell = referenceTilemap.WorldToCell(end);
 
             List<Vector3Int> openSet = new List<Vector3Int> { startCell };
             HashSet<Vector3Int> closedSet = new HashSet<Vector3Int>();
@@ -42,7 +44,7 @@ namespace Utils
 
                 if (current == endCell)
                 {
-                    return ReconstructPath(cameFrom, current, groundTilemap);
+                    return ReconstructPath(cameFrom, current, referenceTilemap);
                 }
 
                 openSet.Remove(current);
@@ -59,7 +61,7 @@ namespace Utils
                 foreach (Vector3Int neighbor in neighbors)
                 {
                     if (closedSet.Contains(neighbor)) continue;
-                    if (!IsTileWalkable(neighbor, groundTilemap, collisionTilemap)) continue;
+                    if (!IsTileWalkable(neighbor, groundTilemaps, collisionTilemaps)) continue;
 
                     float tentativeGScore = gScore[current] + 1;
 
@@ -81,7 +83,7 @@ namespace Utils
             return path;
         }
 
-        private static List<Vector3> ReconstructPath(Dictionary<Vector3Int, Vector3Int> cameFrom, Vector3Int current, Tilemap groundTilemap)
+        private static List<Vector3> ReconstructPath(Dictionary<Vector3Int, Vector3Int> cameFrom, Vector3Int current, Tilemap referenceTilemap)
         {
             List<Vector3Int> cellPath = new List<Vector3Int> { current };
 
@@ -96,16 +98,37 @@ namespace Utils
             List<Vector3> worldPath = new List<Vector3>();
             foreach (Vector3Int cell in cellPath)
             {
-                worldPath.Add(groundTilemap.GetCellCenterWorld(cell));
+                worldPath.Add(referenceTilemap.GetCellCenterWorld(cell));
             }
 
             return worldPath;
         }
 
-        public static bool IsTileWalkable(Vector3Int tilePos, Tilemap groundTilemap, Tilemap collisionTilemap)
+        public static bool IsTileWalkable(Vector3Int tilePos, Tilemap[] groundTilemaps, Tilemap[] collisionTilemaps)
         {
-            bool hasGround = groundTilemap.HasTile(tilePos);
-            bool hasCollision = collisionTilemap != null && collisionTilemap.HasTile(tilePos);
+            bool hasGround = false;
+            foreach (Tilemap groundTilemap in groundTilemaps)
+            {
+                if (groundTilemap != null && groundTilemap.HasTile(tilePos))
+                {
+                    hasGround = true;
+                    break;
+                }
+            }
+
+            bool hasCollision = false;
+            if (collisionTilemaps != null)
+            {
+                foreach (Tilemap collisionTilemap in collisionTilemaps)
+                {
+                    if (collisionTilemap != null && collisionTilemap.HasTile(tilePos))
+                    {
+                        hasCollision = true;
+                        break;
+                    }
+                }
+            }
+
             return hasGround && !hasCollision;
         }
 

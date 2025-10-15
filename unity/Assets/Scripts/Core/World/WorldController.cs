@@ -1,6 +1,9 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using Framework.Controller;
 using Framework.ExtendedGrid;
+using ScriptableObjects.Materials;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -9,41 +12,123 @@ namespace World
     public class WorldController: BaseController<WorldController>
     {
         [SerializeField]
-        private List<Tilemap> tilemaps;
+        private List<MapPiece> mapPieces;
         public Grid worldGrid;
         [SerializeField]
         private WorldTileHover worldTileHover;
+        
+        public void Start()
+        {
+            mapPieces.ForEach((piece => piece.Setup()));
+        }
 
         public void Update()
         {
             worldTileHover.Update(this);
         }
 
-        private Tilemap GetTilemapFromTag(string tagName)
+        public Tilemap[] GetGroundMap(bool locked = false)
         {
-            return  tilemaps.Find(t => t.CompareTag(tagName));
+            List<Tilemap> groundMap = new List<Tilemap>();
+            foreach (MapPiece piece in mapPieces)
+            {
+                if (locked != piece.isLocked) continue;
+                groundMap.Add(piece.groundTilemap);
+            }
+            return groundMap.ToArray();
         }
 
-        public Vector3Int WorldToCell(Vector3 worldPosition)
+        public Tilemap[] GetCollisionMap(bool locked = false)
         {
-            return worldGrid.WorldToCell(worldPosition);
-        }
-
-        public Vector3 WorldToCellCenter(Vector3 worldPos)
-        {
-            Vector3Int cellPos = worldGrid.WorldToCell(worldPos);
-            Vector3 tilePos = worldGrid.GetCellCenterWorld(cellPos);
-            // Make sure the z pos of the tile is set to 0 to avoid layer messing
-            tilePos.z = 0;
-            return tilePos;
+            List<Tilemap> collisions = new List<Tilemap>();
+            foreach (MapPiece piece in mapPieces)
+            {
+                if (locked != piece.isLocked) continue;
+                foreach (var collisionMap in piece.collisionMap) collisions.Add(collisionMap);
+            }
+            return collisions.ToArray();
         }
 
         public bool IsCellMovable(Vector3 worldPos)
         {
             Vector3Int cellPos = worldGrid.WorldToCell(worldPos);
-            Tilemap ground = GetTilemapFromTag("Ground");
-            bool hasGround = ground.HasTile(cellPos);
+            Tilemap[] ground = GetGroundMap();
+            bool hasGround = false;
+            foreach (Tilemap groundTilemap in ground)
+            {
+                if (groundTilemap != null && groundTilemap.HasTile(cellPos))
+                {
+                    hasGround = true;
+                    break;
+                }
+            }
             return hasGround;
+        }
+
+        public void UnlockPiece(string pieceIdentifier)
+        {
+            bool found = false;
+            mapPieces.ForEach((piece =>
+            {
+                if (piece.pieceIdentifier == pieceIdentifier)
+                {
+                    piece.Unlock();
+                    found = true;
+                }
+            }));
+    
+            if (!found)
+            {
+                Debug.LogWarning($"Piece with identifier '{pieceIdentifier}' not found in mapPieces");
+            }
+        }
+    }
+
+    [Serializable]
+    public class MapPiece
+    {
+        public string pieceIdentifier;
+        [SerializeField]
+        public Tilemap groundTilemap;
+        [SerializeField]
+        public Tilemap[] collisionMap;
+        [SerializeField]
+        public Tilemap[] decorationMap;
+        public bool isLocked;
+
+        public void Setup()
+        {
+            LaunchActionOnEveryMap(SetMap);
+        }
+
+        public void Unlock()
+        {
+            if (this.isLocked == false) return;
+            this.isLocked = false;
+            LaunchActionOnEveryMap(UnlockMap);
+        }
+
+        private void LaunchActionOnEveryMap(Action<Tilemap> action)
+        {
+            foreach (var map in collisionMap) action(map);
+            foreach (var map in decorationMap) action(map);
+            action(groundTilemap);
+        }
+
+        private void SetMap(Tilemap tilemap)
+        {
+            Material tileMapMaterial = new Material(MaterialDatabase.Instance.tileMapMaterial);
+            tilemap.GetComponent<TilemapRenderer>().material = tileMapMaterial;
+            tileMapMaterial.name = "TileMap Renderer";
+            tileMapMaterial.SetFloat("_Alpha", isLocked ? 0f : 1f);
+        }
+        
+        private void UnlockMap(Tilemap tilemap)
+        {
+            LeanTween.value(WorldController.Instance.gameObject, f =>
+            {
+                tilemap.GetComponent<TilemapRenderer>().material.SetFloat("_Alpha", f);
+            }, 0f, 1f, 1f);
         }
     }
 }

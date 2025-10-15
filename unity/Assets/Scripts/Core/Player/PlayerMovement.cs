@@ -6,16 +6,13 @@ using System.Collections.Generic;
 using UnityEngine.EventSystems;
 using UnityEngine.Tilemaps;
 using Utils;
+using World;
 
 namespace Player
 {
     [Serializable]
     public class PlayerMovement : Updatable<PlayerController>
     {
-        [Header("References")]
-        public Tilemap groundTilemap;
-        public Tilemap collisionTilemap;
-
         private List<Vector3> currentPath;
         private int currentWaypointIndex = 0;
         
@@ -35,18 +32,25 @@ namespace Player
             if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
             {
                 Vector3 mouseWorld = CameraUtils.ScreenToWorld(Mouse.current.position.ReadValue());
-                Vector3Int clickedTile = groundTilemap.WorldToCell(mouseWorld);
+                Vector3Int clickedTile = WorldController.Instance.worldGrid.WorldToCell(mouseWorld);
 
-                if (!PathFindingUtils.IsTileWalkable(clickedTile, groundTilemap, collisionTilemap)) return;
+                if (!PathFindingUtils.IsTileWalkable(clickedTile, 
+                        WorldController.Instance.GetGroundMap(), 
+                        WorldController.Instance.GetCollisionMap()
+                        )) return;
                     
-                Vector3 targetWorld = groundTilemap.GetCellCenterWorld(clickedTile);
+                Vector3 targetWorld = WorldController.Instance.worldGrid.GetCellCenterWorld(clickedTile);
                 MoveToTile(targetWorld);
             }
         }
 
         public void MoveToTile(Vector3 targetWorld)
         {
-            currentPath = PathFindingUtils.CalculatePathAStar(controller.transform.position, targetWorld, groundTilemap, collisionTilemap);
+            currentPath = PathFindingUtils.CalculatePathAStar(controller.transform.position, 
+                targetWorld, 
+                WorldController.Instance.GetGroundMap(), 
+                WorldController.Instance.GetCollisionMap()
+                );
             
             if (currentPath.Count > 0)
             {

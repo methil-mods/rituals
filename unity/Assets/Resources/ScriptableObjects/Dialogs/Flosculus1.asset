@@ -26,6 +26,7 @@ MonoBehaviour:
   onStartDialogAction: []
   onEndDialogAction:
   - rid: 4367808074176528467
+  - rid: 4367808091373437003
   references:
     version: 2
     RefIds:
@@ -33,3 +34,7 @@ MonoBehaviour:
       type: {class: EndQuestAction, ns: Core.Actions, asm: Assembly-CSharp}
       data:
         questToEnd: {fileID: 11400000, guid: ee8954e47b04849bb9a4dfb859ebc231, type: 2}
+    - rid: 4367808091373437003
+      type: {class: UnlockPieceAction, ns: Core.Actions, asm: Assembly-CSharp}
+      data:
+        pieceIdentifier: SecondMap
