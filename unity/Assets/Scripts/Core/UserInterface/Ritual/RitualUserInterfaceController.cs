@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Framework.Controller;
 using ScriptableObjects.Ritual;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace Core.UserInterface.Ritual
@@ -18,6 +19,9 @@ namespace Core.UserInterface.Ritual
         [SerializeField] private GameObject ritualListInPanel;
         [Header("Controls")]
         public Button closeButton;
+        
+        public UnityAction OnOpenRitualPanel;
+        public UnityAction OnCloseRitualPanel;
 
         public void Start()
         {
@@ -76,11 +80,13 @@ namespace Core.UserInterface.Ritual
         {
             if (unlockedRituals.Count == 0) return;
             makeRitualPanel.SetActive(true);
+            OnOpenRitualPanel?.Invoke();
         }
 
         public void CloseRitualPanel()
         {
             makeRitualPanel.SetActive(false);
+            OnCloseRitualPanel?.Invoke();
         }
     }
 }

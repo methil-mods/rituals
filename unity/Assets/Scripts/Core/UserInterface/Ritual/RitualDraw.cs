@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using Core.CNN;
 using TMPro;
 using System.Collections.Generic;
+using Core.PostProcess;
 using Utils;
 using Utils.Extensions;
 
@@ -70,8 +71,11 @@ namespace Core.UserInterface.Ritual
             results.SortByBestMatch();
             var bestMatch = results.GetBestMatch();
             resultText.text = bestMatch.RitualData.ritualName;
+            PostProcessingController.Instance.userInterfacePostProcessing.LaunchRitualAnimation();
+            /*
             if (bestMatch.RitualData.ritualName == "Not") return;
             DialogUserInterfaceController.Instance.LaunchDialogWithEntity(bestMatch.RitualData.entityData);
+            */
         }
         
         private void Update()

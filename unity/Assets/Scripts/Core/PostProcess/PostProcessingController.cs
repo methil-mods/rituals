@@ -1,5 +1,6 @@
 using System;
 using Core.UserInterface;
+using Core.UserInterface.Ritual;
 using Framework.Controller;
 using ScriptableObjects.Book;
 using UnityEngine;
@@ -24,6 +25,9 @@ namespace Core.PostProcess
             
             DialogUserInterfaceController.Instance.OnDialogStart += SetHidePostProcessingEffect;
             DialogUserInterfaceController.Instance.OnDialogEnd += ResetPostProcessingEffect;
+            
+            RitualUserInterfaceController.Instance.OnOpenRitualPanel += SetHidePostProcessingEffect;
+            RitualUserInterfaceController.Instance.OnCloseRitualPanel += ResetPostProcessingEffect;
 
             _onBookOpenedHandler = (a) => SetHidePostProcessingEffect();
             _onBookClosedHandler = (a) => ResetPostProcessingEffect();
@@ -41,6 +45,10 @@ namespace Core.PostProcess
 
             BookUserInterfaceController.Instance.OnBookOpened -= _onBookOpenedHandler;
             BookUserInterfaceController.Instance.OnBookClosed -= _onBookClosedHandler;
+            
+            RitualUserInterfaceController.Instance.OnOpenRitualPanel -= SetHidePostProcessingEffect;
+            RitualUserInterfaceController.Instance.OnCloseRitualPanel -= ResetPostProcessingEffect;
+
         }
         
         public void ResetPostProcessingEffect()
