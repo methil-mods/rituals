@@ -47,7 +47,7 @@ public class LayerRenderFeature : ScriptableRendererFeature
             //TODO not possible at the moment, needs changes in Unity
             if (resourcesData.isActiveTargetBackBuffer)
             {
-                Debug.LogError("Layer Feature doesn't work with direct to backbuffer rendering (yet)");
+                // Debug.LogError("Layer Feature doesn't work with direct to backbuffer rendering (yet)");
                 var info = renderGraph.GetRenderTargetInfo(resourcesData.backBufferColor);
                 desc = new()
                 {

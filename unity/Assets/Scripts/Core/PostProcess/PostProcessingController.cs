@@ -12,6 +12,7 @@ namespace Core.PostProcess
     public class PostProcessingController : BaseController<PostProcessingController>
     {
         public WorldPostProcessing worldPostProcessing;
+        public UserInterfacePostProcessing userInterfacePostProcessing;
 
         private UnityAction<BookData> _onBookOpenedHandler;
         private UnityAction<BookData> _onBookClosedHandler;
@@ -19,6 +20,7 @@ namespace Core.PostProcess
         public void Start()
         {
             worldPostProcessing.Start(this);
+            userInterfacePostProcessing.Start(this);
             
             DialogUserInterfaceController.Instance.OnDialogStart += SetHidePostProcessingEffect;
             DialogUserInterfaceController.Instance.OnDialogEnd += ResetPostProcessingEffect;
