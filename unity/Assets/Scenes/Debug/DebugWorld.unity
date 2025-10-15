@@ -265,6 +265,69 @@ Tilemap:
   m_CorrespondingSourceObject: {fileID: 6226011803463069600, guid: 35bee08ab6ec2400ab1997fc7c8b4b0f, type: 3}
   m_PrefabInstance: {fileID: 1559265055}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1148572372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1148572375}
+  - component: {fileID: 1148572374}
+  - component: {fileID: 1148572373}
+  m_Layer: 0
+  m_Name: PostProcessingController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1148572373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148572372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37badebc1fb740888ec372ad83316363, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Core.PostProcess.PostProcessingController
+  globalVolume: {fileID: 11400000, guid: e3b85748d4c354892a0834854f2ef1d1, type: 2}
+--- !u!114 &1148572374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148572372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.Volume
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: e3b85748d4c354892a0834854f2ef1d1, type: 2}
+--- !u!4 &1148572375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148572372}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.1410546, y: 2.8625937, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1839735485 &1277652258 stripped
 Tilemap:
   m_CorrespondingSourceObject: {fileID: 3945882614367457094, guid: 35bee08ab6ec2400ab1997fc7c8b4b0f, type: 3}
@@ -620,6 +683,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 3783813465681711887, guid: bbbbf2739ded840578157114c9306f4d, type: 3}
+      propertyPath: m_RendererIndex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5011206771480091919, guid: bbbbf2739ded840578157114c9306f4d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -744,3 +811,4 @@ SceneRoots:
   - {fileID: 1008105282974123713}
   - {fileID: 31102806}
   - {fileID: 320575576}
+  - {fileID: 1148572375}
