@@ -70,8 +70,8 @@ namespace Core.UserInterface.Ritual
             results.SortByBestMatch();
             var bestMatch = results.GetBestMatch();
             resultText.text = bestMatch.RitualData.ritualName;
-            
-            DialogUserInterfaceController.Instance.LaunchDialog(bestMatch.RitualData.entityData.dialogs[0]);
+            if (bestMatch.RitualData.ritualName == "Not") return;
+            DialogUserInterfaceController.Instance.LaunchDialogWithEntity(bestMatch.RitualData.entityData);
         }
         
         private void Update()

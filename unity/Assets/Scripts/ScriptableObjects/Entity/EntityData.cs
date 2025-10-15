@@ -11,6 +11,7 @@ namespace ScriptableObjects.Entity
         [TextArea]
         public string entityDescription;
         
-        public DialogData[] dialogs;
+        public DialogData firstDialog;
+        public DialogData normalDialog;
     }
 }

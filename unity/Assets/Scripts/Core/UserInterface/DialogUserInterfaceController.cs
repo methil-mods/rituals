@@ -1,7 +1,10 @@
 using System.Collections;
+using System.Collections.Generic;
 using Core.Dialog;
 using Framework.Action;
 using Framework.Controller;
+using JetBrains.Annotations;
+using ScriptableObjects.Entity;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -11,6 +14,9 @@ namespace Core.UserInterface
 {
     public class DialogUserInterfaceController : BaseController<DialogUserInterfaceController>
     {
+        [Header("Dialog Entity Information")]
+        public List<DialogEntityData> DialogEntity = new List<DialogEntityData>();
+        
         [Header("UI References")]
         public GameObject dialogPanel;
         public TextMeshProUGUI dialogText;
@@ -35,8 +41,29 @@ namespace Core.UserInterface
             }
         }
 
-        public void LaunchDialog(DialogData dialogData)
+        private void AddDialogEntityData(EntityData entityData)
         {
+            if (DialogEntity.Find(d => d.entityData == entityData) != null) return;
+            DialogEntity.Add(new DialogEntityData(entityData));
+        }
+
+        [CanBeNull]
+        private DialogEntityData GetDialogEntityData(EntityData entityData)
+        {
+            return DialogEntity.Find(d => d.entityData == entityData);
+        }
+        
+        public void LaunchDialogWithEntity(EntityData entityData)
+        {
+            AddDialogEntityData(entityData);
+            DialogEntityData dialog = GetDialogEntityData(entityData);
+            if (dialog == null)
+            {
+                Debug.LogError("Error: Dialog Entity not found");
+                return;
+            }
+            DialogData dialogData = dialog.GetDialogToPlay();
+            dialog.alreadyTalked = true;
             if (dialogData == null || dialogData.contents == null || dialogData.contents.Length == 0)
             {
                 Debug.LogWarning("DialogData is null or empty!");
@@ -119,6 +146,24 @@ namespace Core.UserInterface
             {
                 skipButton.onClick.RemoveListener(OnSkipButtonClick);
             }
+        }
+    }
+
+    public class DialogEntityData
+    {
+        public EntityData entityData;
+        public bool alreadyTalked;
+        
+        public DialogEntityData(EntityData entityData)
+        {
+            this.entityData = entityData;
+            alreadyTalked = false;
+        }
+
+        public DialogData GetDialogToPlay()
+        {
+            if (alreadyTalked == false) return entityData.firstDialog;
+            return entityData.normalDialog;
         }
     }
 }
