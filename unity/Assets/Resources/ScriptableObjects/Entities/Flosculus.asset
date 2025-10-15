@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Flosculus
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Entity.EntityData
   entityName: "F\u0338\u0305\u031El\u0338\u0315\u0323o\u0334\u030E\u033As\u0334\u0351\u0348c\u0334\u0346\u0339u\u0338\u0313\u0316l\u0336\u030E\u0354u\u0336\u0343\u0332s\u0335\u0302\u033A"
-  entitySprite: {fileID: -9031895453532203577, guid: b8d79e1cee69d4918a44b3bab183d55d, type: 3}
+  entitySprite: {fileID: -5472802136100742447, guid: a6c5e140beef3d84ca8bc26689470274, type: 3}
   entityDescription: Apparently, a former half-dead man who fell into limbo, he was
     a good guy though.
   firstDialog: {fileID: 11400000, guid: 7ee7e7c8f3af14331bc4400c77e75bcf, type: 2}

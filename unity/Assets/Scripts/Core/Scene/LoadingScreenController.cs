@@ -18,6 +18,8 @@ namespace Core.Scene
         }
 
         public void StartToLoadScene(int sceneToLoad, Action onEndCallback){
+            CanvasGroup canvasGroup = loadingScreenImage.GetComponent<CanvasGroup>();
+            canvasGroup.alpha = 0;
             if(_sceneIsSwapping == true)
                 return;
             DontDestroyOnLoad(this.gameObject);
@@ -27,7 +29,9 @@ namespace Core.Scene
         private IEnumerator LoadScene(int sceneToLoad, Action onEndCallback){
             _sceneIsSwapping = true;
             float startPosition = loadingScreenImage.rectTransform.position.y;
-            LeanTween.moveY(loadingScreenImage.rectTransform, 0, 1f)
+            CanvasGroup canvasGroup = loadingScreenImage.GetComponent<CanvasGroup>();
+            canvasGroup.alpha = 0;
+            LeanTween.alphaCanvas(canvasGroup, 1f, 1f)
                 .setEase( LeanTweenType.easeOutQuart )
                 .setIgnoreTimeScale(true);
             yield return new WaitForSecondsRealtime(1f); 
@@ -46,8 +50,8 @@ namespace Core.Scene
             yield return new WaitForFixedUpdate();
             onEndCallback.Invoke();
             yield return new WaitForSeconds(0.2f);
-            LeanTween.moveY(loadingScreenImage.rectTransform, -startPosition, 1f)
-                .setEase( LeanTweenType.easeInQuart )
+            LeanTween.alphaCanvas(canvasGroup, 0f, 1f)
+                .setEase( LeanTweenType.easeOutQuart )
                 .setIgnoreTimeScale(true);
             yield return new WaitForSecondsRealtime(1.2f);
             Destroy(this.gameObject);

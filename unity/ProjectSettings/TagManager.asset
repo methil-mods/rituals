@@ -13,7 +13,7 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
+  - World
   - 
   - 
   - 
@@ -45,6 +45,9 @@ TagManager:
     locked: 0
   - name: World
     uniqueID: 936296247
+    locked: 0
+  - name: UserInterface
+    uniqueID: 2299698521
     locked: 0
   m_RenderingLayers:
   - Default

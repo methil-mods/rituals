@@ -16,10 +16,10 @@ namespace ScriptableObjects.Book
     [Serializable]
     public class BookPage
     {
-        [TextArea]
+        [TextArea(3, 20)]
         public string contentLeft;
         public Sprite contentLeftImage;
-        [TextArea]
+        [TextArea(3, 20)]
         public string contentRight;
         public Sprite contentRightImage;
 

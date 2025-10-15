@@ -11,58 +11,44 @@ namespace Core.PostProcess
 {
     public class PostProcessingController : BaseController<PostProcessingController>
     {
-        public VolumeProfile globalVolume;
+        public WorldPostProcessing worldPostProcessing;
 
-        private ChromaticAberration chromaticAberration;
-        private Vignette vignette;
-
-        private UnityAction<BookData> onBookOpenedHandler;
-        private UnityAction<BookData> onBookClosedHandler;
-
-        private void Start()
+        private UnityAction<BookData> _onBookOpenedHandler;
+        private UnityAction<BookData> _onBookClosedHandler;
+        
+        public void Start()
         {
-            if (globalVolume != null)
-            {
-                globalVolume.TryGet(out chromaticAberration);
-                globalVolume.TryGet(out vignette);
-            }
-
+            worldPostProcessing.Start(this);
+            
             DialogUserInterfaceController.Instance.OnDialogStart += SetHidePostProcessingEffect;
             DialogUserInterfaceController.Instance.OnDialogEnd += ResetPostProcessingEffect;
 
-            onBookOpenedHandler = (a) => SetHidePostProcessingEffect();
-            onBookClosedHandler = (a) => ResetPostProcessingEffect();
+            _onBookOpenedHandler = (a) => SetHidePostProcessingEffect();
+            _onBookClosedHandler = (a) => ResetPostProcessingEffect();
 
-            BookUserInterfaceController.Instance.OnBookOpened += onBookOpenedHandler;
-            BookUserInterfaceController.Instance.OnBookClosed += onBookClosedHandler;
+            BookUserInterfaceController.Instance.OnBookOpened += _onBookOpenedHandler;
+            BookUserInterfaceController.Instance.OnBookClosed += _onBookClosedHandler;
 
             ResetPostProcessingEffect();
         }
 
-        private void OnDisable()
+        public void OnDisable()
         {
             DialogUserInterfaceController.Instance.OnDialogStart -= SetHidePostProcessingEffect;
             DialogUserInterfaceController.Instance.OnDialogEnd -= ResetPostProcessingEffect;
 
-            BookUserInterfaceController.Instance.OnBookOpened -= onBookOpenedHandler;
-            BookUserInterfaceController.Instance.OnBookClosed -= onBookClosedHandler;
+            BookUserInterfaceController.Instance.OnBookOpened -= _onBookOpenedHandler;
+            BookUserInterfaceController.Instance.OnBookClosed -= _onBookClosedHandler;
         }
-
+        
         public void ResetPostProcessingEffect()
         {
-            SetValueEffect(v => chromaticAberration.intensity.Override(v), 1f, 0f, 0.5f);
-            SetValueEffect(v => vignette.intensity.Override(v), 0.4f, 0f, 0.5f);
+            worldPostProcessing.ResetPostProcessingEffect();
         }
 
         public void SetHidePostProcessingEffect()
         {
-            SetValueEffect(v => chromaticAberration.intensity.Override(v), 0f, 1f, 0.5f);
-            SetValueEffect(v => vignette.intensity.Override(v), 0f, 0.4f, 0.5f);
-        }
-
-        private void SetValueEffect(Action<float> callback, float from, float to, float time)
-        {
-            LeanTween.value(gameObject, callback, from, to, time).setEaseOutCirc();
+            worldPostProcessing.SetHidePostProcessingEffect();
         }
     }
 }

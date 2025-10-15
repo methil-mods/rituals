@@ -21,6 +21,7 @@ namespace Core.UserInterface
         public GameObject dialogPanel;
         public TextMeshProUGUI dialogText;
         public TextMeshProUGUI entityNameText;
+        public Image entityImage;
         public Button skipButton;
 
         private DialogData currentDialogData;
@@ -90,6 +91,7 @@ namespace Core.UserInterface
 
             DialogContent content = currentDialogData.contents[currentDialogIndex];
             entityNameText.text = content.entity.entityName;
+            entityImage.sprite = content.entity.entitySprite;
             
             if (typingCoroutine != null)
             {

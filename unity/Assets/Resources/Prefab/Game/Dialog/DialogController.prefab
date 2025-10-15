@@ -607,5 +607,5 @@ MonoBehaviour:
   dialogPanel: {fileID: 7210439290414328477}
   dialogText: {fileID: 5441905551849458697}
   entityNameText: {fileID: 7319321337386808294}
+  entityImage: {fileID: 8750610374433059586}
   skipButton: {fileID: 6341740197839858395}
-  debugDialogData: {fileID: 11400000, guid: 7ee7e7c8f3af14331bc4400c77e75bcf, type: 2}

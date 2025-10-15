@@ -14,6 +14,11 @@ namespace Core.Props
             BookUserInterfaceController.Instance.OpenBook(bookData);
         }
 
+        protected override bool CanInteract()
+        {
+            return true;
+        }
+
         public override void Interact()
         {
             base.Interact();

@@ -14,6 +14,11 @@ namespace Core.Props
             RitualUserInterfaceController.Instance.OpenRitualPanel();
         }
 
+        protected override bool CanInteract()
+        {
+            return RitualUserInterfaceController.Instance.unlockedRituals.Count > 0;
+        }
+
         public override void Interact()
         {
             base.Interact();

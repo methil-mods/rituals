@@ -114,6 +114,20 @@
                 "m_Node": {
                     "m_Id": "68c4bddcf96a4ed0b2d31843dc41fd35"
                 },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "5109ea7d213d4ebc9680e627a8fa16c3"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "68c4bddcf96a4ed0b2d31843dc41fd35"
+                },
                 "m_SlotId": 7
             },
             "m_InputSlot": {
@@ -1145,9 +1159,9 @@
     "m_ShaderOutputName": "Specular",
     "m_StageCapability": 2,
     "m_Value": {
-        "x": 0.5,
-        "y": 0.5,
-        "z": 0.5
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
     },
     "m_DefaultValue": {
         "x": 0.5,

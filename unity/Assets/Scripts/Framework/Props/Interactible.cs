@@ -34,7 +34,7 @@ namespace Framework.Props
         
         void Update()
         {
-            if (!IsPlayerDetected())
+            if (!IsPlayerDetected() || !CanInteract())
             {
                 SetInteractionIndicator(false);
                 return;
@@ -44,7 +44,7 @@ namespace Framework.Props
 
         private void CallbackInteraction(InputAction.CallbackContext context)
         {
-            if (IsPlayerDetected())
+            if (IsPlayerDetected() && CanInteract())
             {
                 this.Interact();
             }
@@ -57,6 +57,8 @@ namespace Framework.Props
             bool isOnDetectionCell = (this.cellPos + this.detectionTileOffset) - playerCellPos == Vector3Int.zero;
             return isOnDetectionCell;
         }
+
+        protected abstract bool CanInteract();
         
         public virtual void Interact()
         {
