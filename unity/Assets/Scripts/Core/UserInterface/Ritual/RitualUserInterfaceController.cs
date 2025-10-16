@@ -8,27 +8,22 @@ using UnityEngine.UI;
 
 namespace Core.UserInterface.Ritual
 {
-    public class RitualUserInterfaceController : BaseController<RitualUserInterfaceController>
+    public class RitualUserInterfaceController : InterfaceController<RitualUserInterfaceController>
     {
         public List<RitualData> unlockedRituals = new List<RitualData>();
         [Header("Rituals panel")]
         public GameObject ritualPrefab;
         public GameObject ritualPanel;
-        [Header("Make rituals")]
-        public GameObject makeRitualPanel;
         [SerializeField] private GameObject ritualListInPanel;
         [Header("Controls")]
         public Button closeButton;
-        
-        public UnityAction OnOpenRitualPanel;
-        public UnityAction OnCloseRitualPanel;
 
         public void Start()
         {
-            makeRitualPanel.SetActive(false);
+            base.Start();
             
-            closeButton.onClick.AddListener(CloseRitualPanel);
-            DialogUserInterfaceController.Instance.OnDialogStart += CloseRitualPanel;
+            closeButton.onClick.AddListener(ClosePanel);
+            DialogUserInterfaceController.Instance.OnDialogStart += ClosePanel;
             
             UpdateRitualUserInterface();
         }
@@ -74,19 +69,6 @@ namespace Core.UserInterface.Ritual
                 RitualComponent uiItem = ritualGo.GetComponent<RitualComponent>();
                 if (uiItem != null) uiItem.SetRitual(ritual);
             }
-        }
-        
-        public void OpenRitualPanel()
-        {
-            if (unlockedRituals.Count == 0) return;
-            makeRitualPanel.SetActive(true);
-            OnOpenRitualPanel?.Invoke();
-        }
-
-        public void CloseRitualPanel()
-        {
-            makeRitualPanel.SetActive(false);
-            OnCloseRitualPanel?.Invoke();
         }
     }
 }

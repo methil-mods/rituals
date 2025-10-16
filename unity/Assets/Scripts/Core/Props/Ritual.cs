@@ -11,7 +11,7 @@ namespace Core.Props
     {
         public void StartRitual()
         {
-            RitualUserInterfaceController.Instance.OpenRitualPanel();
+            RitualUserInterfaceController.Instance.OpenPanel();
         }
 
         protected override bool CanInteract()
