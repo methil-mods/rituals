@@ -14,9 +14,6 @@ namespace Core.PostProcess
     {
         public WorldPostProcessing worldPostProcessing;
         public UserInterfacePostProcessing userInterfacePostProcessing;
-
-        private UnityAction<BookData> _onBookOpenedHandler;
-        private UnityAction<BookData> _onBookClosedHandler;
         
         public void Start()
         {
@@ -29,11 +26,8 @@ namespace Core.PostProcess
             RitualUserInterfaceController.Instance.OnPanelOpen += SetHidePostProcessingEffect;
             RitualUserInterfaceController.Instance.OnPanelClose += ResetPostProcessingEffect;
 
-            _onBookOpenedHandler = (a) => SetHidePostProcessingEffect();
-            _onBookClosedHandler = (a) => ResetPostProcessingEffect();
-
-            BookUserInterfaceController.Instance.OnBookOpened += _onBookOpenedHandler;
-            BookUserInterfaceController.Instance.OnBookClosed += _onBookClosedHandler;
+            BookUserInterfaceController.Instance.OnPanelOpen += SetHidePostProcessingEffect;
+            BookUserInterfaceController.Instance.OnPanelClose += ResetPostProcessingEffect;
 
             ResetPostProcessingEffect();
         }
@@ -43,8 +37,8 @@ namespace Core.PostProcess
             DialogUserInterfaceController.Instance.OnDialogStart -= SetHidePostProcessingEffect;
             DialogUserInterfaceController.Instance.OnDialogEnd -= ResetPostProcessingEffect;
 
-            BookUserInterfaceController.Instance.OnBookOpened -= _onBookOpenedHandler;
-            BookUserInterfaceController.Instance.OnBookClosed -= _onBookClosedHandler;
+            BookUserInterfaceController.Instance.OnPanelOpen -= SetHidePostProcessingEffect;
+            BookUserInterfaceController.Instance.OnPanelClose -= ResetPostProcessingEffect;
             
             RitualUserInterfaceController.Instance.OnPanelOpen -= SetHidePostProcessingEffect;
             RitualUserInterfaceController.Instance.OnPanelClose -= ResetPostProcessingEffect;

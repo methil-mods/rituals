@@ -1,4 +1,5 @@
 using System;
+using Coffee.UIEffects;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -25,6 +26,13 @@ namespace Framework.Controller
         {
             if (CanOpen())
             {
+                UIEffect panelEffect = panel.GetComponent<UIEffect>();
+                if (panelEffect != null)
+                {
+                    LeanTween.cancelAll(panel);
+                    panelEffect.transitionRate = 1f;
+                    LeanTween.value(panel, f => panelEffect.transitionRate = f, 1f, 0f, 1.1f).setEaseOutCirc();
+                }
                 panel.gameObject.SetActive(true);
                 OnPanelOpen?.Invoke();
             }
@@ -32,8 +40,23 @@ namespace Framework.Controller
 
         public void ClosePanel()
         {
-            panel.gameObject.SetActive(false);
-            OnPanelClose?.Invoke();
+            UIEffect panelEffect = panel.GetComponent<UIEffect>();
+            if (panelEffect != null)
+            {
+                LeanTween.cancelAll(panel);
+                OnPanelClose?.Invoke();
+                panelEffect.transitionRate = 1f;
+                LeanTween.value(panel, f => panelEffect.transitionRate = f, 0f, 1f, 1.1f).setEaseOutCirc();
+                LeanTween.delayedCall(1.1f, () =>
+                {
+                    panel.gameObject.SetActive(false);
+                });
+            }
+            else
+            {
+                panel.gameObject.SetActive(false);
+                OnPanelClose?.Invoke();
+            }
         }
     }
 }

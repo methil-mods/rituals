@@ -8,10 +8,9 @@ using UnityEngine.Events;
 
 namespace Core.UserInterface
 {
-    public class BookUserInterfaceController : BaseController<BookUserInterfaceController>
+    public class BookUserInterfaceController : InterfaceController<BookUserInterfaceController>
     {
         [Header("UI References")]
-        [SerializeField] private RectTransform bookPanel;
         [SerializeField] private TMP_Text leftSideText;
         [SerializeField] private TMP_Text rightSideText;
         [SerializeField] private Image leftSideImage;
@@ -25,16 +24,13 @@ namespace Core.UserInterface
         private BookData currentBook;
         private int currentPageIndex;
 
-        public UnityAction<BookData> OnBookOpened;
-        public UnityAction<BookData> OnBookClosed;
         public UnityAction<BookPage, BookPage, BookData> OnPageChanged;
 
         private void Start()
         {
             previousButton?.onClick.AddListener(PreviousPage);
             nextButton?.onClick.AddListener(NextPage);
-            quitButton?.onClick.AddListener(CloseBook);
-            bookPanel.gameObject.SetActive(false);
+            quitButton?.onClick.AddListener(ClosePanel);
         }
 
          public void OpenBook(BookData bookData) 
@@ -44,15 +40,8 @@ namespace Core.UserInterface
 
             currentBook = bookData;
             currentPageIndex = 0;
-            bookPanel.gameObject.SetActive(true);
             UpdatePage();
-            OnBookOpened?.Invoke(bookData);
-        }
-
-        public void CloseBook()
-        {
-            bookPanel.gameObject.SetActive(false);
-            OnBookClosed?.Invoke(currentBook);
+            this.OpenPanel();
         }
 
         private void UpdatePage()
