@@ -14,10 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Book.BookData
   bookName: Librarius Book
   bookContent:
-  - contentLeft: This place seems like a ritual place, you may be summoning some
-      entities by writing specific glyphs, idk...
+  - contentLeft: "This place feels steeped in ritual. Inscribing certain glyphs here
+      might call forth entities beyond our understanding\u2026 though I can\u2019t
+      say for certain.\""
     contentLeftImage: {fileID: 0}
-    contentRight: 
+    contentRight: "S\u0336\u0341\u0331u\u0336\u0306\u0330m\u0335\u0305\u031Em\u0337\u0307\u0318o\u0334\u034C\u0339n\u0334\u0304\u0332i\u0335\u030C\u031Dn\u0337\u030F\u0328g\u0338\u030D\u0321
+      \u0337\u0302\u0355t\u0336\u034C\u0332h\u0338\u0309\u0327e\u0334\u0300\u0330m\u0338\u034A\u032B
+      \u0335\u0313\u0353c\u0336\u034C\u0327a\u0338\u0300\u0356n\u0336\u0342\u0328
+      \u0336\u0310\u0319h\u0338\u035B\u0353e\u0334\u030E\u0316l\u0338\u0309\u0355p\u0338\u031B\u0324
+      \u0335\u0358\u0326u\u0335\u031B\u032Ds\u0334\u034A\u0339.\u0338\u0310\u0331.\u0334\u0344\u035C.\u0336\u035D\u0321o\u0338\u0340\u031Er\u0336\u0312\u0316
+      \u0335\u034A\u0328b\u0336\u035B\u0355e\u0338\u033D\u0321 \u0334\u0342\u0332o\u0336\u0306\u0332u\u0337\u030C\u032Ar\u0334\u0305\u0339
+      \u0334\u030A\u0348d\u0338\u035D\u0325o\u0334\u0344\u0324w\u0334\u030E\u0333n\u0336\u0311\u0324f\u0336\u0342\u031Da\u0335\u030B\u035Al\u0335\u035B\u0316l\u0336\u034A\u0353"
     contentRightImage: {fileID: 0}
     onPageOpen: []
   references:
