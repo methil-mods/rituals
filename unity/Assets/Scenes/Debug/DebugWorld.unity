@@ -1393,7 +1393,7 @@ PrefabInstance:
       objectReference: {fileID: 87031691}
     - target: {fileID: 3536358508966117839, guid: bbbbf2739ded840578157114c9306f4d, type: 3}
       propertyPath: m_RendererIndex
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3783813465681711887, guid: bbbbf2739ded840578157114c9306f4d, type: 3}
       propertyPath: m_RendererIndex
@@ -1401,7 +1401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4088039071728505250, guid: bbbbf2739ded840578157114c9306f4d, type: 3}
       propertyPath: m_RendererIndex
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7136249409326872136, guid: bbbbf2739ded840578157114c9306f4d, type: 3}
       propertyPath: m_CullingMask.m_Bits

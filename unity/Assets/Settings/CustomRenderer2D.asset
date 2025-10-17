@@ -70,7 +70,8 @@ MonoBehaviour:
   m_Name: LayerRenderFeature
   m_EditorClassIdentifier: Assembly-CSharp::LayerRenderFeature
   m_Active: 1
-  push: 0
-  pop: 600
+  push: 500
+  pop: 550
   blendMaterial: {fileID: 2100000, guid: 2d43f034a8df241e8ab363ab15ee7ff7, type: 2}
   useFBF: 0
+  clearColor: {r: 0, g: 0, b: 0, a: 0}

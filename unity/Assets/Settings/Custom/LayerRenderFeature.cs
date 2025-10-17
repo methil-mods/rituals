@@ -15,6 +15,9 @@ public class LayerRenderFeature : ScriptableRendererFeature
 
     public bool useFBF = false;
 
+    [Header("Layer Clear Settings")]
+    public Color clearColor = new Color(0.0f, 0.0f, 0.0f, 0.0f);
+
     public class StackLayers : ContextItem
     {
         // The texture reference variable.
@@ -31,6 +34,8 @@ public class LayerRenderFeature : ScriptableRendererFeature
 
     class PushLayerRenderPass : ScriptableRenderPass
     {
+        public Color clearColor { get; set; }
+
         // RecordRenderGraph is where the RenderGraph handle can be accessed, through which render passes can be added to the graph.
         // FrameData is a context container through which URP resources can be accessed and managed.
         public override void RecordRenderGraph(RenderGraph renderGraph, ContextContainer frameData)
@@ -71,7 +76,7 @@ public class LayerRenderFeature : ScriptableRendererFeature
             }
 
             desc.clearBuffer = true;
-            desc.clearColor = new Color(1.0f, 1.0f, 1.0f, 0.0f);
+            desc.clearColor = clearColor;
             desc.name = "_CameraColorLayer" + layers.layers.Count;
             
             var layerColor = renderGraph.CreateTexture(desc);
@@ -164,6 +169,7 @@ public class LayerRenderFeature : ScriptableRendererFeature
     public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
     {
         m_pushPass.renderPassEvent = push;
+        m_pushPass.clearColor = clearColor;
 
         //TODO document this
         m_popPass.renderPassEvent = pop;
