@@ -9,6 +9,7 @@ namespace ScriptableObjects.Enigma
         public string enigmaName;
         public string enigmaCode;
 
+        [SerializeReference, SubclassSelector]
         public Action[] OnResolveActions;
 
         public virtual bool TryResolve(string testCode)

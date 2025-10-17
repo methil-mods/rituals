@@ -13,4 +13,13 @@ MonoBehaviour:
   m_Name: BasicEnigma
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Enigma.EnigmaData
   enigmaName: Basic Enigma
-  enigmaCode: 02421
+  enigmaCode: 42421
+  OnResolveActions:
+  - rid: 4367808141458145357
+  references:
+    version: 2
+    RefIds:
+    - rid: 4367808141458145357
+      type: {class: AddRitualAction, ns: Core.Actions, asm: Assembly-CSharp}
+      data:
+        ritual: {fileID: 11400000, guid: 32a084ee7850e488cb7ffe5e1c47bfd2, type: 2}

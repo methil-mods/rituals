@@ -15,6 +15,7 @@ namespace Core.Enigma
         public TextMeshProUGUI actualResultText;
         public Button buttonReset;
         public Button buttonSubmit;
+        public Button buttonClose;
         public Sprite[] numericSprites;
 
         private EnigmaData _enigmaData;
@@ -44,6 +45,7 @@ namespace Core.Enigma
             }
 
             buttonReset.onClick.AddListener(ResetCode);
+            buttonClose.onClick.AddListener(CloseEnigmaPanel);
             buttonSubmit.onClick.AddListener(TryResolveEnigma);
         }
 
@@ -69,13 +71,15 @@ namespace Core.Enigma
 
         public void CloseEnigmaPanel()
         {
+            ResetCode();
             this.ClosePanel();
         }
 
         public void TryResolveEnigma()
         {
-            ResolveEnigma();
-            ResetCode();
+            bool resolved = ResolveEnigma();
+            if(resolved) CloseEnigmaPanel();
+            else ResetCode();
         }
 
         public bool ResolveEnigma()
