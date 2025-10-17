@@ -80,7 +80,6 @@ public class LayerRenderFeature : ScriptableRendererFeature
             desc.name = "_CameraColorLayer" + layers.layers.Count;
             
             var layerColor = renderGraph.CreateTexture(desc);
-
             resourcesData.cameraColor = layerColor;
         }
     }
@@ -114,6 +113,12 @@ public class LayerRenderFeature : ScriptableRendererFeature
 
                 var firstLayer = frameData.Contains<StackLayers>();
                 var layers = frameData.GetOrCreate<StackLayers>();
+                
+                if (layers.layers.Count == 0)
+                {
+                    Debug.LogWarning("Aucun calque à restaurer !");
+                    return;
+                }
 
                 if (layers.layers.Count > 0)
                 {
@@ -143,8 +148,16 @@ public class LayerRenderFeature : ScriptableRendererFeature
                     else
                     {
                         blendMaterial.DisableKeyword(m_FBFKeyword);
-                        RenderGraphUtils.BlitMaterialParameters blitMaterialParameters = new(resourcesData.cameraColor, previousLayer,blendMaterial,0);
-                        renderGraph.AddBlitPass(blitMaterialParameters, passName);
+                        if (resourcesData.cameraColor.IsValid() && previousLayer.IsValid())
+                        {
+                            RenderGraphUtils.BlitMaterialParameters blitMaterialParameters = new(resourcesData.cameraColor, previousLayer, blendMaterial, 0);
+                            renderGraph.AddBlitPass(blitMaterialParameters, passName);
+                        }
+                        else
+                        {
+                            Debug.LogWarning("Blit annulé : source ou destination invalide !");
+                        }
+
                     }
 
                     //if(previousLayer.Equals(resourcesData.backBufferColor))
