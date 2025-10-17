@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using Coffee.UIEffects;
+using Core.PostProcess;
 using Framework.Controller;
 using ScriptableObjects.Ritual;
 using UnityEngine;
@@ -14,6 +16,7 @@ namespace Core.UserInterface.Ritual
         [Header("Rituals panel")]
         public GameObject ritualPrefab;
         public GameObject ritualPanel;
+        public RitualAnimation ritualAnimation;
         [SerializeField] private GameObject ritualListInPanel;
         [Header("Controls")]
         public Button closeButton;
@@ -26,6 +29,16 @@ namespace Core.UserInterface.Ritual
             DialogUserInterfaceController.Instance.OnDialogStart += ClosePanel;
             
             UpdateRitualUserInterface();
+        }
+
+        public void LaunchRitualAnimation()
+        {
+            PostProcessingController.Instance.userInterfacePostProcessing.LaunchRitualAnimation();
+            LeanTween.delayedCall(0.6f, (() =>
+            {
+                AnimateEffects(0f, 1f, () => {});
+                ritualAnimation.LaunchAnimation();
+            }));
         }
 
         public void AddRitual(RitualData ritual)
@@ -67,6 +80,8 @@ namespace Core.UserInterface.Ritual
             {
                 GameObject ritualGo = Instantiate(ritualPrefab, ritualListInPanel.transform);
                 RitualComponent uiItem = ritualGo.GetComponent<RitualComponent>();
+                uiItem.GetComponent<UIEffectReplica>().target = panel.GetComponent<UIEffect>();
+                this.otherEffects.Add(uiItem.GetComponentInChildren<UIEffect>());
                 if (uiItem != null) uiItem.SetRitual(ritual);
             }
         }

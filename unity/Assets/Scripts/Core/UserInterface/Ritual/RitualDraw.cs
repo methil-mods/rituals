@@ -71,7 +71,7 @@ namespace Core.UserInterface.Ritual
             results.SortByBestMatch();
             var bestMatch = results.GetBestMatch();
             resultText.text = bestMatch.RitualData.ritualName;
-            PostProcessingController.Instance.userInterfacePostProcessing.LaunchRitualAnimation();
+            RitualUserInterfaceController.Instance.LaunchRitualAnimation();
             /*
             if (bestMatch.RitualData.ritualName == "Not") return;
             DialogUserInterfaceController.Instance.LaunchDialogWithEntity(bestMatch.RitualData.entityData);

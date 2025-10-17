@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Coffee.UIEffects;
 using UnityEngine;
 using UnityEngine.Events;
@@ -7,56 +8,67 @@ namespace Framework.Controller
 {
     public class InterfaceController<T> : BaseController<T> where T : InterfaceController<T>
     {
-        public GameObject panel;
-        
+        [SerializeField] protected GameObject panel;
+        [SerializeField] protected List<UIEffect> otherEffects = new();
+
         public UnityAction OnPanelOpen;
         public UnityAction OnPanelClose;
 
-        public void Start()
+        protected UIEffect _panelEffect;
+        protected const float TransitionDuration = 1.1f;
+
+        protected void Start()
         {
-            panel.SetActive(false);
+            if (panel != null)
+            {
+                _panelEffect = panel.GetComponent<UIEffect>();
+                panel.SetActive(false);
+            }
         }
 
-        public virtual bool CanOpen()
-        {
-            return true;
-        }
-        
+        public virtual bool CanOpen() => true;
+
         public void OpenPanel()
         {
-            if (CanOpen())
-            {
-                UIEffect panelEffect = panel.GetComponent<UIEffect>();
-                if (panelEffect != null)
-                {
-                    LeanTween.cancelAll(panel);
-                    panelEffect.transitionRate = 1f;
-                    LeanTween.value(panel, f => panelEffect.transitionRate = f, 1f, 0f, 1.1f).setEaseOutCirc();
-                }
-                panel.gameObject.SetActive(true);
-                OnPanelOpen?.Invoke();
-            }
+            if (!CanOpen() || panel == null) return;
+            panel.SetActive(true);
+            OnPanelOpen?.Invoke();
+            AnimateEffects(1f, 0f, null);
         }
 
         public void ClosePanel()
         {
-            UIEffect panelEffect = panel.GetComponent<UIEffect>();
-            if (panelEffect != null)
+            if (panel == null)
             {
-                LeanTween.cancelAll(panel);
                 OnPanelClose?.Invoke();
-                panelEffect.transitionRate = 1f;
-                LeanTween.value(panel, f => panelEffect.transitionRate = f, 0f, 1f, 1.1f).setEaseOutCirc();
-                LeanTween.delayedCall(1.1f, () =>
+                return;
+            }
+
+            OnPanelClose?.Invoke();
+            AnimateEffects(0f, 1f, () => panel.SetActive(false));
+        }
+
+        protected void AnimateEffects(float from, float to, System.Action onComplete)
+        {
+            if (_panelEffect == null && otherEffects.Count == 0)
+            {
+                onComplete?.Invoke();
+                return;
+            }
+
+            LeanTween.cancel(panel);
+            LeanTween.value(panel, from, to, TransitionDuration)
+                .setEaseOutCirc()
+                .setOnUpdate((float value) =>
                 {
-                    panel.gameObject.SetActive(false);
-                });
-            }
-            else
-            {
-                panel.gameObject.SetActive(false);
-                OnPanelClose?.Invoke();
-            }
+                    if (_panelEffect != null)
+                        _panelEffect.transitionRate = value;
+
+                    foreach (var effect in otherEffects)
+                        if (effect != null)
+                            effect.transitionRate = value;
+                })
+                .setOnComplete(() => onComplete?.Invoke());
         }
     }
 }
