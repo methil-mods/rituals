@@ -1,4 +1,5 @@
 using System;
+using Coffee.UIEffects;
 using Framework.Controller;
 using ScriptableObjects.Enigma;
 using TMPro;
@@ -8,9 +9,8 @@ using Action = Framework.Action.Action;
 
 namespace Core.Enigma
 {
-    public class EnigmaController : BaseController<EnigmaController>
+    public class EnigmaController : InterfaceController<EnigmaController>
     {
-        public GameObject enigmaPanel;
         public RectTransform numericPanel;
         public TextMeshProUGUI actualResultText;
         public Button buttonReset;
@@ -40,6 +40,7 @@ namespace Core.Enigma
 
                 RectTransform rect = buttonObj.GetComponent<RectTransform>();
                 rect.sizeDelta = new Vector2(100, 100);
+                buttonObj.AddComponent<UIEffectReplica>().target = panel.GetComponent<UIEffect>();
             }
 
             buttonReset.onClick.AddListener(ResetCode);
@@ -63,12 +64,12 @@ namespace Core.Enigma
             ActualCode = "";
             _enigmaData = enigmaData;
             actualResultText.text = "";
-            enigmaPanel.SetActive(true);
+            this.OpenPanel();
         }
 
         public void CloseEnigmaPanel()
         {
-            enigmaPanel.SetActive(false);
+            this.ClosePanel();
         }
 
         public void TryResolveEnigma()

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4172552179835788539}
   - component: {fileID: 2119259288070788969}
   - component: {fileID: 1880756244819074411}
+  - component: {fileID: 5305855802488999636}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -32,10 +33,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 8878969332702662736}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 100, y: -280}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2119259288070788969
 CanvasRenderer:
@@ -75,6 +76,24 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5305855802488999636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640646046369358663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd162ab5f95d4f82a841acc1e950418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffectReplica
+  m_Target: {fileID: 930255175559148059}
+  m_Preset: {fileID: 0}
+  m_UseTargetTransform: 1
+  m_SamplingScale: 1
+  m_AllowToModifyMeshShape: 1
+  m_CustomRoot: {fileID: 0}
 --- !u!1 &1467227330485837638
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5e100374b1431c9bc9a9684898a8f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Core.Enigma.EnigmaController
-  enigmaPanel: {fileID: 5916094271609229784}
+  panel: {fileID: 5916094271609229784}
   numericPanel: {fileID: 8878969332702662736}
   actualResultText: {fileID: 4026919999378897063}
   buttonReset: {fileID: 3220707348246975572}
@@ -159,6 +178,7 @@ GameObject:
   - component: {fileID: 5401740691566010117}
   - component: {fileID: 6234053224440737996}
   - component: {fileID: 3248765445354304741}
+  - component: {fileID: 1640024918411431451}
   m_Layer: 5
   m_Name: Image (5)
   m_TagString: Untagged
@@ -180,10 +200,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 8878969332702662736}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 460, y: -280}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6234053224440737996
 CanvasRenderer:
@@ -223,6 +243,24 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1640024918411431451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723198399851951031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd162ab5f95d4f82a841acc1e950418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffectReplica
+  m_Target: {fileID: 930255175559148059}
+  m_Preset: {fileID: 0}
+  m_UseTargetTransform: 1
+  m_SamplingScale: 1
+  m_AllowToModifyMeshShape: 1
+  m_CustomRoot: {fileID: 0}
 --- !u!1 &3286754384063854241
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,6 +272,7 @@ GameObject:
   - component: {fileID: 8031598487556251592}
   - component: {fileID: 2819559738745609375}
   - component: {fileID: 728354260118702147}
+  - component: {fileID: 340050870594750547}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -359,6 +398,24 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &340050870594750547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3286754384063854241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd162ab5f95d4f82a841acc1e950418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffectReplica
+  m_Target: {fileID: 930255175559148059}
+  m_Preset: {fileID: 0}
+  m_UseTargetTransform: 1
+  m_SamplingScale: 1
+  m_AllowToModifyMeshShape: 1
+  m_CustomRoot: {fileID: 0}
 --- !u!1 &3488673091061950306
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,6 +429,7 @@ GameObject:
   - component: {fileID: 7188431708864458094}
   - component: {fileID: 3220707348246975572}
   - component: {fileID: 1870709053753276404}
+  - component: {fileID: 8634887255285969502}
   m_Layer: 5
   m_Name: ResetButton
   m_TagString: Untagged
@@ -501,6 +559,24 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &8634887255285969502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3488673091061950306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd162ab5f95d4f82a841acc1e950418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffectReplica
+  m_Target: {fileID: 930255175559148059}
+  m_Preset: {fileID: 0}
+  m_UseTargetTransform: 1
+  m_SamplingScale: 1
+  m_AllowToModifyMeshShape: 1
+  m_CustomRoot: {fileID: 0}
 --- !u!1 &3666894781895891151
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,6 +588,7 @@ GameObject:
   - component: {fileID: 2702020686112415034}
   - component: {fileID: 3052640482852432124}
   - component: {fileID: 3371062066729772792}
+  - component: {fileID: 8714966522019498374}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -533,10 +610,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 8878969332702662736}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 460, y: -100}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3052640482852432124
 CanvasRenderer:
@@ -576,6 +653,24 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8714966522019498374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3666894781895891151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd162ab5f95d4f82a841acc1e950418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffectReplica
+  m_Target: {fileID: 930255175559148059}
+  m_Preset: {fileID: 0}
+  m_UseTargetTransform: 1
+  m_SamplingScale: 1
+  m_AllowToModifyMeshShape: 1
+  m_CustomRoot: {fileID: 0}
 --- !u!1 &4822894494259950400
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,6 +683,7 @@ GameObject:
   - component: {fileID: 535360954797182829}
   - component: {fileID: 662154745585296797}
   - component: {fileID: 5595089060124758029}
+  - component: {fileID: 2905341508069309791}
   m_Layer: 5
   m_Name: NumericPanel
   m_TagString: Untagged
@@ -618,9 +714,9 @@ RectTransform:
   - {fileID: 5408251801875863365}
   m_Father: {fileID: 1867923910221176518}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 349.96002, y: -433.86996}
   m_SizeDelta: {x: 560, y: 560}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &535360954797182829
@@ -685,6 +781,24 @@ MonoBehaviour:
   m_Spacing: {x: 20, y: 20}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &2905341508069309791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4822894494259950400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd162ab5f95d4f82a841acc1e950418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffectReplica
+  m_Target: {fileID: 930255175559148059}
+  m_Preset: {fileID: 0}
+  m_UseTargetTransform: 1
+  m_SamplingScale: 1
+  m_AllowToModifyMeshShape: 1
+  m_CustomRoot: {fileID: 0}
 --- !u!1 &5042048899995256913
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,6 +811,7 @@ GameObject:
   - component: {fileID: 5975624585681628074}
   - component: {fileID: 8982291855244293286}
   - component: {fileID: 1989874468201637163}
+  - component: {fileID: 2540322380882540083}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -791,6 +906,24 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &2540322380882540083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5042048899995256913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd162ab5f95d4f82a841acc1e950418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffectReplica
+  m_Target: {fileID: 930255175559148059}
+  m_Preset: {fileID: 0}
+  m_UseTargetTransform: 1
+  m_SamplingScale: 1
+  m_AllowToModifyMeshShape: 1
+  m_CustomRoot: {fileID: 0}
 --- !u!1 &5275561636528205540
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,6 +935,7 @@ GameObject:
   - component: {fileID: 208531631847787961}
   - component: {fileID: 7892932879187038713}
   - component: {fileID: 4026919999378897063}
+  - component: {fileID: 8152315319658867822}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -823,10 +957,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 7999386705308948837}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 273.115, y: -48.51}
+  m_SizeDelta: {x: 546.23, y: 97.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7892932879187038713
 CanvasRenderer:
@@ -927,6 +1061,24 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8152315319658867822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5275561636528205540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd162ab5f95d4f82a841acc1e950418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffectReplica
+  m_Target: {fileID: 930255175559148059}
+  m_Preset: {fileID: 0}
+  m_UseTargetTransform: 1
+  m_SamplingScale: 1
+  m_AllowToModifyMeshShape: 1
+  m_CustomRoot: {fileID: 0}
 --- !u!1 &5491582387598305305
 GameObject:
   m_ObjectHideFlags: 0
@@ -938,6 +1090,7 @@ GameObject:
   - component: {fileID: 775220626519270456}
   - component: {fileID: 1071322107075804773}
   - component: {fileID: 6559272043543348503}
+  - component: {fileID: 5797532088722220579}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -959,10 +1112,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 8878969332702662736}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 280, y: -100}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1071322107075804773
 CanvasRenderer:
@@ -1002,6 +1155,24 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5797532088722220579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5491582387598305305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd162ab5f95d4f82a841acc1e950418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffectReplica
+  m_Target: {fileID: 930255175559148059}
+  m_Preset: {fileID: 0}
+  m_UseTargetTransform: 1
+  m_SamplingScale: 1
+  m_AllowToModifyMeshShape: 1
+  m_CustomRoot: {fileID: 0}
 --- !u!1 &5654434876866669586
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,6 +1186,7 @@ GameObject:
   - component: {fileID: 3603774950050158148}
   - component: {fileID: 655488147120603142}
   - component: {fileID: 1748472708648383760}
+  - component: {fileID: 5662642032572512675}
   m_Layer: 5
   m_Name: ResolveButton
   m_TagString: Untagged
@@ -1144,6 +1316,24 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &5662642032572512675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5654434876866669586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd162ab5f95d4f82a841acc1e950418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffectReplica
+  m_Target: {fileID: 930255175559148059}
+  m_Preset: {fileID: 0}
+  m_UseTargetTransform: 1
+  m_SamplingScale: 1
+  m_AllowToModifyMeshShape: 1
+  m_CustomRoot: {fileID: 0}
 --- !u!1 &5916094271609229784
 GameObject:
   m_ObjectHideFlags: 0
@@ -1154,13 +1344,14 @@ GameObject:
   m_Component:
   - component: {fileID: 8374851475869920066}
   - component: {fileID: 2520746971556878485}
+  - component: {fileID: 930255175559148059}
   m_Layer: 5
   m_Name: EnigmaPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8374851475869920066
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1189,6 +1380,157 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5916094271609229784}
   m_CullTransparentMesh: 1
+--- !u!114 &930255175559148059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5916094271609229784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 938fce054c42f40a3969e27a88d9bdd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffect
+  m_ToneFilter: 0
+  m_ToneIntensity: 1
+  m_ColorFilter: 0
+  m_ColorIntensity: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_ColorGlow: 0
+  m_SamplingFilter: 0
+  m_SamplingIntensity: 0.5
+  m_SamplingWidth: 1
+  m_SamplingScale: 1
+  m_TransitionFilter: 9
+  m_TransitionRate: 0
+  m_TransitionReverse: 0
+  m_TransitionTex: {fileID: 8600000, guid: b40905efc0bad4633bb9440ce70a4acf, type: 2}
+  m_TransitionTexScale: {x: 2, y: 1}
+  m_TransitionTexOffset: {x: 0, y: 0}
+  m_TransitionTexSpeed: {x: 0, y: 0}
+  m_TransitionRotation: 0
+  m_TransitionKeepAspectRatio: 0
+  m_TransitionWidth: 0.535
+  m_TransitionSoftness: 0
+  m_TransitionRange:
+    m_Min: 0
+    m_Max: 1
+  m_TransitionColorFilter: 6
+  m_TransitionColor: {r: 0.7490196, g: 0.14117648, b: 0, a: 1}
+  m_TransitionColorGlow: 0
+  m_TransitionPatternReverse: 0
+  m_TransitionAutoPlaySpeed: 0
+  m_TransitionGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 1}
+    key2: {r: 0.035601314, g: 0, b: 0.07036011, a: 0}
+    key3: {r: 0.50869906, g: 0.14085405, b: 0.07283984, a: 0}
+    key4: {r: 0.20155624, g: 0.00303527, b: 0.09989874, a: 0}
+    key5: {r: 1, g: 0.36130688, b: 0.029556833, a: 0}
+    key6: {r: 1, g: 0.9822506, b: 0.5972019, a: 0}
+    key7: {r: 0.035601314, g: 0.000303527, b: 0.07036011, a: 0}
+    ctime0: 0
+    ctime1: 20046
+    ctime2: 26792
+    ctime3: 35081
+    ctime4: 37972
+    ctime5: 41441
+    ctime6: 48188
+    ctime7: 56669
+    atime0: 0
+    atime1: 62258
+    atime2: 65535
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 2
+    m_ColorSpace: 0
+    m_NumColorKeys: 8
+    m_NumAlphaKeys: 3
+  m_TargetMode: 0
+  m_TargetColor: {r: 1, g: 1, b: 1, a: 1}
+  m_TargetRange: 0.1
+  m_TargetSoftness: 0.5
+  m_BlendType: 1
+  m_SrcBlendMode: 1
+  m_DstBlendMode: 10
+  m_ShadowMode: 0
+  m_ShadowDistance: {x: 1, y: -1}
+  m_ShadowIteration: 1
+  m_ShadowFade: 0.9
+  m_ShadowMirrorScale: 0.5
+  m_ShadowBlurIntensity: 1
+  m_ShadowColorFilter: 4
+  m_ShadowColor: {r: 1, g: 1, b: 1, a: 1}
+  m_ShadowColorGlow: 0
+  m_GradationMode: 0
+  m_GradationIntensity: 1
+  m_GradationColorFilter: 1
+  m_GradationColor1: {r: 1, g: 1, b: 1, a: 1}
+  m_GradationColor2: {r: 1, g: 1, b: 1, a: 1}
+  m_GradationColor3: {r: 1, g: 1, b: 1, a: 1}
+  m_GradationColor4: {r: 1, g: 1, b: 1, a: 1}
+  m_GradationGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  m_GradationOffset: 0
+  m_GradationScale: 1
+  m_GradationRotation: 0
+  m_GradationWrapMode: 0
+  m_GradationReverse: 0
+  m_AllowToModifyMeshShape: 1
+  m_EdgeMode: 0
+  m_EdgeWidth: 0.656
+  m_EdgeColorFilter: 6
+  m_EdgeColor: {r: 1024, g: 0, b: 0, a: 1}
+  m_EdgeColorGlow: 0
+  m_EdgeShinyRate: 0
+  m_EdgeShinyWidth: 0.25
+  m_EdgeShinyAutoPlaySpeed: 1
+  m_PatternArea: 1
+  m_DetailFilter: 0
+  m_DetailIntensity: 1
+  m_DetailThreshold:
+    m_Min: 0
+    m_Max: 1
+  m_DetailColor: {r: 1, g: 1, b: 1, a: 1}
+  m_DetailTex: {fileID: 0}
+  m_DetailTexScale: {x: 1, y: 1}
+  m_DetailTexOffset: {x: 0, y: 0}
+  m_DetailTexSpeed: {x: 0, y: 0}
+  m_CustomRoot: {fileID: 0}
+  m_Flip: 0
 --- !u!1 &6054509997587404516
 GameObject:
   m_ObjectHideFlags: 0
@@ -1200,6 +1542,7 @@ GameObject:
   - component: {fileID: 8390495125259148442}
   - component: {fileID: 7876696138022422172}
   - component: {fileID: 5962539918256535479}
+  - component: {fileID: 4634111155115026063}
   m_Layer: 5
   m_Name: Image (7)
   m_TagString: Untagged
@@ -1221,10 +1564,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 8878969332702662736}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 280, y: -460}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7876696138022422172
 CanvasRenderer:
@@ -1264,6 +1607,24 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4634111155115026063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6054509997587404516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd162ab5f95d4f82a841acc1e950418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffectReplica
+  m_Target: {fileID: 930255175559148059}
+  m_Preset: {fileID: 0}
+  m_UseTargetTransform: 1
+  m_SamplingScale: 1
+  m_AllowToModifyMeshShape: 1
+  m_CustomRoot: {fileID: 0}
 --- !u!1 &6687162226874385714
 GameObject:
   m_ObjectHideFlags: 0
@@ -1275,6 +1636,7 @@ GameObject:
   - component: {fileID: 6071190520252911354}
   - component: {fileID: 2561984626850923943}
   - component: {fileID: 7959581856474602924}
+  - component: {fileID: 6229977925345974363}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -1296,10 +1658,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 8878969332702662736}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 280, y: -280}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2561984626850923943
 CanvasRenderer:
@@ -1339,6 +1701,24 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6229977925345974363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6687162226874385714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd162ab5f95d4f82a841acc1e950418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffectReplica
+  m_Target: {fileID: 930255175559148059}
+  m_Preset: {fileID: 0}
+  m_UseTargetTransform: 1
+  m_SamplingScale: 1
+  m_AllowToModifyMeshShape: 1
+  m_CustomRoot: {fileID: 0}
 --- !u!1 &7292319124628726603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1350,6 +1730,7 @@ GameObject:
   - component: {fileID: 150914476537072012}
   - component: {fileID: 5517646098392939782}
   - component: {fileID: 5252249378206786754}
+  - component: {fileID: 9043781396160231152}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1475,6 +1856,24 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &9043781396160231152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7292319124628726603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd162ab5f95d4f82a841acc1e950418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffectReplica
+  m_Target: {fileID: 930255175559148059}
+  m_Preset: {fileID: 0}
+  m_UseTargetTransform: 1
+  m_SamplingScale: 1
+  m_AllowToModifyMeshShape: 1
+  m_CustomRoot: {fileID: 0}
 --- !u!1 &7651775290041584297
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,6 +1885,7 @@ GameObject:
   - component: {fileID: 5408251801875863365}
   - component: {fileID: 9006025235330668040}
   - component: {fileID: 7673369117282418171}
+  - component: {fileID: 792964136479465730}
   m_Layer: 5
   m_Name: Image (8)
   m_TagString: Untagged
@@ -1507,10 +1907,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 8878969332702662736}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 460, y: -460}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9006025235330668040
 CanvasRenderer:
@@ -1550,6 +1950,24 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &792964136479465730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7651775290041584297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd162ab5f95d4f82a841acc1e950418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffectReplica
+  m_Target: {fileID: 930255175559148059}
+  m_Preset: {fileID: 0}
+  m_UseTargetTransform: 1
+  m_SamplingScale: 1
+  m_AllowToModifyMeshShape: 1
+  m_CustomRoot: {fileID: 0}
 --- !u!1 &8129029586776583888
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,6 +1979,7 @@ GameObject:
   - component: {fileID: 8833060172997003718}
   - component: {fileID: 8352363497387552026}
   - component: {fileID: 8095055804691980456}
+  - component: {fileID: 2316306392471859067}
   m_Layer: 5
   m_Name: Image (6)
   m_TagString: Untagged
@@ -1582,10 +2001,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 8878969332702662736}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 100, y: -460}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8352363497387552026
 CanvasRenderer:
@@ -1625,6 +2044,24 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2316306392471859067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8129029586776583888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd162ab5f95d4f82a841acc1e950418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffectReplica
+  m_Target: {fileID: 930255175559148059}
+  m_Preset: {fileID: 0}
+  m_UseTargetTransform: 1
+  m_SamplingScale: 1
+  m_AllowToModifyMeshShape: 1
+  m_CustomRoot: {fileID: 0}
 --- !u!1 &8437462023987637725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,6 +2073,7 @@ GameObject:
   - component: {fileID: 4114753308752616451}
   - component: {fileID: 1213143662432516921}
   - component: {fileID: 2984490001175247101}
+  - component: {fileID: 4382785094126277306}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1657,10 +2095,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 8878969332702662736}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 100, y: -100}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1213143662432516921
 CanvasRenderer:
@@ -1700,6 +2138,24 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4382785094126277306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8437462023987637725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd162ab5f95d4f82a841acc1e950418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffectReplica
+  m_Target: {fileID: 930255175559148059}
+  m_Preset: {fileID: 0}
+  m_UseTargetTransform: 1
+  m_SamplingScale: 1
+  m_AllowToModifyMeshShape: 1
+  m_CustomRoot: {fileID: 0}
 --- !u!1 &8698352739740845903
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,6 +2168,7 @@ GameObject:
   - component: {fileID: 2313080107944917929}
   - component: {fileID: 2907656331340218712}
   - component: {fileID: 5420023783757211990}
+  - component: {fileID: 5523727809924899209}
   m_Layer: 5
   m_Name: TextPanel
   m_TagString: Untagged
@@ -1734,9 +2191,9 @@ RectTransform:
   - {fileID: 208531631847787961}
   m_Father: {fileID: 1867923910221176518}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 349.96002, y: -85.359985}
   m_SizeDelta: {x: 546.23, y: 97.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2313080107944917929
@@ -1803,3 +2260,21 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &5523727809924899209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8698352739740845903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd162ab5f95d4f82a841acc1e950418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coffee.UIEffect::Coffee.UIEffects.UIEffectReplica
+  m_Target: {fileID: 930255175559148059}
+  m_Preset: {fileID: 0}
+  m_UseTargetTransform: 1
+  m_SamplingScale: 1
+  m_AllowToModifyMeshShape: 1
+  m_CustomRoot: {fileID: 0}
