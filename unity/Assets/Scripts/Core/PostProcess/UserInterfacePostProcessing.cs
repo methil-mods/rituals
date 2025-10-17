@@ -41,7 +41,7 @@ namespace Core.PostProcess
             }
         }
 
-        public void LaunchRitualAnimation()
+        public void LaunchRitualAnimation(Action onEnd)
         {
             SetValueEffect(f => chromaticAberration.intensity.value = f, 0f, chromaticAberrationTarget, animationDuration);
             SetValueEffect(f => vignette.intensity.value = f, 0f, vignetteTarget, animationDuration);
@@ -51,12 +51,10 @@ namespace Core.PostProcess
 
             LeanTween.delayedCall(animationDuration, () =>
             {
-                SetValueEffect(f => lensDistortion.intensity.value = f, 
-                    lensDistortionIntensityTarget, -lensDistortionIntensityTarget, 0.5f);
-                SetValueEffect(f => lensDistortion.scale.value = f, lensDistortionScaleTarget, 1f, 0.5f);
-                LeanTween.delayedCall(0.6f, () =>
+                ResetValueEffect();
+                LeanTween.delayedCall(0.3f, () =>
                 {
-                    ResetValueEffect();
+                    onEnd?.Invoke();
                 });
             });
         }

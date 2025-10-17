@@ -20,8 +20,8 @@ namespace Core.PostProcess
             worldPostProcessing.Start(this);
             userInterfacePostProcessing.Start(this);
             
-            DialogUserInterfaceController.Instance.OnDialogStart += SetHidePostProcessingEffect;
-            DialogUserInterfaceController.Instance.OnDialogEnd += ResetPostProcessingEffect;
+            DialogUserInterfaceController.Instance.OnPanelOpen += SetHidePostProcessingEffect;
+            DialogUserInterfaceController.Instance.OnPanelClose += ResetPostProcessingEffect;
             
             RitualUserInterfaceController.Instance.OnPanelOpen += SetHidePostProcessingEffect;
             RitualUserInterfaceController.Instance.OnPanelClose += ResetPostProcessingEffect;
@@ -34,8 +34,8 @@ namespace Core.PostProcess
 
         public void OnDisable()
         {
-            DialogUserInterfaceController.Instance.OnDialogStart -= SetHidePostProcessingEffect;
-            DialogUserInterfaceController.Instance.OnDialogEnd -= ResetPostProcessingEffect;
+            DialogUserInterfaceController.Instance.OnPanelOpen -= SetHidePostProcessingEffect;
+            DialogUserInterfaceController.Instance.OnPanelClose -= ResetPostProcessingEffect;
 
             BookUserInterfaceController.Instance.OnPanelOpen -= SetHidePostProcessingEffect;
             BookUserInterfaceController.Instance.OnPanelClose -= ResetPostProcessingEffect;

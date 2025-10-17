@@ -48,8 +48,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Core.PostProcess.PostProcessingController
   worldPostProcessing:
     worldVolume: {fileID: 11400000, guid: e3b85748d4c354892a0834854f2ef1d1, type: 2}
+    resetDuration: 0.5
+    hideDuration: 0.5
+    chromaticAberrationReset: 0
+    chromaticAberrationHide: 1
+    vignetteReset: 0
+    vignetteHide: 0.4
   userInterfacePostProcessing:
     uiVolume: {fileID: 11400000, guid: 72718ffdd9bfe42019154279ef0179d6, type: 2}
+    animationDuration: 1
+    endAnimationDuration: 0.5
+    chromaticAberrationTarget: 1
+    vignetteTarget: 0.3
+    lensDistortionIntensityTarget: 0.5
+    lensDistortionScaleTarget: 0.7
+    targetBloomIntensity: 9
 --- !u!1 &4793194479671757446
 GameObject:
   m_ObjectHideFlags: 0

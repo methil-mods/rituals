@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Coffee.UIEffects;
 using Core.Dialog;
 using Framework.Action;
 using Framework.Controller;
@@ -12,13 +13,12 @@ using UnityEngine.UI;
 
 namespace Core.UserInterface
 {
-    public class DialogUserInterfaceController : BaseController<DialogUserInterfaceController>
+    public class DialogUserInterfaceController : InterfaceController<DialogUserInterfaceController>
     {
         [Header("Dialog Entity Information")]
         public List<DialogEntityData> DialogEntity = new List<DialogEntityData>();
         
         [Header("UI References")]
-        public GameObject dialogPanel;
         public TextMeshProUGUI dialogText;
         public TextMeshProUGUI entityNameText;
         public Image entityImage;
@@ -29,12 +29,9 @@ namespace Core.UserInterface
         private Coroutine typingCoroutine;
         private bool isTyping = false;
 
-        public UnityAction OnDialogStart;
-        public UnityAction OnDialogEnd;
-
         public void Start()
         {
-            dialogPanel.SetActive(false);
+            base.Start();
             
             if (skipButton != null)
             {
@@ -56,6 +53,9 @@ namespace Core.UserInterface
         
         public void LaunchDialogWithEntity(EntityData entityData)
         {
+            panel.GetComponent<UIEffect>().transitionRate = 1f;
+            OpenPanel();
+            
             AddDialogEntityData(entityData);
             DialogEntityData dialog = GetDialogEntityData(entityData);
             if (dialog == null)
@@ -73,12 +73,10 @@ namespace Core.UserInterface
 
             currentDialogData = dialogData;
             currentDialogIndex = 0;
-            dialogPanel.SetActive(true);
             
             ShowCurrentDialog();
             foreach (Action dialogAction in currentDialogData.onStartDialogAction) 
                 dialogAction.Execute();
-            OnDialogStart?.Invoke();
         }
 
         private void ShowCurrentDialog()
@@ -134,12 +132,11 @@ namespace Core.UserInterface
 
         private void EndDialog()
         {
-            dialogPanel.SetActive(false);
             foreach (Action dialogAction in currentDialogData.onEndDialogAction) 
                 dialogAction.Execute();
             currentDialogData = null;
             currentDialogIndex = 0;
-            OnDialogEnd?.Invoke();
+            ClosePanel();
         }
 
         private void OnDestroy()

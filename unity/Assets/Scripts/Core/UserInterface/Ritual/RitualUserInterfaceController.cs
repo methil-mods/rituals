@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Coffee.UIEffects;
 using Core.PostProcess;
 using Framework.Controller;
+using ScriptableObjects.Entity;
 using ScriptableObjects.Ritual;
 using UnityEngine;
 using UnityEngine.Events;
@@ -26,17 +27,21 @@ namespace Core.UserInterface.Ritual
             base.Start();
             
             closeButton.onClick.AddListener(ClosePanel);
-            DialogUserInterfaceController.Instance.OnDialogStart += ClosePanel;
             
             UpdateRitualUserInterface();
         }
 
-        public void LaunchRitualAnimation()
+        public void LaunchRitualAnimation(EntityData entityData)
         {
-            PostProcessingController.Instance.userInterfacePostProcessing.LaunchRitualAnimation();
+            PostProcessingController.Instance.userInterfacePostProcessing.LaunchRitualAnimation(
+                (() =>
+                {
+                    DialogUserInterfaceController.Instance.LaunchDialogWithEntity(entityData);
+                    
+                }));
             LeanTween.delayedCall(0.6f, (() =>
             {
-                AnimateEffects(0f, 1f, () => {});
+                AnimateEffects(0f, 1f, () => {panel.SetActive(false);});
                 ritualAnimation.LaunchAnimation();
             }));
         }

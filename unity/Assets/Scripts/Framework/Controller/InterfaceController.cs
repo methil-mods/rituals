@@ -14,14 +14,12 @@ namespace Framework.Controller
         public UnityAction OnPanelOpen;
         public UnityAction OnPanelClose;
 
-        protected UIEffect _panelEffect;
         protected const float TransitionDuration = 1.1f;
 
         protected void Start()
         {
             if (panel != null)
             {
-                _panelEffect = panel.GetComponent<UIEffect>();
                 panel.SetActive(false);
             }
         }
@@ -50,7 +48,7 @@ namespace Framework.Controller
 
         protected void AnimateEffects(float from, float to, System.Action onComplete)
         {
-            if (_panelEffect == null && otherEffects.Count == 0)
+            if (panel.GetComponent<UIEffect>() == null)
             {
                 onComplete?.Invoke();
                 return;
@@ -61,8 +59,8 @@ namespace Framework.Controller
                 .setEaseOutCirc()
                 .setOnUpdate((float value) =>
                 {
-                    if (_panelEffect != null)
-                        _panelEffect.transitionRate = value;
+                    if (panel.GetComponent<UIEffect>() != null)
+                        panel.GetComponent<UIEffect>().transitionRate = value;
 
                     foreach (var effect in otherEffects)
                         if (effect != null)
