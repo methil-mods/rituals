@@ -15,9 +15,7 @@ namespace Core.UserInterface.Ritual
     {
         public List<RitualData> unlockedRituals = new List<RitualData>();
         [Header("Rituals panel")]
-        public GameObject ritualPrefab;
         public RitualAnimation ritualAnimation;
-        [SerializeField] private GameObject ritualListInPanel;
         [Header("Controls")]
         public Button closeButton;
 
@@ -26,8 +24,6 @@ namespace Core.UserInterface.Ritual
             base.Start();
             
             closeButton.onClick.AddListener(ClosePanel);
-            
-            UpdateRitualUserInterface();
         }
 
         public void LaunchRitualAnimation(EntityData entityData)
@@ -49,28 +45,11 @@ namespace Core.UserInterface.Ritual
         {
             if(unlockedRituals.Contains(ritual)) return;
             unlockedRituals.Add(ritual);
-            UpdateRitualUserInterface();
         }
 
         public void RemoveRitual(RitualData ritual)
         {
             if(unlockedRituals.Contains(ritual)) unlockedRituals.Remove(ritual);
-            UpdateRitualUserInterface();
-        }
-
-        private void UpdateRitualUserInterface()
-        {
-            foreach (Transform child in ritualListInPanel.transform)
-                Destroy(child.gameObject);
-
-            foreach (RitualData ritual in unlockedRituals)
-            {
-                GameObject ritualGo = Instantiate(ritualPrefab, ritualListInPanel.transform);
-                RitualComponent uiItem = ritualGo.GetComponent<RitualComponent>();
-                uiItem.GetComponent<UIEffectReplica>().target = panel.GetComponent<UIEffect>();
-                this.otherEffects.Add(uiItem.GetComponentInChildren<UIEffect>());
-                if (uiItem != null) uiItem.SetRitual(ritual);
-            }
         }
     }
 }

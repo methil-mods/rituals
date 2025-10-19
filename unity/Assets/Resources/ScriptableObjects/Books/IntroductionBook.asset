@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28b3a13a893547ebb80aeae556b8b2fb, type: 3}
-  m_Name: RitualBook
+  m_Name: IntroductionBook
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Book.BookData
   bookName: Librarius Book
   bookContent:
