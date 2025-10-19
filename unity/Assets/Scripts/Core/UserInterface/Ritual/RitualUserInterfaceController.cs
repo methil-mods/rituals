@@ -16,7 +16,6 @@ namespace Core.UserInterface.Ritual
         public List<RitualData> unlockedRituals = new List<RitualData>();
         [Header("Rituals panel")]
         public GameObject ritualPrefab;
-        public GameObject ritualPanel;
         public RitualAnimation ritualAnimation;
         [SerializeField] private GameObject ritualListInPanel;
         [Header("Controls")]
@@ -61,25 +60,8 @@ namespace Core.UserInterface.Ritual
 
         private void UpdateRitualUserInterface()
         {
-            if (unlockedRituals.Count == 0)
-            {
-                ritualPanel.SetActive(false);
-                return;
-            }
-
-            ritualPanel.SetActive(true);
-
-            foreach (Transform child in ritualPanel.transform)
-                Destroy(child.gameObject);
             foreach (Transform child in ritualListInPanel.transform)
                 Destroy(child.gameObject);
-
-            foreach (RitualData ritual in unlockedRituals)
-            {
-                GameObject ritualGo = Instantiate(ritualPrefab, ritualPanel.transform);
-                RitualComponent uiItem = ritualGo.GetComponent<RitualComponent>();
-                if (uiItem != null) uiItem.SetRitual(ritual);
-            }
 
             foreach (RitualData ritual in unlockedRituals)
             {

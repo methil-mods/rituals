@@ -21,6 +21,10 @@ namespace Core.UserInterface.Ritual
         [SerializeField] private Button cleanButton;
         [SerializeField] private TextMeshProUGUI resultText;
         private Texture2D canvasTexture;
+        
+        // Pour l'interpolation
+        private Vector2? lastDrawPosition = null;
+        private bool wasDrawing = false;
 
         public void Start()
         {
@@ -50,8 +54,19 @@ namespace Core.UserInterface.Ritual
                     }
                 }
             }
+        }
+        
+        private void DrawLine(Vector2 from, Vector2 to, int radius, Color color)
+        {
+            float distance = Vector2.Distance(from, to);
+            int steps = Mathf.CeilToInt(distance / (radius * 0.5f)); // Dessine tous les demi-rayons pour éviter les trous
             
-            canvasTexture.Apply();
+            for (int i = 0; i <= steps; i++)
+            {
+                float t = steps > 0 ? i / (float)steps : 0;
+                Vector2 pos = Vector2.Lerp(from, to, t);
+                DrawCircle((int)pos.x, (int)pos.y, radius, color);
+            }
         }
 
         private void ClearCanvas()
@@ -63,6 +78,10 @@ namespace Core.UserInterface.Ritual
                 fill[i] = Color.black;
             canvasTexture.SetPixels(fill);
             canvasTexture.Apply();
+            
+            // Reset la position précédente
+            lastDrawPosition = null;
+            wasDrawing = false;
         }
 
         private void FinishRitual()
@@ -73,28 +92,51 @@ namespace Core.UserInterface.Ritual
             resultText.text = bestMatch.RitualData.ritualName;
             if (bestMatch.RitualData.ritualName == "Not") return;
             RitualUserInterfaceController.Instance.LaunchRitualAnimation(bestMatch.RitualData.entityData);
-            
         }
-        
+
         private void Update()
         {
-            if (!Mouse.current.leftButton.isPressed) return;
-
-            Vector2 mousePos = Mouse.current.position.ReadValue();
-            RectTransform rt = drawImage.rectTransform;
-            Canvas canvas = drawImage.canvas;
-
-            if (RectTransformUtility.ScreenPointToLocalPointInRectangle(rt, mousePos,
-                    canvas.renderMode == RenderMode.ScreenSpaceOverlay ? null : canvas.worldCamera, out Vector2 localPos))
+            bool isDrawing = Mouse.current.leftButton.isPressed;
+            
+            if (isDrawing)
             {
-                float x = localPos.x + rt.rect.width * rt.pivot.x;
-                float y = localPos.y + rt.rect.height * rt.pivot.y;
+                Vector2 mousePos = Mouse.current.position.ReadValue();
+                RectTransform rt = drawImage.rectTransform;
+                Canvas canvas = drawImage.canvas;
 
-                if (x >= 0 && x < canvasTexture.width && y >= 0 && y < canvasTexture.height)
+                if (RectTransformUtility.ScreenPointToLocalPointInRectangle(rt, mousePos,
+                        canvas.renderMode == RenderMode.ScreenSpaceOverlay ? null : canvas.worldCamera, out Vector2 localPos))
                 {
-                    DrawCircle((int)x, (int)y, brushSize, Color.white);
+                    float x = localPos.x + rt.rect.width * rt.pivot.x;
+                    float y = localPos.y + rt.rect.height * rt.pivot.y;
+
+                    if (x >= 0 && x < canvasTexture.width && y >= 0 && y < canvasTexture.height)
+                    {
+                        Vector2 currentPos = new Vector2(x, y);
+                        
+                        // Si on était déjà en train de dessiner, interpoler entre l'ancienne et la nouvelle position
+                        if (wasDrawing && lastDrawPosition.HasValue)
+                        {
+                            DrawLine(lastDrawPosition.Value, currentPos, brushSize, Color.white);
+                        }
+                        else
+                        {
+                            // Premier point, juste dessiner un cercle
+                            DrawCircle((int)x, (int)y, brushSize, Color.white);
+                        }
+                        
+                        lastDrawPosition = currentPos;
+                        canvasTexture.Apply();
+                    }
                 }
             }
+            else
+            {
+                // Reset quand on relâche le bouton
+                lastDrawPosition = null;
+            }
+            
+            wasDrawing = isDrawing;
         }
     }
 }
