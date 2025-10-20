@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Coffee.UIEffects;
+using Core.Game;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -29,6 +30,8 @@ namespace Framework.Controller
         public void OpenPanel()
         {
             if (!CanOpen() || panel == null) return;
+            // Silent game pause
+            PauseController.Instance.PerformPause(false);
             panel.SetActive(true);
             OnPanelOpen?.Invoke();
             AnimateEffects(1f, 0f, null);
@@ -41,6 +44,8 @@ namespace Framework.Controller
                 OnPanelClose?.Invoke();
                 return;
             }
+            
+            PauseController.Instance.PerformResume();
 
             OnPanelClose?.Invoke();
             AnimateEffects(0f, 1f, () => panel.SetActive(false));

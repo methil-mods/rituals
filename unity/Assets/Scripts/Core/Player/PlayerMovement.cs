@@ -3,6 +3,7 @@ using Framework;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
+using Core.Game;
 using UnityEngine.EventSystems;
 using UnityEngine.Tilemaps;
 using Utils;
@@ -26,7 +27,7 @@ namespace Player
         
         public override void Update(PlayerController controller)
         {
-            if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+            if (PauseController.Instance.isPaused || (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject()))
                 return; 
             
             if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)

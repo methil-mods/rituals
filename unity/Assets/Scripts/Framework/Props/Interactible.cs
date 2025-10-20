@@ -1,3 +1,4 @@
+using Core.Game;
 using Player;
 using ScriptableObjects.Input;
 using UnityEngine;
@@ -44,7 +45,7 @@ namespace Framework.Props
 
         private void CallbackInteraction(InputAction.CallbackContext context)
         {
-            if (IsPlayerDetected() && CanInteract())
+            if (!PauseController.Instance.isPaused && IsPlayerDetected() && CanInteract())
             {
                 this.Interact();
             }

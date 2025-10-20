@@ -1,4 +1,5 @@
 using System;
+using Core.Game;
 using Framework;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -24,9 +25,11 @@ namespace World
 
         public override void Update(WorldController controller)
         {
-            effectedTilemap.SetTile(oldCellPos, null);
+            // Avoid setting null to null
+            if (effectedTilemap.GetTile(oldCellPos) != null)
+                effectedTilemap.SetTile(oldCellPos, null);
             
-            if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+            if (PauseController.Instance.isPaused || (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject()))
                 return; 
             
             Vector2 mousePos = Mouse.current.position.ReadValue();
