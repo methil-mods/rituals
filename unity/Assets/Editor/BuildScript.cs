@@ -12,7 +12,7 @@ public class BuildScript
         string buildPath = "Build/WebGL";
         string[] scenes = new string[] {
             "Assets/Scenes/MainMenuScene.unity",
-            "Assets/Scenes/Debug/DebugWorld.unity"
+            "Assets/Scenes/MainWorld.unity"
         };
 
         BuildPipeline.BuildPlayer(scenes, buildPath, BuildTarget.WebGL, BuildOptions.None);
