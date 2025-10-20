@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Ritual.RitualData
   ritualName: Pudor
   ritualImage: {fileID: 1015359740000892009, guid: 2699f1a10698a49d9b7fec5cc567c7f5, type: 3}
+  entityData: {fileID: 11400000, guid: 80a496775c64e4dd68538e1db64f3894, type: 2}

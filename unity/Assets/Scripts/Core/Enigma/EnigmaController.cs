@@ -21,8 +21,10 @@ namespace Core.Enigma
         private EnigmaData _enigmaData;
         [NonSerialized] public string ActualCode = "";
 
-        public void Start()
+        private new void Start()
         {
+            base.Start();
+            
             foreach (Transform child in numericPanel)
                 Destroy(child.gameObject);
 

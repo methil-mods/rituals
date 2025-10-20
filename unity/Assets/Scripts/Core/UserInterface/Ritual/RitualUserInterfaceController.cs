@@ -19,7 +19,7 @@ namespace Core.UserInterface.Ritual
         [Header("Controls")]
         public Button closeButton;
 
-        public void Start()
+        public new void Start()
         {
             base.Start();
             
@@ -43,6 +43,7 @@ namespace Core.UserInterface.Ritual
 
         public void AddRitual(RitualData ritual)
         {
+            Debug.Log("Adding ritual of name: " + ritual.ritualName);
             if(unlockedRituals.Contains(ritual)) return;
             unlockedRituals.Add(ritual);
         }

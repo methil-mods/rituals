@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28b3a13a893547ebb80aeae556b8b2fb, type: 3}
+  m_Name: PlanetDictionnary
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Book.BookData
+  bookName: Planet Dictionary
+  bookContent:
+  - contentLeft: "Planet Dictionary\n\nUranus \u2013 4\nMars \u2013 9\nNeptune \u2013
+      7\nSun \u2013 1\nPluto \u2013 0\nVenus \u2013 6\nSaturn \u2013 8\nMercury \u2013
+      5\nJupiter \u2013 3\nMoon \u2013 2"
+    contentLeftImage: {fileID: 0}
+    contentRight: 
+    contentRightImage: {fileID: 0}
+    onPageOpen: []
+  references:
+    version: 2
+    RefIds: []

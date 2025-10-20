@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf1184d09ecd41a88c91ff5b95e69a0b, type: 3}
-  m_Name: Flosculus1
+  m_Name: Flosculus
   m_EditorClassIdentifier: Assembly-CSharp::Core.Dialog.DialogData
   contents:
   - entity: {fileID: 11400000, guid: a3516d02b1c7749cfa0d9dc1d1b180ff, type: 2}
@@ -59,13 +59,6 @@ MonoBehaviour:
       \u0336a\u0338n\u0335o\u0335t\u0335h\u0337e\u0335r\u0334 \u0335w\u0334a\u0338y\u0337
       \u0334t\u0337o\u0334 \u0336u\u0337n\u0338l\u0338o\u0335c\u0334k\u0336 \u0338t\u0338h\u0336e\u0335
       \u0335o\u0336t\u0334h\u0334e\u0334r\u0334s\u0337.\u0338"
-    typingSpeed: 0.015
-  - entity: {fileID: 11400000, guid: a3516d02b1c7749cfa0d9dc1d1b180ff, type: 2}
-    content: "S\u0334u\u0337m\u0336m\u0336o\u0334n\u0336 \u0336m\u0335e\u0334 \u0336a\u0335g\u0337a\u0336i\u0338n\u0335
-      \u0337i\u0334f\u0336 \u0335y\u0337o\u0336u\u0335 \u0334n\u0334e\u0336e\u0334d\u0336
-      \u0337a\u0337n\u0334y\u0335t\u0338h\u0335i\u0335n\u0335g\u0338 \u0336e\u0337l\u0334s\u0335e\u0337,\u0337
-      \u0337I\u0335 \u0337c\u0334a\u0336n\u0336'\u0337t\u0335 \u0335r\u0336e\u0337a\u0338l\u0334l\u0336y\u0337
-      \u0335m\u0335o\u0335v\u0337e\u0334 \u0336y\u0336o\u0336u\u0336 \u0335k\u0337n\u0337o\u0334w\u0337.\u0336.\u0336.\u0335"
     typingSpeed: 0.015
   onStartDialogAction: []
   onEndDialogAction:

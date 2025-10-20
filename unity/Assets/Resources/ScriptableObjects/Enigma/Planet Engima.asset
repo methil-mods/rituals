@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a460384a59946d9aa5096dfccc8654f, type: 3}
-  m_Name: BasicEnigma
+  m_Name: Planet Engima
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Enigma.EnigmaData
-  enigmaName: Basic Enigma
-  enigmaCode: 42421
+  enigmaName: Planet Engima
+  enigmaCode: 18964
   OnResolveActions:
-  - rid: 4367808141458145357
+  - rid: 4367808213698216012
   references:
     version: 2
     RefIds:
-    - rid: 4367808141458145357
-      type: {class: AddRitualAction, ns: Core.Actions, asm: Assembly-CSharp}
+    - rid: 4367808213698216012
+      type: {class: UnlockPieceAction, ns: Core.Actions, asm: Assembly-CSharp}
       data:
-        ritual: {fileID: 11400000, guid: 32a084ee7850e488cb7ffe5e1c47bfd2, type: 2}
+        pieceIdentifier: ForbiddenMap

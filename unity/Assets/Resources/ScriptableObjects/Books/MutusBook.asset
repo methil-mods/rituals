@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28b3a13a893547ebb80aeae556b8b2fb, type: 3}
+  m_Name: MutusBook
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Book.BookData
+  bookName: Mutus Book
+  bookContent:
+  - contentLeft: "Once a gnome of the Limbo, Murmur \u2014 whose tongue defied the
+      very boundaries of silence \u2014 at last provoked the ire of a demigod. As
+      punishment, he was granted immortality, and within his mouth was sown a living
+      galaxy: a spiraling abyss of stars and void that devoured forever the sound
+      of his voice. "
+    contentLeftImage: {fileID: 0}
+    contentRight: Now eternally mute, Murmur drifts through endless torment, a vessel
+      of cosmic agony condemned to suffer beyond the reach of time itself.
+    contentRightImage: {fileID: 0}
+    onPageOpen:
+    - rid: 4367808213698216011
+  references:
+    version: 2
+    RefIds:
+    - rid: 4367808213698216011
+      type: {class: AddRitualAction, ns: Core.Actions, asm: Assembly-CSharp}
+      data:
+        ritual: {fileID: 11400000, guid: 32a084ee7850e488cb7ffe5e1c47bfd2, type: 2}

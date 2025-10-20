@@ -16,5 +16,5 @@ MonoBehaviour:
   entitySprite: {fileID: -5472802136100742447, guid: a6c5e140beef3d84ca8bc26689470274, type: 3}
   entityDescription: Apparently, a former half-dead man who fell into limbo, he was
     a good guy though.
-  firstDialog: {fileID: 11400000, guid: 7ee7e7c8f3af14331bc4400c77e75bcf, type: 2}
-  normalDialog: {fileID: 0}
+  summonableOnce: 1
+  normalDialog: {fileID: 11400000, guid: 7ee7e7c8f3af14331bc4400c77e75bcf, type: 2}

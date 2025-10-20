@@ -19,7 +19,6 @@ namespace Core.UserInterface.Ritual
         [Header("Controls")]
         [SerializeField] private Button finishRitualButton;
         [SerializeField] private Button cleanButton;
-        [SerializeField] private TextMeshProUGUI resultText;
         private Texture2D canvasTexture;
         
         // Pour l'interpolation
@@ -89,9 +88,15 @@ namespace Core.UserInterface.Ritual
             var results = CNNController.Instance.RunInference(canvasTexture);
             results.SortByBestMatch();
             var bestMatch = results.GetBestMatch();
-            resultText.text = bestMatch.RitualData.ritualName;
-            if (bestMatch.RitualData.ritualName == "Not") return;
-            RitualUserInterfaceController.Instance.LaunchRitualAnimation(bestMatch.RitualData.entityData);
+            if (RitualUserInterfaceController.Instance.unlockedRituals.Contains(bestMatch.RitualData))
+            {
+                if (bestMatch.RitualData.ritualName == "Not") return;
+                RitualUserInterfaceController.Instance.LaunchRitualAnimation(bestMatch.RitualData.entityData);
+            }
+            else
+            {
+                Debug.LogWarning("Ritual not found in unlocked ritual data, but tried to summon : " + bestMatch.RitualData.ritualName);
+            }
         }
 
         private void Update()

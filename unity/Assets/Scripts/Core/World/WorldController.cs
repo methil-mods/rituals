@@ -94,11 +94,14 @@ namespace World
         public Tilemap[] collisionMap;
         [SerializeField]
         public Tilemap[] decorationMap;
+        [SerializeField]
+        public Transform interactibleParent;
         public bool isLocked;
 
         public void Setup()
         {
             LaunchActionOnEveryMap(SetMap);
+            SetShaderOnInteractible();
         }
 
         public void Unlock()
@@ -106,6 +109,7 @@ namespace World
             if (this.isLocked == false) return;
             this.isLocked = false;
             LaunchActionOnEveryMap(UnlockMap);
+            SetShaderOnInteractible();
         }
 
         private void LaunchActionOnEveryMap(Action<Tilemap> action)
@@ -121,6 +125,29 @@ namespace World
             tilemap.GetComponent<TilemapRenderer>().material = tileMapMaterial;
             tileMapMaterial.name = "TileMap Renderer";
             tileMapMaterial.SetFloat("_Alpha", isLocked ? 0f : 1f);
+        }
+
+        private void SetShaderOnInteractible()
+        {
+            foreach (Transform interactibleChild in interactibleParent)
+            {
+                Material interactibleMaterial = new Material(MaterialDatabase.Instance.tileMapMaterial);
+                interactibleMaterial.name = "Sprite Object Interactible Renderer";
+                interactibleMaterial.SetFloat("_Alpha", isLocked ? 0f : 1f);
+
+                var spriteRendererParent = interactibleChild.GetComponent<SpriteRenderer>();
+                if(spriteRendererParent != null)
+                {
+                    Debug.Log(interactibleChild.name);
+                    spriteRendererParent.material = interactibleMaterial;
+                }
+                
+                var spriteRendererChildren = interactibleChild.GetComponentInChildren<SpriteRenderer>();
+                if(spriteRendererChildren != null)
+                {
+                    spriteRendererChildren.material = interactibleMaterial;
+                }
+            }
         }
         
         private void UnlockMap(Tilemap tilemap)

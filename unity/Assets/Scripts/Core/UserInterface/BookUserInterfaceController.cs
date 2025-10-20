@@ -26,8 +26,10 @@ namespace Core.UserInterface
 
         public UnityAction<BookPage, BookPage, BookData> OnPageChanged;
 
-        private void Start()
+        private new void Start()
         {
+            base.Start();
+            
             previousButton?.onClick.AddListener(PreviousPage);
             nextButton?.onClick.AddListener(NextPage);
             quitButton?.onClick.AddListener(ClosePanel);

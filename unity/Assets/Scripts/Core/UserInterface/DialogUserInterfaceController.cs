@@ -1,8 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Coffee.UIEffects;
 using Core.Dialog;
-using Framework.Action;
 using Framework.Controller;
 using JetBrains.Annotations;
 using ScriptableObjects.Entity;
@@ -10,6 +10,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using Action = Framework.Action.Action;
 
 namespace Core.UserInterface
 {
@@ -29,7 +30,7 @@ namespace Core.UserInterface
         private Coroutine typingCoroutine;
         private bool isTyping = false;
 
-        public void Start()
+        public new void Start()
         {
             base.Start();
             
@@ -53,9 +54,7 @@ namespace Core.UserInterface
         
         public void LaunchDialogWithEntity(EntityData entityData)
         {
-            panel.GetComponent<UIEffect>().transitionRate = 1f;
-            OpenPanel();
-            
+            Debug.Log("Launching dialog with entity: " + entityData.entityName);
             AddDialogEntityData(entityData);
             DialogEntityData dialog = GetDialogEntityData(entityData);
             if (dialog == null)
@@ -63,6 +62,15 @@ namespace Core.UserInterface
                 Debug.LogError("Error: Dialog Entity not found");
                 return;
             }
+            if(dialog.alreadyTalked == true && entityData.summonableOnce == true)
+            {
+                Debug.LogError("Error: Dialog Entity has already been talked and is summonable only once");
+                return;
+            }
+            
+            panel.GetComponent<UIEffect>().transitionRate = 1f;
+            OpenPanel();
+            
             DialogData dialogData = dialog.GetDialogToPlay();
             dialog.alreadyTalked = true;
             if (dialogData == null || dialogData.contents == null || dialogData.contents.Length == 0)
@@ -81,7 +89,8 @@ namespace Core.UserInterface
 
         private void ShowCurrentDialog()
         {
-            if (currentDialogIndex >= currentDialogData.contents.Length)
+            if (currentDialogIndex > currentDialogData.contents.Length) return;
+            if (currentDialogIndex == currentDialogData.contents.Length)
             {
                 EndDialog();
                 return;
@@ -132,8 +141,13 @@ namespace Core.UserInterface
 
         private void EndDialog()
         {
-            foreach (Action dialogAction in currentDialogData.onEndDialogAction) 
-                dialogAction.Execute();
+            foreach (Action dialogAction in currentDialogData.onEndDialogAction)
+            {
+                try
+                { dialogAction.Execute(); }
+                catch (Exception e)
+                { Debug.LogError(e); }
+            }
             currentDialogData = null;
             currentDialogIndex = 0;
             ClosePanel();
@@ -161,7 +175,6 @@ namespace Core.UserInterface
 
         public DialogData GetDialogToPlay()
         {
-            if (alreadyTalked == false) return entityData.firstDialog;
             return entityData.normalDialog;
         }
     }

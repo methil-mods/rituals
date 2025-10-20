@@ -10,8 +10,8 @@ namespace ScriptableObjects.Entity
         public Sprite entitySprite;
         [TextArea]
         public string entityDescription;
-        
-        public DialogData firstDialog;
+
+        public bool summonableOnce;
         public DialogData normalDialog;
     }
 }
