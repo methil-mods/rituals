@@ -80,31 +80,33 @@ namespace Player
         {
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             
-            if (angle >= -45f && angle < 45f)
+            if (angle >= -90f && angle < 0f)
             {
                 currentIdleAnimation = PlayerDatabase.Instance.animationIdleBottomRight;
                 currentWalkAnimation = PlayerDatabase.Instance.animationWalkBottomRight;
             }
-            else if (angle >= 45f && angle < 135f)
+            else if (angle >= 0f && angle < 90f)
             {
                 currentIdleAnimation = PlayerDatabase.Instance.animationIdleTopRight;
                 currentWalkAnimation = PlayerDatabase.Instance.animationWalkTopRight;
             }
-            else if (angle >= -135f && angle < -45f)
-            {
-                currentIdleAnimation = PlayerDatabase.Instance.animationIdleBottomLeft;
-                currentWalkAnimation = PlayerDatabase.Instance.animationWalkBottomLeft;
-            }
-            else
+            else if (angle >= 90f && angle <= 180f)
             {
                 currentIdleAnimation = PlayerDatabase.Instance.animationIdleTopLeft;
                 currentWalkAnimation = PlayerDatabase.Instance.animationWalkTopLeft;
+            }
+            else
+            {
+                currentIdleAnimation = PlayerDatabase.Instance.animationIdleBottomLeft;
+                currentWalkAnimation = PlayerDatabase.Instance.animationWalkBottomLeft;
             }
         }
         
         public void MoveToTile(Vector3 targetWorld)
         {
-            currentPath = PathFindingUtils.CalculatePathAStar(controller.transform.position,
+            Vector3 startPosition = controller.transform.position;
+            
+            currentPath = PathFindingUtils.CalculatePathAStar(startPosition,
                  targetWorld,
                  WorldController.Instance.GetGroundMap(),
                  WorldController.Instance.GetCollisionMap()
@@ -113,6 +115,7 @@ namespace Player
             if (currentPath.Count > 0)
             {
                 LeanTween.cancel(controller.gameObject);
+                controller.transform.position = startPosition;
                 currentWaypointIndex = 0;
                 isMoving = true;
                 MoveToNextWaypoint();
@@ -124,7 +127,6 @@ namespace Player
             if (currentWaypointIndex >= currentPath.Count)
             {
                 isMoving = false;
-                currentAnimationFrame = 0;
                 return;
             }
             
