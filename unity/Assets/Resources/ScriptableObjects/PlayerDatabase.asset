@@ -12,11 +12,76 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70e3a504d33e480bb17c1f27fcb3cad2, type: 3}
   m_Name: PlayerDatabase
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Player.PlayerDatabase
-  animationIdleTopRight: []
-  animationIdleTopLeft: []
-  animationIdleBottomRight: []
-  animationIdleBottomLeft: []
-  animationWalkTopRight: []
-  animationWalkTopLeft: []
-  animationWalkBottomRight: []
-  animationWalkBottomLeft: []
+  animationIdleTopRight:
+  - {fileID: -763670427964593466, guid: 1e9f6c0f70429435381d78cd79292590, type: 3}
+  - {fileID: 1418282048933820012, guid: 1e9f6c0f70429435381d78cd79292590, type: 3}
+  - {fileID: 7548222186118752409, guid: 1e9f6c0f70429435381d78cd79292590, type: 3}
+  - {fileID: 3984251033763852492, guid: 1e9f6c0f70429435381d78cd79292590, type: 3}
+  - {fileID: -1359568452125053358, guid: 1e9f6c0f70429435381d78cd79292590, type: 3}
+  - {fileID: 1049148417540650249, guid: 1e9f6c0f70429435381d78cd79292590, type: 3}
+  - {fileID: 1370275542548617694, guid: 1e9f6c0f70429435381d78cd79292590, type: 3}
+  - {fileID: 6866963262527397581, guid: 1e9f6c0f70429435381d78cd79292590, type: 3}
+  animationIdleTopLeft:
+  - {fileID: -763670427964593466, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 1418282048933820012, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 7548222186118752409, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 3984251033763852492, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: -1359568452125053358, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 1049148417540650249, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 1370275542548617694, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 6866963262527397581, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  animationIdleBottomRight:
+  - {fileID: -763670427964593466, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 1418282048933820012, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 7548222186118752409, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 3984251033763852492, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: -1359568452125053358, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 1049148417540650249, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 1370275542548617694, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 6866963262527397581, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  animationIdleBottomLeft:
+  - {fileID: 927359063962277453, guid: 61b1e64d785ef41dc8ef7cc2a36b1179, type: 3}
+  - {fileID: -5155853339332892949, guid: 61b1e64d785ef41dc8ef7cc2a36b1179, type: 3}
+  - {fileID: -8473539073190055228, guid: 61b1e64d785ef41dc8ef7cc2a36b1179, type: 3}
+  - {fileID: 1572982410279690996, guid: 61b1e64d785ef41dc8ef7cc2a36b1179, type: 3}
+  - {fileID: -936510060343077698, guid: 61b1e64d785ef41dc8ef7cc2a36b1179, type: 3}
+  - {fileID: -850727814605101418, guid: 61b1e64d785ef41dc8ef7cc2a36b1179, type: 3}
+  - {fileID: 8329772534185815042, guid: 61b1e64d785ef41dc8ef7cc2a36b1179, type: 3}
+  - {fileID: -6190425468653525752, guid: 61b1e64d785ef41dc8ef7cc2a36b1179, type: 3}
+  - {fileID: 5356297345926238539, guid: 61b1e64d785ef41dc8ef7cc2a36b1179, type: 3}
+  animationWalkTopRight:
+  - {fileID: 7884371502707781532, guid: c2040a12cf8fb47f4a3141ef640bbb6a, type: 3}
+  - {fileID: 4612541923951186897, guid: c2040a12cf8fb47f4a3141ef640bbb6a, type: 3}
+  - {fileID: 6537938753805870355, guid: c2040a12cf8fb47f4a3141ef640bbb6a, type: 3}
+  - {fileID: 6453244570415944073, guid: c2040a12cf8fb47f4a3141ef640bbb6a, type: 3}
+  - {fileID: 7648209269218237730, guid: c2040a12cf8fb47f4a3141ef640bbb6a, type: 3}
+  - {fileID: -6214226571523317196, guid: c2040a12cf8fb47f4a3141ef640bbb6a, type: 3}
+  - {fileID: -902592964970380959, guid: c2040a12cf8fb47f4a3141ef640bbb6a, type: 3}
+  - {fileID: 1096303387091944138, guid: c2040a12cf8fb47f4a3141ef640bbb6a, type: 3}
+  animationWalkTopLeft:
+  - {fileID: -763670427964593466, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 1418282048933820012, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 7548222186118752409, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 3984251033763852492, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: -1359568452125053358, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 1049148417540650249, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 1370275542548617694, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 6866963262527397581, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  animationWalkBottomRight:
+  - {fileID: 4988416027329980164, guid: ab17931d89f614975b651b83bc7a925f, type: 3}
+  - {fileID: -2837598328859276161, guid: ab17931d89f614975b651b83bc7a925f, type: 3}
+  - {fileID: 4649341207861481820, guid: ab17931d89f614975b651b83bc7a925f, type: 3}
+  - {fileID: 7008077663984798161, guid: ab17931d89f614975b651b83bc7a925f, type: 3}
+  - {fileID: -991970184938971687, guid: ab17931d89f614975b651b83bc7a925f, type: 3}
+  - {fileID: 1643226599665671393, guid: ab17931d89f614975b651b83bc7a925f, type: 3}
+  - {fileID: -5639797154482465454, guid: ab17931d89f614975b651b83bc7a925f, type: 3}
+  - {fileID: -5868518049653778719, guid: ab17931d89f614975b651b83bc7a925f, type: 3}
+  animationWalkBottomLeft:
+  - {fileID: -763670427964593466, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 1418282048933820012, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 7548222186118752409, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 3984251033763852492, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: -1359568452125053358, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 1049148417540650249, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 1370275542548617694, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}
+  - {fileID: 6866963262527397581, guid: 06b28b1335ceb4eaa972ac0bc045693a, type: 3}

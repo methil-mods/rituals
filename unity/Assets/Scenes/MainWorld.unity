@@ -279,11 +279,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 198f27f5bb9e6490dab44a185367539e, type: 3}
---- !u!1839735485 &334553288 stripped
-Tilemap:
-  m_CorrespondingSourceObject: {fileID: 6226011803463069600, guid: 35bee08ab6ec2400ab1997fc7c8b4b0f, type: 3}
-  m_PrefabInstance: {fileID: 1559265055}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &940107379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -352,11 +347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7d62ec6116441a949cae65b2130c8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Core.Savior.SaviorBehaviour
---- !u!1839735485 &1277652258 stripped
-Tilemap:
-  m_CorrespondingSourceObject: {fileID: 3945882614367457094, guid: 35bee08ab6ec2400ab1997fc7c8b4b0f, type: 3}
-  m_PrefabInstance: {fileID: 1559265055}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1403636238
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1006,10 +996,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerController
       objectReference: {fileID: 0}
-    - target: {fileID: 3909104553614437469, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 4482526042902507197, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1050,50 +1036,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: 'managedReferences[-2]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: updatables.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: 'updatables.Array.data[0]'
-      value: 2914540652523421774
-      objectReference: {fileID: 0}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: 'updatables.Array.data[1]'
-      value: 2914540652523421774
-      objectReference: {fileID: 0}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: 'updatables.Array.data[2]'
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: playerMovement.groundTilemap
-      value: 
-      objectReference: {fileID: 1277652258}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: playerMovement.collisionTilemap
-      value: 
-      objectReference: {fileID: 334553288}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: 'managedReferences[2914540652523421773]'
-      value: Assembly-CSharp Player.PlayerInteraction
-      objectReference: {fileID: 0}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: 'managedReferences[2914540652523421774]'
-      value: Assembly-CSharp Player.PlayerMovement
-      objectReference: {fileID: 0}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: managedReferences[2914540652523421774].groundTilemap
-      value: 
-      objectReference: {fileID: 1277652258}
-    - target: {fileID: 7069889905143133058, guid: 2387a169b59f54dbe9cb94d5001263a1, type: 3}
-      propertyPath: managedReferences[2914540652523421774].collisionTilemap
-      value: 
-      objectReference: {fileID: 334553288}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
