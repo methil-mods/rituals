@@ -8,5 +8,6 @@ namespace ScriptableObjects.Input
     public class InputDatabase: SingletonScriptableObject<InputDatabase>
     {
         public InputActionReference interactAction;
+        public  InputActionReference pauseAction;
     }
 }
