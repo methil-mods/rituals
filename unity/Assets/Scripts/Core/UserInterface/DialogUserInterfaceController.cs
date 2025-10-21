@@ -109,6 +109,9 @@ namespace Core.UserInterface
             }
 
             isTyping = false;
+            
+            if (sfxController != null)
+                sfxController.StopTalkAudioClip();
         }
 
         private void OnSkipButtonClick()
@@ -118,6 +121,9 @@ namespace Core.UserInterface
                 StopCoroutine(typingCoroutine);
                 dialogText.text = currentDialogData.contents[currentDialogIndex].content;
                 isTyping = false;
+                
+                if (sfxController != null)
+                    sfxController.StopTalkAudioClip();
             }
             else
             {

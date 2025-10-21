@@ -9,6 +9,7 @@ using UnityEngine.Tilemaps;
 using Utils;
 using World;
 using ScriptableObjects.Player;
+using Core.SFX;
 
 namespace Player
 {
@@ -118,6 +119,7 @@ namespace Player
                 controller.transform.position = startPosition;
                 currentWaypointIndex = 0;
                 isMoving = true;
+                SFXController.Instance.PlayWalkingAudioClip();
                 MoveToNextWaypoint();
             }
         }
@@ -127,6 +129,7 @@ namespace Player
             if (currentWaypointIndex >= currentPath.Count)
             {
                 isMoving = false;
+                SFXController.Instance.StopWalkingAudioClip();
                 return;
             }
             
@@ -148,6 +151,7 @@ namespace Player
         public override void OnDestroy()
         {
             LeanTween.cancel(controller.gameObject);
+            SFXController.Instance.StopWalkingAudioClip();
         }
         
         public override void OnDrawGizmos()

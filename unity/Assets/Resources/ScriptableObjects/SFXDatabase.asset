@@ -16,6 +16,7 @@ MonoBehaviour:
   musicClip: {fileID: 8300000, guid: 1d102b730654f474283a9f3283ba70e5, type: 3}
   pageOpenClip: {fileID: 8300000, guid: 3ab72a186047643ef97366830fc37254, type: 3}
   ritualOpenClip: {fileID: 0}
+  walkClip: {fileID: 8300000, guid: efd364a41fb9d498598e363810b67efa, type: 3}
   ritualStartClip: {fileID: 0}
   hoverButtonClip: {fileID: 0}
   clickButtonClip: {fileID: 0}

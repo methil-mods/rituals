@@ -10,6 +10,7 @@ namespace Core.SFX
         
         public AudioSource talkingUiAudioSource;
         public AudioSource bookUiAudioSource;
+        public AudioSource walkingUiAudioSource;
         public AudioSource otherUiAudioSource;
 
         protected override void Awake()
@@ -49,6 +50,19 @@ namespace Core.SFX
             bookUiAudioSource.volume = SFXDatabase.Instance.volume;
             bookUiAudioSource.loop = false;
             bookUiAudioSource.PlayOneShot(SFXDatabase.Instance.pageOpenClip);
+        }
+
+        public void PlayWalkingAudioClip()
+        {
+            walkingUiAudioSource.clip = SFXDatabase.Instance.walkClip;
+            walkingUiAudioSource.volume = SFXDatabase.Instance.volume;
+            walkingUiAudioSource.loop = true;
+            walkingUiAudioSource.Play();
+        }
+
+        public void StopWalkingAudioClip()
+        {
+            walkingUiAudioSource.Stop();
         }
 
         public void PlayTalkAudioClip(AudioClip clip)

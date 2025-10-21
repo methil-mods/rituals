@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf1184d09ecd41a88c91ff5b95e69a0b, type: 3}
   m_Name: Flosculus
   m_EditorClassIdentifier: Assembly-CSharp::Core.Dialog.DialogData
+  talkAudioClip: {fileID: 8300000, guid: 4dde26754e7e24db6a150be0df062133, type: 3}
   contents:
   - entity: {fileID: 11400000, guid: a3516d02b1c7749cfa0d9dc1d1b180ff, type: 2}
     content: "H\u0335e\u0335y\u0336,\u0338 \u0338i\u0334t\u0334'\u0335s\u0334 \u0337b\u0334e\u0335e\u0335n\u0334

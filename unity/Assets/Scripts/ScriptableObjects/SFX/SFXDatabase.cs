@@ -14,6 +14,8 @@ namespace ScriptableObjects.SFX
         
         public AudioClip ritualOpenClip;
         
+        public AudioClip walkClip;
+        
         public AudioClip ritualStartClip;
 
         public AudioClip hoverButtonClip;
