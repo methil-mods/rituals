@@ -1,4 +1,4 @@
-using Core.UserInterface;
+using Core.UserInterface.Book;
 using Framework.Props;
 using Player;
 using ScriptableObjects.Book;

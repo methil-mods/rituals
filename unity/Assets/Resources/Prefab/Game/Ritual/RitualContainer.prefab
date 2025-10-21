@@ -711,7 +711,6 @@ MonoBehaviour:
   brushSize: 8
   finishRitualButton: {fileID: 288317950449781242}
   cleanButton: {fileID: 6415957546526913959}
-  resultText: {fileID: 0}
 --- !u!114 &4515088484445074559
 MonoBehaviour:
   m_ObjectHideFlags: 0

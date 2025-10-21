@@ -8,5 +8,16 @@ namespace ScriptableObjects.SFX
     {
         public float volume = 1f;
         public AudioClip musicClip;
+        
+        [Header("User Interface")]
+        public AudioClip pageOpenClip;
+        
+        public AudioClip ritualOpenClip;
+        
+        public AudioClip ritualStartClip;
+
+        public AudioClip hoverButtonClip;
+        
+        public AudioClip clickButtonClip;
     }
 }

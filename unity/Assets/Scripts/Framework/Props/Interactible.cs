@@ -25,6 +25,7 @@ namespace Framework.Props
         void OnDisable()
         {
             InputDatabase.Instance.interactAction.action.Disable();
+            InputDatabase.Instance.interactAction.action.performed -= CallbackInteraction;
         }
 
         protected void Start()

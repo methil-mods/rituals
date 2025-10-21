@@ -6,8 +6,11 @@ namespace Core.SFX
 {
     public class SFXController : BaseController<SFXController>
     {
-        [Header("Assign manually in Inspector")]
-        public AudioSource MusicAudioSource;
+        public AudioSource musicAudioSource;
+        
+        public AudioSource talkingUiAudioSource;
+        public AudioSource bookUiAudioSource;
+        public AudioSource otherUiAudioSource;
 
         protected override void Awake()
         {
@@ -16,29 +19,36 @@ namespace Core.SFX
             // Persiste entre les scènes
             DontDestroyOnLoad(gameObject);
 
-            if (MusicAudioSource == null)
+            if (musicAudioSource == null)
             {
-                Debug.LogWarning("[SFXController] MusicAudioSource n'est pas assigné !");
+                Debug.LogWarning("[SFXController] musicAudioSource n'est pas assigné !");
                 return;
             }
 
-            MusicAudioSource.loop = true;
-            MusicAudioSource.playOnAwake = false;
+            musicAudioSource.loop = true;
+            musicAudioSource.playOnAwake = false;
             
             PlayMusic();
         }
 
-        public void PlayMusic()
+        private void PlayMusic()
         {
-            MusicAudioSource.clip = SFXDatabase.Instance.musicClip;
-            MusicAudioSource.volume = SFXDatabase.Instance.volume;
-            MusicAudioSource.Play();
+            musicAudioSource.clip = SFXDatabase.Instance.musicClip;
+            musicAudioSource.volume = SFXDatabase.Instance.volume;
+            musicAudioSource.Play();
         }
 
-        public void StopMusic()
+        private void StopMusic()
         {
-            if (MusicAudioSource != null && MusicAudioSource.isPlaying)
-                MusicAudioSource.Stop();
+            if (musicAudioSource != null && musicAudioSource.isPlaying)
+                musicAudioSource.Stop();
+        }
+
+        public void PlayOpenBookSound()
+        {
+            bookUiAudioSource.volume = SFXDatabase.Instance.volume;
+            bookUiAudioSource.loop = false;
+            bookUiAudioSource.PlayOneShot(SFXDatabase.Instance.pageOpenClip);
         }
     }
 }

@@ -26,7 +26,11 @@ MonoBehaviour:
       \u0335\u034A\u0328b\u0336\u035B\u0355e\u0338\u033D\u0321 \u0334\u0342\u0332o\u0336\u0306\u0332u\u0337\u030C\u032Ar\u0334\u0305\u0339
       \u0334\u030A\u0348d\u0338\u035D\u0325o\u0334\u0344\u0324w\u0334\u030E\u0333n\u0336\u0311\u0324f\u0336\u0342\u031Da\u0335\u030B\u035Al\u0335\u035B\u0316l\u0336\u034A\u0353"
     contentRightImage: {fileID: 0}
-    onPageOpen: []
+    onPageOpen:
+    - rid: 4367808234558062667
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 4367808234558062667
+      type: {class: EndGameAction, ns: Core.Actions, asm: Assembly-CSharp}
+      data: 
