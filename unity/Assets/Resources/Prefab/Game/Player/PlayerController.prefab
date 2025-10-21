@@ -51,19 +51,13 @@ MonoBehaviour:
     maximumCraziness: 100
     moveSpeed: 3
   updatables:
-  - rid: 2914540652523421773
   - rid: 2914540652523421774
   references:
     version: 2
     RefIds:
-    - rid: 2914540652523421773
-      type: {class: PlayerInteraction, ns: Player, asm: Assembly-CSharp}
-      data: 
     - rid: 2914540652523421774
       type: {class: PlayerMovement, ns: Player, asm: Assembly-CSharp}
-      data:
-        groundTilemap: {fileID: 0}
-        collisionTilemap: {fileID: 0}
+      data: 
 --- !u!114 &2984745573968067664
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -3,12 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using Coffee.UIEffects;
 using Core.Dialog;
+using Core.SFX;
 using Framework.Controller;
 using JetBrains.Annotations;
 using ScriptableObjects.Entity;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 using Action = Framework.Action.Action;
 
@@ -29,15 +29,14 @@ namespace Core.UserInterface
         private int currentDialogIndex = 0;
         private Coroutine typingCoroutine;
         private bool isTyping = false;
+        private SFXController sfxController;
 
         public new void Start()
         {
             base.Start();
-            
+            sfxController = SFXController.Instance;
             if (skipButton != null)
-            {
                 skipButton.onClick.AddListener(OnSkipButtonClick);
-            }
         }
 
         private void AddDialogEntityData(EntityData entityData)
@@ -54,30 +53,17 @@ namespace Core.UserInterface
         
         public void LaunchDialogWithEntity(EntityData entityData)
         {
-            Debug.Log("Launching dialog with entity: " + entityData.entityName);
             AddDialogEntityData(entityData);
             DialogEntityData dialog = GetDialogEntityData(entityData);
-            if (dialog == null)
-            {
-                Debug.LogError("Error: Dialog Entity not found");
-                return;
-            }
-            if(dialog.alreadyTalked == true && entityData.summonableOnce == true)
-            {
-                Debug.LogError("Error: Dialog Entity has already been talked and is summonable only once");
-                return;
-            }
+            if (dialog == null) return;
+            if(dialog.alreadyTalked && entityData.summonableOnce) return;
             
             panel.GetComponent<UIEffect>().transitionRate = 1f;
             OpenPanel();
             
             DialogData dialogData = dialog.GetDialogToPlay();
             dialog.alreadyTalked = true;
-            if (dialogData == null || dialogData.contents == null || dialogData.contents.Length == 0)
-            {
-                Debug.LogWarning("DialogData is null or empty!");
-                return;
-            }
+            if (dialogData == null || dialogData.contents == null || dialogData.contents.Length == 0) return;
 
             currentDialogData = dialogData;
             currentDialogIndex = 0;
@@ -99,11 +85,14 @@ namespace Core.UserInterface
             DialogContent content = currentDialogData.contents[currentDialogIndex];
             entityNameText.text = content.entity.entityName;
             entityImage.sprite = content.entity.entitySprite;
+
+            if (currentDialogData.talkAudioClip != null && sfxController != null)
+            {
+                sfxController.PlayTalkAudioClip(currentDialogData.talkAudioClip);
+            }
             
             if (typingCoroutine != null)
-            {
                 StopCoroutine(typingCoroutine);
-            }
             
             typingCoroutine = StartCoroutine(TypeText(content));
         }
@@ -126,14 +115,12 @@ namespace Core.UserInterface
         {
             if (isTyping)
             {
-                // Si le texte est en train de s'afficher, afficher tout de suite
                 StopCoroutine(typingCoroutine);
                 dialogText.text = currentDialogData.contents[currentDialogIndex].content;
                 isTyping = false;
             }
             else
             {
-                // Passer au dialogue suivant
                 currentDialogIndex++;
                 ShowCurrentDialog();
             }
@@ -141,13 +128,15 @@ namespace Core.UserInterface
 
         private void EndDialog()
         {
+            if (sfxController != null)
+                sfxController.StopTalkAudioClip();
+
             foreach (Action dialogAction in currentDialogData.onEndDialogAction)
             {
-                try
-                { dialogAction.Execute(); }
-                catch (Exception e)
-                { Debug.LogError(e); }
+                try { dialogAction.Execute(); }
+                catch (Exception e) { Debug.LogError(e); }
             }
+
             currentDialogData = null;
             currentDialogIndex = 0;
             ClosePanel();
@@ -156,9 +145,7 @@ namespace Core.UserInterface
         private void OnDestroy()
         {
             if (skipButton != null)
-            {
                 skipButton.onClick.RemoveListener(OnSkipButtonClick);
-            }
         }
     }
 

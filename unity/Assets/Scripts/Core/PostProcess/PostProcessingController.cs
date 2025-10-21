@@ -54,5 +54,10 @@ namespace Core.PostProcess
         {
             worldPostProcessing.SetHidePostProcessingEffect();
         }
+
+        public void SetEndGamePostProcessingEffect()
+        {
+            worldPostProcessing.SetEndWorldPostProcessingEffect();
+        }
     }
 }

@@ -50,5 +50,18 @@ namespace Core.SFX
             bookUiAudioSource.loop = false;
             bookUiAudioSource.PlayOneShot(SFXDatabase.Instance.pageOpenClip);
         }
+
+        public void PlayTalkAudioClip(AudioClip clip)
+        {
+            talkingUiAudioSource.clip = clip;
+            talkingUiAudioSource.volume = SFXDatabase.Instance.volume;
+            talkingUiAudioSource.loop = true;
+            talkingUiAudioSource.Play();
+        }
+
+        public void StopTalkAudioClip()
+        {
+            talkingUiAudioSource.Stop();
+        }
     }
 }

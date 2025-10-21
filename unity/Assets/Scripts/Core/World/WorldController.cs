@@ -27,6 +27,14 @@ namespace World
             worldTileHover.Update(this);
         }
 
+        public void HideAllMap()
+        {
+            foreach (var mapPiece in mapPieces)
+            {
+                mapPiece.HideMap();
+            }
+        }
+
         public Tilemap[] GetGroundMap(bool locked = false)
         {
             List<Tilemap> groundMap = new List<Tilemap>();
@@ -112,6 +120,11 @@ namespace World
             SetShaderOnInteractible();
         }
 
+        public void HideMap()
+        {
+            LaunchActionOnEveryMap(LockMap);
+        }
+
         private void LaunchActionOnEveryMap(Action<Tilemap> action)
         {
             foreach (var map in collisionMap) action(map);
@@ -148,6 +161,14 @@ namespace World
                     spriteRendererChildren.material = interactibleMaterial;
                 }
             }
+        }
+        
+        private void LockMap(Tilemap tilemap)
+        {
+            LeanTween.value(WorldController.Instance.gameObject, f =>
+            {
+                tilemap.GetComponent<TilemapRenderer>().material.SetFloat("_Alpha", f);
+            }, 1f, 0f, 1f);
         }
         
         private void UnlockMap(Tilemap tilemap)

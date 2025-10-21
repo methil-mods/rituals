@@ -8,6 +8,8 @@ namespace Core.Dialog
     [CreateAssetMenu(fileName = "DialogData", menuName = "Dialog/DialogData")]
     public class DialogData : ScriptableObject
     {
+        public AudioClip talkAudioClip;
+        
         [SerializeField]
         public DialogContent[] contents;
         
