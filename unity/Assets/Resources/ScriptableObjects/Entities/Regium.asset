@@ -16,4 +16,4 @@ MonoBehaviour:
   entitySprite: {fileID: -2032120305414199623, guid: 9c1a9d612ce8d4f4ab4efdff2cbc7a52, type: 3}
   entityDescription: '-'
   summonableOnce: 0
-  normalDialog: {fileID: 11400000, guid: fecf6d8f2a5944e9d89ca725e2e448c4, type: 2}
+  normalDialog: {fileID: 11400000, guid: 869e4415a85004140905960b7c310905, type: 2}

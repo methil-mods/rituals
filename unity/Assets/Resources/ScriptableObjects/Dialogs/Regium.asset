@@ -14,11 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Core.Dialog.DialogData
   talkAudioClip: {fileID: 8300000, guid: 5f6c8628f924a4208bc865f1ee35bc20, type: 3}
   contents:
-  - entity: {fileID: 11400000, guid: 71aa5d55263294674a8c72d6e2142c35, type: 2}
-    content: ...
+  - entity: {fileID: 11400000, guid: 00c3aae559b5b4a65b4bcc80483b218c, type: 2}
+    content: Everythings goes to an end...
+    typingSpeed: 0.1
+  - entity: {fileID: 11400000, guid: 00c3aae559b5b4a65b4bcc80483b218c, type: 2}
+    content: Dont trust your brain. Thing can get cursed down here.
     typingSpeed: 0.1
   onStartDialogAction: []
-  onEndDialogAction: []
+  onEndDialogAction:
+  - rid: 2914540815472918609
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 2914540815472918609
+      type: {class: UnlockPieceAction, ns: Core.Actions, asm: Assembly-CSharp}
+      data:
+        pieceIdentifier: EndMap

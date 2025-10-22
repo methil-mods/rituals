@@ -12,8 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28b3a13a893547ebb80aeae556b8b2fb, type: 3}
   m_Name: RitualGlossary
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Book.BookData
-  bookName: 
-  bookContent: []
+  bookName: RitualGlossary
+  bookContent:
+  - contentLeft: 
+    contentLeftImage: {fileID: 21300000, guid: b9b1ff8a2c984455fa62b2ff7cacd7ca, type: 3}
+    contentRight: 
+    contentRightImage: {fileID: 21300000, guid: 5ccc96f57740443cb81ed45ea2eeee63, type: 3}
+    onPageOpen:
+    - rid: 2914540815472918608
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 2914540815472918608
+      type: {class: AddRitualAction, ns: Core.Actions, asm: Assembly-CSharp}
+      data:
+        ritual: {fileID: 11400000, guid: 27fc7fe5db3484d3f924e5f7a7284a68, type: 2}
