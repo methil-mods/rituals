@@ -254,6 +254,7 @@ MonoBehaviour:
   walkVolumeSlider: {fileID: 4241432995867245893}
   uiVolumeSlider: {fileID: 7218028817868590529}
   otherVolumeSlider: {fileID: 6453632621280143914}
+  sceneToLoadIndex: 0
 --- !u!1 &1096525930014435183
 GameObject:
   m_ObjectHideFlags: 0
@@ -1529,7 +1530,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4222885803862918915}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1185668004481932624}
+        m_TargetAssemblyTypeName: Core.UserInterface.PauseUserInterfaceController,
+          Assembly-CSharp
+        m_MethodName: GoBackToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &7701318802612972318
 MonoBehaviour:
   m_ObjectHideFlags: 0

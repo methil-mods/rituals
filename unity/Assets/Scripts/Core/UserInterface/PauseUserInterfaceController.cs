@@ -1,3 +1,4 @@
+using Core.Scene;
 using Core.SFX;
 using Framework.Controller;
 using ScriptableObjects.SFX;
@@ -8,15 +9,14 @@ namespace Core.UserInterface
 {
     public class PauseUserInterfaceController : InterfaceController<PauseUserInterfaceController>
     {
-        [SerializeField]
-        private Slider musicVolumeSlider;
-        [SerializeField]
-        private Slider walkVolumeSlider;
-        [SerializeField]
-        private Slider uiVolumeSlider;
-        [SerializeField]
-        private Slider otherVolumeSlider;
+        [Header("Volume Sliders")]
+        [SerializeField] private Slider musicVolumeSlider;
+        [SerializeField] private Slider walkVolumeSlider;
+        [SerializeField] private Slider uiVolumeSlider;
+        [SerializeField] private Slider otherVolumeSlider;
 
+        [Header("Button options")]
+        [SerializeField] private int sceneToLoadIndex;
         new void Start()
         {
             base.Start();
@@ -65,6 +65,11 @@ namespace Core.UserInterface
         {
             SFXDatabase.Instance.otherVolume = SliderToVolume(otherVolumeSlider.value);
             UpdateVolume();
+        }
+
+        public void GoBackToMainMenu()
+        {
+            SceneTransitor.Instance.LoadScene(sceneToLoadIndex);
         }
     }
 }
