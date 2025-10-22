@@ -15,5 +15,5 @@ MonoBehaviour:
   entityName: Pudor
   entitySprite: {fileID: -6956372341630753636, guid: e90138a79ae29448994132afe2ea1b47, type: 3}
   entityDescription: '-'
-  firstDialog: {fileID: 0}
-  normalDialog: {fileID: 0}
+  summonableOnce: 0
+  normalDialog: {fileID: 11400000, guid: ca02fa25b0b644e76a4a7d1be5250b21, type: 2}

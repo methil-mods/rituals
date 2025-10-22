@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1184d09ecd41a88c91ff5b95e69a0b, type: 3}
+  m_Name: Pudor
+  m_EditorClassIdentifier: Assembly-CSharp::Core.Dialog.DialogData
+  talkAudioClip: {fileID: 8300000, guid: 5f6c8628f924a4208bc865f1ee35bc20, type: 3}
+  contents:
+  - entity: {fileID: 11400000, guid: 80a496775c64e4dd68538e1db64f3894, type: 2}
+    content: ...
+    typingSpeed: 0.1
+  onStartDialogAction: []
+  onEndDialogAction:
+  - rid: 4367808257045299279
+  - rid: 4367808257045299282
+  references:
+    version: 2
+    RefIds:
+    - rid: 4367808257045299279
+      type: {class: UnlockPieceAction, ns: Core.Actions, asm: Assembly-CSharp}
+      data:
+        pieceIdentifier: HideMap
+    - rid: 4367808257045299282
+      type: {class: EndQuestAction, ns: Core.Actions, asm: Assembly-CSharp}
+      data:
+        questToEnd: {fileID: 11400000, guid: 1fa4b5b772a314c65ad76bcd05c18728, type: 2}
