@@ -30,6 +30,11 @@ namespace Player
         private float animationFrameRate = 0.1f;
         private bool isMoving = false;
         
+        private float lastClickTime = 0f;
+        [SerializeField]
+        private float clickCooldown = 0.25f; // seconds (adjust as needed)
+
+        
         public override void Start(PlayerController controller)
         {
             currentPath = new List<Vector3>();
@@ -39,24 +44,29 @@ namespace Player
         
         public override void Update(PlayerController controller)
         {
+            UpdateAnimation();
+            
             if (PauseController.Instance.isPaused || (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject()))
                 return;
             
-            if (!isMoving && Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
+            if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
             {
+                if (Time.time - lastClickTime < clickCooldown)
+                    return; // still in cooldown
+
+                lastClickTime = Time.time;
+
                 Vector3 mouseWorld = CameraUtils.ScreenToWorld(Mouse.current.position.ReadValue());
                 Vector3Int clickedTile = WorldController.Instance.worldGrid.WorldToCell(mouseWorld);
-                
+
                 if (!PathFindingUtils.IsTileWalkable(clickedTile,
-                         WorldController.Instance.GetGroundMap(),
-                         WorldController.Instance.GetCollisionMap()
-                        )) return;
-                
+                        WorldController.Instance.GetGroundMap(),
+                        WorldController.Instance.GetCollisionMap()))
+                    return;
+
                 Vector3 targetWorld = WorldController.Instance.worldGrid.GetCellCenterWorld(clickedTile);
                 MoveToTile(targetWorld);
             }
-            
-            UpdateAnimation();
         }
         
         private void UpdateAnimation()
