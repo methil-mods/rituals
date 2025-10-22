@@ -1,0 +1,5005 @@
+fileFormatVersion: 2
+guid: b9b1ff8a2c984455fa62b2ff7cacd7ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8872264473364334387
+    second: ritual_glossary_1_0
+  - first:
+      213: -5563089397049599397
+    second: ritual_glossary_1_1
+  - first:
+      213: 5266684389665832581
+    second: ritual_glossary_1_2
+  - first:
+      213: -6359812712082885837
+    second: ritual_glossary_1_3
+  - first:
+      213: -976675122442252591
+    second: ritual_glossary_1_4
+  - first:
+      213: 644852422331693036
+    second: ritual_glossary_1_5
+  - first:
+      213: -6260201348434585979
+    second: ritual_glossary_1_6
+  - first:
+      213: 6126431803586877669
+    second: ritual_glossary_1_7
+  - first:
+      213: 6636902783296514593
+    second: ritual_glossary_1_8
+  - first:
+      213: 5028575055577724607
+    second: ritual_glossary_1_9
+  - first:
+      213: 397217365648679933
+    second: ritual_glossary_1_10
+  - first:
+      213: 3735893230002635600
+    second: ritual_glossary_1_11
+  - first:
+      213: -6935424098426290618
+    second: ritual_glossary_1_12
+  - first:
+      213: -7622575848063441449
+    second: ritual_glossary_1_13
+  - first:
+      213: -7971123446093970172
+    second: ritual_glossary_1_14
+  - first:
+      213: -7764008908844006531
+    second: ritual_glossary_1_15
+  - first:
+      213: -423486269708053751
+    second: ritual_glossary_1_16
+  - first:
+      213: 1525326151412776887
+    second: ritual_glossary_1_17
+  - first:
+      213: 1360627153822277644
+    second: ritual_glossary_1_18
+  - first:
+      213: 6239637293404358907
+    second: ritual_glossary_1_19
+  - first:
+      213: 4068760559403657062
+    second: ritual_glossary_1_20
+  - first:
+      213: 6147418562918137431
+    second: ritual_glossary_1_21
+  - first:
+      213: -4693624514502083937
+    second: ritual_glossary_1_22
+  - first:
+      213: -112829266940636120
+    second: ritual_glossary_1_23
+  - first:
+      213: 3689200334412048830
+    second: ritual_glossary_1_24
+  - first:
+      213: -6794124362829543361
+    second: ritual_glossary_1_25
+  - first:
+      213: -4583629648589343431
+    second: ritual_glossary_1_26
+  - first:
+      213: 5956291933461690328
+    second: ritual_glossary_1_27
+  - first:
+      213: -3858570942711872465
+    second: ritual_glossary_1_28
+  - first:
+      213: -1216106100414304035
+    second: ritual_glossary_1_29
+  - first:
+      213: 8039907427299151077
+    second: ritual_glossary_1_30
+  - first:
+      213: -5136661252472149789
+    second: ritual_glossary_1_31
+  - first:
+      213: -7775627713344315292
+    second: ritual_glossary_1_32
+  - first:
+      213: 1607228935257232028
+    second: ritual_glossary_1_33
+  - first:
+      213: -1049039000930499474
+    second: ritual_glossary_1_34
+  - first:
+      213: 3128164903565558512
+    second: ritual_glossary_1_35
+  - first:
+      213: -8911177399446596907
+    second: ritual_glossary_1_36
+  - first:
+      213: 893310454711619942
+    second: ritual_glossary_1_37
+  - first:
+      213: -6348673313234609498
+    second: ritual_glossary_1_38
+  - first:
+      213: 340169923315176341
+    second: ritual_glossary_1_39
+  - first:
+      213: -5322925452479079948
+    second: ritual_glossary_1_40
+  - first:
+      213: -4981170247163029309
+    second: ritual_glossary_1_41
+  - first:
+      213: 8852320919485310725
+    second: ritual_glossary_1_42
+  - first:
+      213: -385198584821229783
+    second: ritual_glossary_1_43
+  - first:
+      213: 4807138007793877071
+    second: ritual_glossary_1_44
+  - first:
+      213: 5957876637762595202
+    second: ritual_glossary_1_45
+  - first:
+      213: -9170525592502282873
+    second: ritual_glossary_1_46
+  - first:
+      213: 158872575944949636
+    second: ritual_glossary_1_47
+  - first:
+      213: 410550118391874854
+    second: ritual_glossary_1_48
+  - first:
+      213: -2852208646534649436
+    second: ritual_glossary_1_49
+  - first:
+      213: -3400637991984310531
+    second: ritual_glossary_1_50
+  - first:
+      213: 1676224533614126218
+    second: ritual_glossary_1_51
+  - first:
+      213: -8630819803257922443
+    second: ritual_glossary_1_52
+  - first:
+      213: 9066264392962641898
+    second: ritual_glossary_1_53
+  - first:
+      213: -2736051718445604421
+    second: ritual_glossary_1_54
+  - first:
+      213: 7913597054802471507
+    second: ritual_glossary_1_55
+  - first:
+      213: 5975363740209312164
+    second: ritual_glossary_1_56
+  - first:
+      213: 339263918268241850
+    second: ritual_glossary_1_57
+  - first:
+      213: -4700276085163852298
+    second: ritual_glossary_1_58
+  - first:
+      213: -7632238802090552344
+    second: ritual_glossary_1_59
+  - first:
+      213: -8451224384226247224
+    second: ritual_glossary_1_60
+  - first:
+      213: 102670062184363721
+    second: ritual_glossary_1_61
+  - first:
+      213: -2654290061712719664
+    second: ritual_glossary_1_62
+  - first:
+      213: 4398079920146718297
+    second: ritual_glossary_1_63
+  - first:
+      213: 76127983499131551
+    second: ritual_glossary_1_64
+  - first:
+      213: 2734069180058741945
+    second: ritual_glossary_1_65
+  - first:
+      213: 1275484603159739052
+    second: ritual_glossary_1_66
+  - first:
+      213: 5252007873682215035
+    second: ritual_glossary_1_67
+  - first:
+      213: -7947607410418501951
+    second: ritual_glossary_1_68
+  - first:
+      213: -3028932987947541642
+    second: ritual_glossary_1_69
+  - first:
+      213: 2190376232050300915
+    second: ritual_glossary_1_70
+  - first:
+      213: -3368785794819714386
+    second: ritual_glossary_1_71
+  - first:
+      213: 7871685821614681461
+    second: ritual_glossary_1_72
+  - first:
+      213: -8233417265791651997
+    second: ritual_glossary_1_73
+  - first:
+      213: 4049239916024009094
+    second: ritual_glossary_1_74
+  - first:
+      213: 1863137487145996958
+    second: ritual_glossary_1_75
+  - first:
+      213: 2528367544484037497
+    second: ritual_glossary_1_76
+  - first:
+      213: -1849823200785856090
+    second: ritual_glossary_1_77
+  - first:
+      213: 6512707766355562866
+    second: ritual_glossary_1_78
+  - first:
+      213: -7647453004999644589
+    second: ritual_glossary_1_79
+  - first:
+      213: 3549139721099812164
+    second: ritual_glossary_1_80
+  - first:
+      213: 9102280444514534287
+    second: ritual_glossary_1_81
+  - first:
+      213: -5970673940783336365
+    second: ritual_glossary_1_82
+  - first:
+      213: 1533408852556363373
+    second: ritual_glossary_1_83
+  - first:
+      213: 5328573117779507990
+    second: ritual_glossary_1_84
+  - first:
+      213: 6747215504806323926
+    second: ritual_glossary_1_85
+  - first:
+      213: 1237295501590346822
+    second: ritual_glossary_1_86
+  - first:
+      213: 1286443592532641962
+    second: ritual_glossary_1_87
+  - first:
+      213: -5498537906832365333
+    second: ritual_glossary_1_88
+  - first:
+      213: 3936348116519774115
+    second: ritual_glossary_1_89
+  - first:
+      213: 869477268853686221
+    second: ritual_glossary_1_90
+  - first:
+      213: -8310483339764670328
+    second: ritual_glossary_1_91
+  - first:
+      213: -1053684129725586276
+    second: ritual_glossary_1_92
+  - first:
+      213: -2426777314902002179
+    second: ritual_glossary_1_93
+  - first:
+      213: -7223203244342531515
+    second: ritual_glossary_1_94
+  - first:
+      213: 4782216443849990183
+    second: ritual_glossary_1_95
+  - first:
+      213: 2256106544982486525
+    second: ritual_glossary_1_96
+  - first:
+      213: 3877199811238518143
+    second: ritual_glossary_1_97
+  - first:
+      213: -1154438288599064117
+    second: ritual_glossary_1_98
+  - first:
+      213: -5241588895493462763
+    second: ritual_glossary_1_99
+  - first:
+      213: 1333162311023905895
+    second: ritual_glossary_1_100
+  - first:
+      213: 1303763920961172175
+    second: ritual_glossary_1_101
+  - first:
+      213: -5771290534397654243
+    second: ritual_glossary_1_102
+  - first:
+      213: -3125883115680871731
+    second: ritual_glossary_1_103
+  - first:
+      213: -6666822795356763799
+    second: ritual_glossary_1_104
+  - first:
+      213: 3310907818343297980
+    second: ritual_glossary_1_105
+  - first:
+      213: -7032791909141935443
+    second: ritual_glossary_1_106
+  - first:
+      213: -4589524976681368823
+    second: ritual_glossary_1_107
+  - first:
+      213: -7360645583101724200
+    second: ritual_glossary_1_108
+  - first:
+      213: -5665695658305241410
+    second: ritual_glossary_1_109
+  - first:
+      213: -5093629220475593735
+    second: ritual_glossary_1_110
+  - first:
+      213: -4644151345078137796
+    second: ritual_glossary_1_111
+  - first:
+      213: -4546314749685972857
+    second: ritual_glossary_1_112
+  - first:
+      213: 2909414693010899432
+    second: ritual_glossary_1_113
+  - first:
+      213: -6694281428927497749
+    second: ritual_glossary_1_114
+  - first:
+      213: -2948907623671469968
+    second: ritual_glossary_1_115
+  - first:
+      213: 7689844185311301461
+    second: ritual_glossary_1_116
+  - first:
+      213: 6068795016387722157
+    second: ritual_glossary_1_117
+  - first:
+      213: 9163118876082890709
+    second: ritual_glossary_1_118
+  - first:
+      213: -5683230550400929504
+    second: ritual_glossary_1_119
+  - first:
+      213: 8280736338034042083
+    second: ritual_glossary_1_120
+  - first:
+      213: -8354555535365189151
+    second: ritual_glossary_1_121
+  - first:
+      213: -4671820167682416804
+    second: ritual_glossary_1_122
+  - first:
+      213: -754024121209003177
+    second: ritual_glossary_1_123
+  - first:
+      213: 8487749337374418091
+    second: ritual_glossary_1_124
+  - first:
+      213: 1483693409339940161
+    second: ritual_glossary_1_125
+  - first:
+      213: -9149429294780505935
+    second: ritual_glossary_1_126
+  - first:
+      213: -4657645989242871096
+    second: ritual_glossary_1_127
+  - first:
+      213: 2767206722729543559
+    second: ritual_glossary_1_128
+  - first:
+      213: 8530529410918562850
+    second: ritual_glossary_1_129
+  - first:
+      213: -1714370344996933300
+    second: ritual_glossary_1_130
+  - first:
+      213: -2293953926400944904
+    second: ritual_glossary_1_131
+  - first:
+      213: -5021741325512291165
+    second: ritual_glossary_1_132
+  - first:
+      213: 4288117016443217638
+    second: ritual_glossary_1_133
+  - first:
+      213: 7037004368533432410
+    second: ritual_glossary_1_134
+  - first:
+      213: -2760915751748417120
+    second: ritual_glossary_1_135
+  - first:
+      213: 7958856971972322690
+    second: ritual_glossary_1_136
+  - first:
+      213: 6624745788493324520
+    second: ritual_glossary_1_137
+  - first:
+      213: 4521525538622355981
+    second: ritual_glossary_1_138
+  - first:
+      213: -7616954877463429849
+    second: ritual_glossary_1_139
+  - first:
+      213: -6614124200860353926
+    second: ritual_glossary_1_140
+  - first:
+      213: 6988298940615245118
+    second: ritual_glossary_1_141
+  - first:
+      213: 840422075259676541
+    second: ritual_glossary_1_142
+  - first:
+      213: -8758602041165669785
+    second: ritual_glossary_1_143
+  - first:
+      213: -3412906360039115569
+    second: ritual_glossary_1_144
+  - first:
+      213: -1109842778806917048
+    second: ritual_glossary_1_145
+  - first:
+      213: -7401775809270867780
+    second: ritual_glossary_1_146
+  - first:
+      213: 5501764613916676336
+    second: ritual_glossary_1_147
+  - first:
+      213: 9136850441799666473
+    second: ritual_glossary_1_148
+  - first:
+      213: -2325695159230135935
+    second: ritual_glossary_1_149
+  - first:
+      213: 8043534280492467949
+    second: ritual_glossary_1_150
+  - first:
+      213: -70978156598788041
+    second: ritual_glossary_1_151
+  - first:
+      213: 5835450268713061873
+    second: ritual_glossary_1_152
+  - first:
+      213: 3361214815244011737
+    second: ritual_glossary_1_153
+  - first:
+      213: 6537010098519563440
+    second: ritual_glossary_1_154
+  - first:
+      213: -1694271810853948485
+    second: ritual_glossary_1_155
+  - first:
+      213: -1068993346824017483
+    second: ritual_glossary_1_156
+  - first:
+      213: 7080825591288107491
+    second: ritual_glossary_1_157
+  - first:
+      213: -9001164167449364720
+    second: ritual_glossary_1_158
+  - first:
+      213: 5384665372015837392
+    second: ritual_glossary_1_159
+  - first:
+      213: -4529366548515261680
+    second: ritual_glossary_1_160
+  - first:
+      213: -790455581090809717
+    second: ritual_glossary_1_161
+  - first:
+      213: 3760781658925164288
+    second: ritual_glossary_1_162
+  - first:
+      213: 2477542309000978378
+    second: ritual_glossary_1_163
+  - first:
+      213: 4767901959915082555
+    second: ritual_glossary_1_164
+  - first:
+      213: 1668024412664897897
+    second: ritual_glossary_1_165
+  - first:
+      213: 7153040217911556957
+    second: ritual_glossary_1_166
+  - first:
+      213: -3095954474557377836
+    second: ritual_glossary_1_167
+  - first:
+      213: 1336273968645432810
+    second: ritual_glossary_1_168
+  - first:
+      213: 4352307019814789016
+    second: ritual_glossary_1_169
+  - first:
+      213: -4056133811844994306
+    second: ritual_glossary_1_170
+  - first:
+      213: 5366585199538905606
+    second: ritual_glossary_1_171
+  - first:
+      213: -2571748553594567074
+    second: ritual_glossary_1_172
+  - first:
+      213: 2550323531683310303
+    second: ritual_glossary_1_173
+  - first:
+      213: 4164176411530051748
+    second: ritual_glossary_1_174
+  - first:
+      213: 8543794803795841824
+    second: ritual_glossary_1_175
+  - first:
+      213: -3706189776562414022
+    second: ritual_glossary_1_176
+  - first:
+      213: -8914473734694155728
+    second: ritual_glossary_1_177
+  - first:
+      213: 2332928721813362944
+    second: ritual_glossary_1_178
+  - first:
+      213: -7382009141728256086
+    second: ritual_glossary_1_179
+  - first:
+      213: 7875253834503359004
+    second: ritual_glossary_1_180
+  - first:
+      213: 628854156769012851
+    second: ritual_glossary_1_181
+  - first:
+      213: -8924984816571575936
+    second: ritual_glossary_1_182
+  - first:
+      213: -4796876781704907892
+    second: ritual_glossary_1_183
+  - first:
+      213: -4012656762634333745
+    second: ritual_glossary_1_184
+  - first:
+      213: 8071149406509969415
+    second: ritual_glossary_1_185
+  - first:
+      213: -7103649569443292332
+    second: ritual_glossary_1_186
+  - first:
+      213: 7091393429669041817
+    second: ritual_glossary_1_187
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ritual_glossary_1_0
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2682
+        width: 120
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8fccff7726fd480800000000000000
+      internalID: -8872264473364334387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_1
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2854
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5add1bfaafebc2b0800000000000000
+      internalID: -5563089397049599397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2748
+        width: 77
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e702e5c85071940800000000000000
+      internalID: 5266684389665832581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_3
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2774
+        width: 95
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333394ab8086db7a0800000000000000
+      internalID: -6359812712082885837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_4
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 2674
+        width: 114
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de4ed996272272f0800000000000000
+      internalID: -976675122442252591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_5
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 2739
+        width: 215
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce771ad8cd9f2f800800000000000000
+      internalID: 644852422331693036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_6
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2541
+        width: 78
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5869224aa0c4f19a0800000000000000
+      internalID: -6260201348434585979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_7
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 2513
+        width: 69
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e893712445750550800000000000000
+      internalID: 6126431803586877669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_8
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 2618
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12aa037eae30b1c50800000000000000
+      internalID: 6636902783296514593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_9
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 2566
+        width: 48
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6b91ade5619c540800000000000000
+      internalID: 5028575055577724607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_10
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 2567
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df32b1ae613338500800000000000000
+      internalID: 397217365648679933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_11
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2476
+        width: 61
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053081d591f88d330800000000000000
+      internalID: 3735893230002635600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_12
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 2521
+        width: 47
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64efd96278c60cf90800000000000000
+      internalID: -6935424098426290618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_13
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 2521
+        width: 14
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5e4bef6ab273690800000000000000
+      internalID: -7622575848063441449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_14
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 2555
+        width: 9
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40508c66571e06190800000000000000
+      internalID: -7971123446093970172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_15
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 2530
+        width: 111
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73826b6803b04490800000000000000
+      internalID: -7764008908844006531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_16
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 2540
+        width: 67
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903dbce3b797f1af0800000000000000
+      internalID: -423486269708053751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_17
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 2501
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf729d9d0c0b2510800000000000000
+      internalID: 1525326151412776887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_18
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 2562
+        width: 80
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00e35fff2be1e210800000000000000
+      internalID: 1360627153822277644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_19
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 2576
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf885a03f05a79650800000000000000
+      internalID: 6239637293404358907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_20
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 2473
+        width: 98
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667ef5beb24277830800000000000000
+      internalID: 4068760559403657062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_21
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 2517
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75eb060dc94005550800000000000000
+      internalID: 6147418562918137431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_22
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2530
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ab9083f55ecdeb0800000000000000
+      internalID: -4693624514502083937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_23
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 2462
+        width: 88
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8245cb721662f6ef0800000000000000
+      internalID: -112829266940636120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_24
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 2464
+        width: 176
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9e1ed682ca23330800000000000000
+      internalID: 3689200334412048830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_25
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2469
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38c7b983eb66b1a0800000000000000
+      internalID: -6794124362829543361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_26
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 2442
+        width: 160
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93532e5ae1da360c0800000000000000
+      internalID: -4583629648589343431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_27
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2457
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d73288a4fff8a250800000000000000
+      internalID: 5956291933461690328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_28
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 2466
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24c303db2a937ac0800000000000000
+      internalID: -3858570942711872465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_29
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 2495
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0be93e1f58f1fe0800000000000000
+      internalID: -1216106100414304035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_30
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 2418
+        width: 59
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecc037353d739f60800000000000000
+      internalID: 8039907427299151077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_31
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 2448
+        width: 74
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e862ea5ec9e6b8b0800000000000000
+      internalID: -5136661252472149789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_32
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 2475
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460ed60bacb671490800000000000000
+      internalID: -7775627713344315292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_33
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 2436
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c929cbe73360e4610800000000000000
+      internalID: 1607228935257232028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_34
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 2466
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64c10236901171f0800000000000000
+      internalID: -1049039000930499474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_35
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 2460
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f28ed3f769796b20800000000000000
+      internalID: 3128164903565558512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_36
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2351
+        width: 52
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d21f7f5e53255480800000000000000
+      internalID: -8911177399446596907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_37
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2373
+        width: 29
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6619a37202da56c00800000000000000
+      internalID: 893310454711619942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_38
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2393
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa16a1224bf4e7a0800000000000000
+      internalID: -6348673313234609498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_39
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 2370
+        width: 89
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59319723eb688b400800000000000000
+      internalID: 340169923315176341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_40
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 2420
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f95917c08b2126b0800000000000000
+      internalID: -5322925452479079948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_41
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 2356
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c85a143d045fdab0800000000000000
+      internalID: -4981170247163029309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_42
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 2314
+        width: 22
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5076ea389f2c9da70800000000000000
+      internalID: 8852320919485310725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_43
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 2364
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9275fbf8def77aaf0800000000000000
+      internalID: -385198584821229783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_44
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 2382
+        width: 96
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4045dc7c8266b240800000000000000
+      internalID: 4807138007793877071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_45
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 2323
+        width: 62
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28920716c31aea250800000000000000
+      internalID: 5957876637762595202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_46
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 2391
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785d547af8fbbb080800000000000000
+      internalID: -9170525592502282873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_47
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 2309
+        width: 116
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fffbd14cd643200800000000000000
+      internalID: 158872575944949636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_48
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 2341
+        width: 18
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6250e31582192b500800000000000000
+      internalID: 410550118391874854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_49
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 2355
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9210ef85bea68d0800000000000000
+      internalID: -2852208646534649436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_50
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 2291
+        width: 93
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6d31e73c18ec0d0800000000000000
+      internalID: -3400637991984310531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_51
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 2396
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a846dd11555234710800000000000000
+      internalID: 1676224533614126218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_52
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 2368
+        width: 119
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c9762fd1b293880800000000000000
+      internalID: -8630819803257922443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_53
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 2377
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef8f462e67d1dd70800000000000000
+      internalID: 9066264392962641898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_54
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 2378
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1e3f25577970ad0800000000000000
+      internalID: -2736051718445604421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_55
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 2345
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a2413e79eb2dd60800000000000000
+      internalID: 7913597054802471507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_56
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 2284
+        width: 49
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1fce2b9a1cce250800000000000000
+      internalID: 5975363740209312164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_57
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 2357
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab75c757cbe45b400800000000000000
+      internalID: 339263918268241850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_58
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 2362
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd7b8dbdc345ceb0800000000000000
+      internalID: -4700276085163852298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_59
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 2251
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e390703f37d41690800000000000000
+      internalID: -7632238802090552344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_60
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2296
+        width: 12
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd3315f23837ba80800000000000000
+      internalID: -8451224384226247224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_61
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2274
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6f099a0e1cc6100800000000000000
+      internalID: 102670062184363721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_62
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2292
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d083cc70411a2bd0800000000000000
+      internalID: -2654290061712719664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_63
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 2299
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e9f16a26e190d30800000000000000
+      internalID: 4398079920146718297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_64
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 2221
+        width: 73
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9abee56ff57e0100800000000000000
+      internalID: 76127983499131551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_65
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 2268
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcaebcfe6d51f520800000000000000
+      internalID: 2734069180058741945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_66
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 2267
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caaf0df1d7e63b110800000000000000
+      internalID: 1275484603159739052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_67
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 2260
+        width: 126
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b701264b551e2e840800000000000000
+      internalID: 5252007873682215035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_68
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 2278
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c63ebf1b2d64b190800000000000000
+      internalID: -7947607410418501951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_69
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 2211
+        width: 113
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b9ce4de7117f5d0800000000000000
+      internalID: -3028932987947541642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_70
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 2182
+        width: 96
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f711d3f397c56e10800000000000000
+      internalID: 2190376232050300915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_71
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 2216
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2936f0b2baf31d0800000000000000
+      internalID: -3368785794819714386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_72
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 2253
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d62dc7c88dd3d60800000000000000
+      internalID: 7871685821614681461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_73
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2147
+        width: 135
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fabe88e960dbd80800000000000000
+      internalID: -8233417265791651997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_74
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 2138
+        width: 75
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68191f4ff3ac13830800000000000000
+      internalID: 4049239916024009094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_75
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1971
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e921d095ca13bd910800000000000000
+      internalID: 1863137487145996958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_76
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1952
+        width: 73
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9730996c2e0961320800000000000000
+      internalID: 2528367544484037497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_77
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1936
+        width: 68
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a902e3899b1456e0800000000000000
+      internalID: -1849823200785856090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_78
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1612
+        width: 446
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2711d8b2539c16a50800000000000000
+      internalID: 6512707766355562866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_79
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1933
+        width: 164
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35aa088820aced590800000000000000
+      internalID: -7647453004999644589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_80
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 2026
+        width: 94
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d126ea5c3114130800000000000000
+      internalID: 3549139721099812164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_81
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 2042
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83064d96dbc15e70800000000000000
+      internalID: 9102280444514534287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_82
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 2022
+        width: 48
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3547de15fa7e32da0800000000000000
+      internalID: -5970673940783336365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_83
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1954
+        width: 166
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66bf002a33c74510800000000000000
+      internalID: 1533408852556363373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_84
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1940
+        width: 252
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b71f4c405e2f940800000000000000
+      internalID: 5328573117779507990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_85
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1988
+        width: 13
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d62dfad0cce2ad50800000000000000
+      internalID: 6747215504806323926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_86
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1999
+        width: 164
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c3b7604b1cb2110800000000000000
+      internalID: 1237295501590346822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_87
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1550
+        width: 375
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa84c7ca1ad5ad110800000000000000
+      internalID: 1286443592532641962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_88
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 1894
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8ac3ff7e441b3b0800000000000000
+      internalID: -5498537906832365333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_89
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1882
+        width: 21
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7607d91c7b0a630800000000000000
+      internalID: 3936348116519774115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_90
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1925
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcffc4628f0011c00800000000000000
+      internalID: 869477268853686221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_91
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1930
+        width: 15
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880668dee6b3bac80800000000000000
+      internalID: -8310483339764670328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_92
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1917
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c946d3edddf8061f0800000000000000
+      internalID: -1053684129725586276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_93
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1788
+        width: 66
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df53a44c3ea525ed0800000000000000
+      internalID: -2426777314902002179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_94
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1580
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54aa3806be602cb90800000000000000
+      internalID: -7223203244342531515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_95
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1595
+        width: 93
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720e5b6b488dd5240800000000000000
+      internalID: 4782216443849990183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_96
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1550
+        width: 19
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd6d1503fc4f4f10800000000000000
+      internalID: 2256106544982486525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_97
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1570
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d5510afa49ec530800000000000000
+      internalID: 3877199811238518143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_98
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1421
+        width: 123
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc161f43e7c9affe0800000000000000
+      internalID: -1154438288599064117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_99
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1530
+        width: 107
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515ea71bba22247b0800000000000000
+      internalID: -5241588895493462763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_100
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1498
+        width: 81
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76cc488fe08508210800000000000000
+      internalID: 1333162311023905895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_101
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1462
+        width: 89
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc27cd3e066e71210800000000000000
+      internalID: 1303763920961172175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_102
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1547
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b47a926d148efa0800000000000000
+      internalID: -5771290534397654243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_103
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1502
+        width: 69
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca43703ed1ae94d0800000000000000
+      internalID: -3125883115680871731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_104
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1543
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969884e6dffaa73a0800000000000000
+      internalID: -6666822795356763799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_105
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 1417
+        width: 141
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb37a6c6e15b2fd20800000000000000
+      internalID: 3310907818343297980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_106
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1445
+        width: 11
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa8a5c1501866e90800000000000000
+      internalID: -7032791909141935443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_107
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1429
+        width: 83
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903cf1d995bbe40c0800000000000000
+      internalID: -4589524976681368823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_108
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1460
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d97cad27dbb9d990800000000000000
+      internalID: -7360645583101724200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_109
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1449
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe3e3121d76f51b0800000000000000
+      internalID: -5665695658305241410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_110
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1501
+        width: 53
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb9000163bcf49b0800000000000000
+      internalID: -5093629220475593735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_111
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1507
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c077915f8ac8fb0800000000000000
+      internalID: -4644151345078137796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_112
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 1493
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78049d392de38e0c0800000000000000
+      internalID: -4546314749685972857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_113
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1509
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e18731af31506820800000000000000
+      internalID: 2909414693010899432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_114
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 1335
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9384a12822913a0800000000000000
+      internalID: -6694281428927497749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_115
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1391
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078ee97e3206317d0800000000000000
+      internalID: -2948907623671469968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_116
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 1366
+        width: 84
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f45934b80d7ba60800000000000000
+      internalID: 7689844185311301461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_117
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1332
+        width: 26
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab737ed9e0b83450800000000000000
+      internalID: 6068795016387722157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_118
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 1346
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7e89bc110f92f70800000000000000
+      internalID: 9163118876082890709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_119
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 1318
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02174baeceb1121b0800000000000000
+      internalID: -5683230550400929504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_120
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1324
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4203383d51be270800000000000000
+      internalID: 8280736338034042083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_121
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 1335
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1d8424108ae0c80800000000000000
+      internalID: -8354555535365189151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_122
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 1345
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f98c25f4c5a2fb0800000000000000
+      internalID: -4671820167682416804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_123
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1271
+        width: 29
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753e2478e0b2985f0800000000000000
+      internalID: -754024121209003177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_124
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 1269
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba462c46d0b8ac570800000000000000
+      internalID: 8487749337374418091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_125
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 1269
+        width: 84
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d9b4b7b43279410800000000000000
+      internalID: 1483693409339940161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_126
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 1265
+        width: 45
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b02e0b3882b60180800000000000000
+      internalID: -9149429294780505935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_127
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 1274
+        width: 89
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2e7a966a7bc5fb0800000000000000
+      internalID: -4657645989242871096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_128
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 801
+        width: 867
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7870e506ad7176620800000000000000
+      internalID: 2767206722729543559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_129
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 933
+        width: 64
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22cb2d37d47826670800000000000000
+      internalID: 8530529410918562850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_130
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1138
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c417efc11455538e0800000000000000
+      internalID: -1714370344996933300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_131
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1152
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f452cdce0d3a20e0800000000000000
+      internalID: -2293953926400944904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_132
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1145
+        width: 69
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3acc0faeed03f4ab0800000000000000
+      internalID: -5021741325512291165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_133
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1104
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6e76005b3728b30800000000000000
+      internalID: 4288117016443217638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_134
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1063
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58ae45803678a160800000000000000
+      internalID: 7037004368533432410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_135
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 1077
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9414270c14fa9d0800000000000000
+      internalID: -2760915751748417120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_136
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1051
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2852d888f3a837e60800000000000000
+      internalID: 7958856971972322690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_137
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 900
+        width: 51
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0e86af133dfeb50800000000000000
+      internalID: 6624745788493324520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_138
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 723
+        width: 34
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a3174758fafbe30800000000000000
+      internalID: 4521525538622355981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_139
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 749
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72dfc9235e32b4690800000000000000
+      internalID: -7616954877463429849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_140
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 706
+        width: 34
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a776b1519e534a0800000000000000
+      internalID: -6614124200860353926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_141
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 774
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d3c936cdc6bf060800000000000000
+      internalID: 6988298940615245118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_142
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 781
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77ef39bc67c9ab00800000000000000
+      internalID: 840422075259676541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_143
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 789
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a1f4f39d1337680800000000000000
+      internalID: -8758602041165669785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_144
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 798
+        width: 73
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc472367fbbe2a0d0800000000000000
+      internalID: -3412906360039115569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_145
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 764
+        width: 52
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8486ea47fdb0990f0800000000000000
+      internalID: -1109842778806917048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_146
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 723
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb894552e1c974990800000000000000
+      internalID: -7401775809270867780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_147
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 730
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0515a44c13a5c40800000000000000
+      internalID: 5501764613916676336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_148
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 724
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b0755511d9cce70800000000000000
+      internalID: 9136850441799666473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_149
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 739
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1810e32239879bfd0800000000000000
+      internalID: -2325695159230135935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_150
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 739
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de64e67cfcf50af60800000000000000
+      internalID: 8043534280492467949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_151
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 741
+        width: 111
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7300e1d1eb5d30ff0800000000000000
+      internalID: -70978156598788041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_152
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 756
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd89131a1fabf050800000000000000
+      internalID: 5835450268713061873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_153
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 738
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d84664e01f65ae20800000000000000
+      internalID: 3361214815244011737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_154
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 698
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc566fcc0028ba50800000000000000
+      internalID: 6537010098519563440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_155
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 701
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3b711c3ccbc78e0800000000000000
+      internalID: -1694271810853948485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_156
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 488
+        width: 146
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b96c4ff63c2a21f0800000000000000
+      internalID: -1068993346824017483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_157
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 512
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e119350c55244260800000000000000
+      internalID: 7080825591288107491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_158
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 462
+        width: 121
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017b43241e0751380800000000000000
+      internalID: -9001164167449364720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_159
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 360
+        width: 480
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0c95d60ac2aba40800000000000000
+      internalID: 5384665372015837392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_160
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 411
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013f53a2f157421c0800000000000000
+      internalID: -4529366548515261680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_161
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 435
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b887b5646dcb705f0800000000000000
+      internalID: -790455581090809717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_162
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 472
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007e90a4efaf03430800000000000000
+      internalID: 3760781658925164288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_163
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 455
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf110c7a9ff16220800000000000000
+      internalID: 2477542309000978378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_164
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 449
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3390a4329dfa2240800000000000000
+      internalID: 4767901959915082555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_165
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 370
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9612291ad53062710800000000000000
+      internalID: 1668024412664897897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_166
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 380
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b73b40e24b44360800000000000000
+      internalID: 7153040217911556957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_167
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 373
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2f937fec5f805d0800000000000000
+      internalID: -3095954474557377836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_168
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 304
+        width: 19
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae566b738166b8210800000000000000
+      internalID: 1336273968645432810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_169
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 320
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fdf7dcc20866c30800000000000000
+      internalID: 4352307019814789016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_170
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 287
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa2787d9c7b5b7c0800000000000000
+      internalID: -4056133811844994306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_171
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 281
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602a26b3ec0f97a40800000000000000
+      internalID: 5366585199538905606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_172
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 203
+        width: 9
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e560f53f0505f4cd0800000000000000
+      internalID: -2571748553594567074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_173
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 219
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdaad486db1946320800000000000000
+      internalID: 2550323531683310303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_174
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 240
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a04f4f22602ac930800000000000000
+      internalID: 4164176411530051748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_175
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 204
+        width: 21
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023541a6b18a19670800000000000000
+      internalID: 8543794803795841824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_176
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 237
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e10d1d808f09cc0800000000000000
+      internalID: -3706189776562414022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_177
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 246
+        width: 116
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a41048e5d694480800000000000000
+      internalID: -8914473734694155728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_178
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 194
+        width: 74
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009ddf5ef4a306020800000000000000
+      internalID: 2332928721813362944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_179
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 255
+        width: 64
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafd9921cc5dd8990800000000000000
+      internalID: -7382009141728256086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_180
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 234
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a0b9933a58a4d60800000000000000
+      internalID: 7875253834503359004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_181
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 234
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37caeb516832ab800800000000000000
+      internalID: 628854156769012851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_182
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 185
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0811f7e8895142480800000000000000
+      internalID: -8924984816571575936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_183
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 201
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83f8236bf11e6db0800000000000000
+      internalID: -4796876781704907892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_184
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 173
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc19c913fed2058c0800000000000000
+      internalID: -4012656762634333745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_185
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 180
+        width: 53
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700b1285f9b720070800000000000000
+      internalID: 8071149406509969415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_186
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 202
+        width: 45
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bd9747a54ca6d90800000000000000
+      internalID: -7103649569443292332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ritual_glossary_1_187
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 177
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99656f1a0c0b96260800000000000000
+      internalID: 7091393429669041817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ritual_glossary_1_0: -8872264473364334387
+      ritual_glossary_1_1: -5563089397049599397
+      ritual_glossary_1_10: 397217365648679933
+      ritual_glossary_1_100: 1333162311023905895
+      ritual_glossary_1_101: 1303763920961172175
+      ritual_glossary_1_102: -5771290534397654243
+      ritual_glossary_1_103: -3125883115680871731
+      ritual_glossary_1_104: -6666822795356763799
+      ritual_glossary_1_105: 3310907818343297980
+      ritual_glossary_1_106: -7032791909141935443
+      ritual_glossary_1_107: -4589524976681368823
+      ritual_glossary_1_108: -7360645583101724200
+      ritual_glossary_1_109: -5665695658305241410
+      ritual_glossary_1_11: 3735893230002635600
+      ritual_glossary_1_110: -5093629220475593735
+      ritual_glossary_1_111: -4644151345078137796
+      ritual_glossary_1_112: -4546314749685972857
+      ritual_glossary_1_113: 2909414693010899432
+      ritual_glossary_1_114: -6694281428927497749
+      ritual_glossary_1_115: -2948907623671469968
+      ritual_glossary_1_116: 7689844185311301461
+      ritual_glossary_1_117: 6068795016387722157
+      ritual_glossary_1_118: 9163118876082890709
+      ritual_glossary_1_119: -5683230550400929504
+      ritual_glossary_1_12: -6935424098426290618
+      ritual_glossary_1_120: 8280736338034042083
+      ritual_glossary_1_121: -8354555535365189151
+      ritual_glossary_1_122: -4671820167682416804
+      ritual_glossary_1_123: -754024121209003177
+      ritual_glossary_1_124: 8487749337374418091
+      ritual_glossary_1_125: 1483693409339940161
+      ritual_glossary_1_126: -9149429294780505935
+      ritual_glossary_1_127: -4657645989242871096
+      ritual_glossary_1_128: 2767206722729543559
+      ritual_glossary_1_129: 8530529410918562850
+      ritual_glossary_1_13: -7622575848063441449
+      ritual_glossary_1_130: -1714370344996933300
+      ritual_glossary_1_131: -2293953926400944904
+      ritual_glossary_1_132: -5021741325512291165
+      ritual_glossary_1_133: 4288117016443217638
+      ritual_glossary_1_134: 7037004368533432410
+      ritual_glossary_1_135: -2760915751748417120
+      ritual_glossary_1_136: 7958856971972322690
+      ritual_glossary_1_137: 6624745788493324520
+      ritual_glossary_1_138: 4521525538622355981
+      ritual_glossary_1_139: -7616954877463429849
+      ritual_glossary_1_14: -7971123446093970172
+      ritual_glossary_1_140: -6614124200860353926
+      ritual_glossary_1_141: 6988298940615245118
+      ritual_glossary_1_142: 840422075259676541
+      ritual_glossary_1_143: -8758602041165669785
+      ritual_glossary_1_144: -3412906360039115569
+      ritual_glossary_1_145: -1109842778806917048
+      ritual_glossary_1_146: -7401775809270867780
+      ritual_glossary_1_147: 5501764613916676336
+      ritual_glossary_1_148: 9136850441799666473
+      ritual_glossary_1_149: -2325695159230135935
+      ritual_glossary_1_15: -7764008908844006531
+      ritual_glossary_1_150: 8043534280492467949
+      ritual_glossary_1_151: -70978156598788041
+      ritual_glossary_1_152: 5835450268713061873
+      ritual_glossary_1_153: 3361214815244011737
+      ritual_glossary_1_154: 6537010098519563440
+      ritual_glossary_1_155: -1694271810853948485
+      ritual_glossary_1_156: -1068993346824017483
+      ritual_glossary_1_157: 7080825591288107491
+      ritual_glossary_1_158: -9001164167449364720
+      ritual_glossary_1_159: 5384665372015837392
+      ritual_glossary_1_16: -423486269708053751
+      ritual_glossary_1_160: -4529366548515261680
+      ritual_glossary_1_161: -790455581090809717
+      ritual_glossary_1_162: 3760781658925164288
+      ritual_glossary_1_163: 2477542309000978378
+      ritual_glossary_1_164: 4767901959915082555
+      ritual_glossary_1_165: 1668024412664897897
+      ritual_glossary_1_166: 7153040217911556957
+      ritual_glossary_1_167: -3095954474557377836
+      ritual_glossary_1_168: 1336273968645432810
+      ritual_glossary_1_169: 4352307019814789016
+      ritual_glossary_1_17: 1525326151412776887
+      ritual_glossary_1_170: -4056133811844994306
+      ritual_glossary_1_171: 5366585199538905606
+      ritual_glossary_1_172: -2571748553594567074
+      ritual_glossary_1_173: 2550323531683310303
+      ritual_glossary_1_174: 4164176411530051748
+      ritual_glossary_1_175: 8543794803795841824
+      ritual_glossary_1_176: -3706189776562414022
+      ritual_glossary_1_177: -8914473734694155728
+      ritual_glossary_1_178: 2332928721813362944
+      ritual_glossary_1_179: -7382009141728256086
+      ritual_glossary_1_18: 1360627153822277644
+      ritual_glossary_1_180: 7875253834503359004
+      ritual_glossary_1_181: 628854156769012851
+      ritual_glossary_1_182: -8924984816571575936
+      ritual_glossary_1_183: -4796876781704907892
+      ritual_glossary_1_184: -4012656762634333745
+      ritual_glossary_1_185: 8071149406509969415
+      ritual_glossary_1_186: -7103649569443292332
+      ritual_glossary_1_187: 7091393429669041817
+      ritual_glossary_1_19: 6239637293404358907
+      ritual_glossary_1_2: 5266684389665832581
+      ritual_glossary_1_20: 4068760559403657062
+      ritual_glossary_1_21: 6147418562918137431
+      ritual_glossary_1_22: -4693624514502083937
+      ritual_glossary_1_23: -112829266940636120
+      ritual_glossary_1_24: 3689200334412048830
+      ritual_glossary_1_25: -6794124362829543361
+      ritual_glossary_1_26: -4583629648589343431
+      ritual_glossary_1_27: 5956291933461690328
+      ritual_glossary_1_28: -3858570942711872465
+      ritual_glossary_1_29: -1216106100414304035
+      ritual_glossary_1_3: -6359812712082885837
+      ritual_glossary_1_30: 8039907427299151077
+      ritual_glossary_1_31: -5136661252472149789
+      ritual_glossary_1_32: -7775627713344315292
+      ritual_glossary_1_33: 1607228935257232028
+      ritual_glossary_1_34: -1049039000930499474
+      ritual_glossary_1_35: 3128164903565558512
+      ritual_glossary_1_36: -8911177399446596907
+      ritual_glossary_1_37: 893310454711619942
+      ritual_glossary_1_38: -6348673313234609498
+      ritual_glossary_1_39: 340169923315176341
+      ritual_glossary_1_4: -976675122442252591
+      ritual_glossary_1_40: -5322925452479079948
+      ritual_glossary_1_41: -4981170247163029309
+      ritual_glossary_1_42: 8852320919485310725
+      ritual_glossary_1_43: -385198584821229783
+      ritual_glossary_1_44: 4807138007793877071
+      ritual_glossary_1_45: 5957876637762595202
+      ritual_glossary_1_46: -9170525592502282873
+      ritual_glossary_1_47: 158872575944949636
+      ritual_glossary_1_48: 410550118391874854
+      ritual_glossary_1_49: -2852208646534649436
+      ritual_glossary_1_5: 644852422331693036
+      ritual_glossary_1_50: -3400637991984310531
+      ritual_glossary_1_51: 1676224533614126218
+      ritual_glossary_1_52: -8630819803257922443
+      ritual_glossary_1_53: 9066264392962641898
+      ritual_glossary_1_54: -2736051718445604421
+      ritual_glossary_1_55: 7913597054802471507
+      ritual_glossary_1_56: 5975363740209312164
+      ritual_glossary_1_57: 339263918268241850
+      ritual_glossary_1_58: -4700276085163852298
+      ritual_glossary_1_59: -7632238802090552344
+      ritual_glossary_1_6: -6260201348434585979
+      ritual_glossary_1_60: -8451224384226247224
+      ritual_glossary_1_61: 102670062184363721
+      ritual_glossary_1_62: -2654290061712719664
+      ritual_glossary_1_63: 4398079920146718297
+      ritual_glossary_1_64: 76127983499131551
+      ritual_glossary_1_65: 2734069180058741945
+      ritual_glossary_1_66: 1275484603159739052
+      ritual_glossary_1_67: 5252007873682215035
+      ritual_glossary_1_68: -7947607410418501951
+      ritual_glossary_1_69: -3028932987947541642
+      ritual_glossary_1_7: 6126431803586877669
+      ritual_glossary_1_70: 2190376232050300915
+      ritual_glossary_1_71: -3368785794819714386
+      ritual_glossary_1_72: 7871685821614681461
+      ritual_glossary_1_73: -8233417265791651997
+      ritual_glossary_1_74: 4049239916024009094
+      ritual_glossary_1_75: 1863137487145996958
+      ritual_glossary_1_76: 2528367544484037497
+      ritual_glossary_1_77: -1849823200785856090
+      ritual_glossary_1_78: 6512707766355562866
+      ritual_glossary_1_79: -7647453004999644589
+      ritual_glossary_1_8: 6636902783296514593
+      ritual_glossary_1_80: 3549139721099812164
+      ritual_glossary_1_81: 9102280444514534287
+      ritual_glossary_1_82: -5970673940783336365
+      ritual_glossary_1_83: 1533408852556363373
+      ritual_glossary_1_84: 5328573117779507990
+      ritual_glossary_1_85: 6747215504806323926
+      ritual_glossary_1_86: 1237295501590346822
+      ritual_glossary_1_87: 1286443592532641962
+      ritual_glossary_1_88: -5498537906832365333
+      ritual_glossary_1_89: 3936348116519774115
+      ritual_glossary_1_9: 5028575055577724607
+      ritual_glossary_1_90: 869477268853686221
+      ritual_glossary_1_91: -8310483339764670328
+      ritual_glossary_1_92: -1053684129725586276
+      ritual_glossary_1_93: -2426777314902002179
+      ritual_glossary_1_94: -7223203244342531515
+      ritual_glossary_1_95: 4782216443849990183
+      ritual_glossary_1_96: 2256106544982486525
+      ritual_glossary_1_97: 3877199811238518143
+      ritual_glossary_1_98: -1154438288599064117
+      ritual_glossary_1_99: -5241588895493462763
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
