@@ -1,8 +1,5 @@
-using Core.Enigma;
-using Core.UserInterface.End;
 using Core.UserInterface.Savior;
 using Framework.Props;
-using ScriptableObjects.Enigma;
 
 namespace Core.Props
 {
