@@ -30,6 +30,7 @@ MonoBehaviour:
     contentRightImage: {fileID: 0}
     onPageOpen:
     - rid: 4367808213698216011
+    - rid: 4367808257045299275
   - contentLeft: "In the Limbus, Regium\u2019s form repeats forever: a rectangle
       beneath three triangles, a crown both whole and broken.\nThose who trace it
       may hear him stir \u2014 the left spike his fall, the middle his grief, the
@@ -48,3 +49,7 @@ MonoBehaviour:
       type: {class: AddRitualAction, ns: Core.Actions, asm: Assembly-CSharp}
       data:
         ritual: {fileID: 11400000, guid: 27fc7fe5db3484d3f924e5f7a7284a68, type: 2}
+    - rid: 4367808257045299275
+      type: {class: AddQuestAction, ns: Core.Actions, asm: Assembly-CSharp}
+      data:
+        questData: {fileID: 11400000, guid: 42e5edc7ddf06426890bda8946607b84, type: 2}

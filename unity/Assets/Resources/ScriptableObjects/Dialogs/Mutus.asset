@@ -35,6 +35,7 @@ MonoBehaviour:
   onStartDialogAction: []
   onEndDialogAction:
   - rid: 4367808091373437003
+  - rid: 4367808257045299277
   references:
     version: 2
     RefIds:
@@ -42,3 +43,7 @@ MonoBehaviour:
       type: {class: UnlockPieceAction, ns: Core.Actions, asm: Assembly-CSharp}
       data:
         pieceIdentifier: PlanetMap
+    - rid: 4367808257045299277
+      type: {class: EndQuestAction, ns: Core.Actions, asm: Assembly-CSharp}
+      data:
+        questToEnd: {fileID: 11400000, guid: 566e9e94ea668467ab13b856c5286d25, type: 2}

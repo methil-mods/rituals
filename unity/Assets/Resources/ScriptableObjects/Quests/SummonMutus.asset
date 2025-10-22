@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522582d85a4641a79f21526680fadd66, type: 3}
+  m_Name: SummonMutus
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Quest.FinalQuestData
+  questName: Summon Mutus
+  questDescription: "f\u0337\u035D\u0322l\u0335\u035D\u0348o\u0334\u031A\u0329s\u0335\u0302\u0345c\u0337\u0301\u0347u\u0337\u0312\u031Cl\u0337\u0340\u033Cu\u0337\u0308\u032Fs\u0336\u0309\u032C
+    \u0336\u0315\u0355f\u0336\u0305\u035Cl\u0334\u0351\u0356o\u0336\u0360\u0354s\u0336\u0303\u032Fc\u0334\u030A\u0355u\u0334\u0301\u0316l\u0336\u033F\u034Du\u0336\u0307\u0318s\u0335\u030C\u0354
+    \u0336\u0351\u031Fd\u0337\u0302\u0355e\u0334\u035D\u0339s\u0334\u0315\u033Ci\u0335\u0309\u033Cd\u0338\u0300\u035Ce\u0335\u0313\u0316r\u0336\u0311\u0348o\u0335\u0342\u0349
+    \u0338\u0340\u0323t\u0337\u030E\u0355e\u0337\u0341\u0323"
+  onQuestStartActions:
+  - rid: 4367808074176528470
+  onQuestFinishActions: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 4367808074176528470
+      type: {class: AddRitualAction, ns: Core.Actions, asm: Assembly-CSharp}
+      data:
+        ritual: {fileID: 11400000, guid: 32a084ee7850e488cb7ffe5e1c47bfd2, type: 2}

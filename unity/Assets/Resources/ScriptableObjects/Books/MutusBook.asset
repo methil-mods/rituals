@@ -25,6 +25,7 @@ MonoBehaviour:
     contentRightImage: {fileID: 0}
     onPageOpen:
     - rid: 4367808213698216011
+    - rid: 4367808257045299276
   - contentLeft: 
     contentLeftImage: {fileID: 21300000, guid: ca593795cbde54643ad20679d5b87523, type: 3}
     contentRight: 
@@ -37,3 +38,7 @@ MonoBehaviour:
       type: {class: AddRitualAction, ns: Core.Actions, asm: Assembly-CSharp}
       data:
         ritual: {fileID: 11400000, guid: 32a084ee7850e488cb7ffe5e1c47bfd2, type: 2}
+    - rid: 4367808257045299276
+      type: {class: AddQuestAction, ns: Core.Actions, asm: Assembly-CSharp}
+      data:
+        questData: {fileID: 11400000, guid: 566e9e94ea668467ab13b856c5286d25, type: 2}
