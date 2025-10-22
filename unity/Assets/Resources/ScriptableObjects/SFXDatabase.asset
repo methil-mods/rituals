@@ -12,11 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d77b4e91d194d2abf5fa892994e301d, type: 3}
   m_Name: SFXDatabase
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.SFX.SFXDatabase
-  volume: 1
+  musicVolume: 0.7018478
   musicClip: {fileID: 8300000, guid: 1d102b730654f474283a9f3283ba70e5, type: 3}
-  pageOpenClip: {fileID: 8300000, guid: 3ab72a186047643ef97366830fc37254, type: 3}
-  ritualOpenClip: {fileID: 0}
+  walkVolume: 1
   walkClip: {fileID: 8300000, guid: efd364a41fb9d498598e363810b67efa, type: 3}
+  talkVolume: 1
+  pageOpenVolume: 0.84390855
+  pageOpenClip: {fileID: 8300000, guid: 3ab72a186047643ef97366830fc37254, type: 3}
+  ritualOpenVolume: 1
+  ritualOpenClip: {fileID: 0}
+  ritualStartVolume: 1
   ritualStartClip: {fileID: 0}
+  hoverButtonVolume: 1
   hoverButtonClip: {fileID: 0}
+  clickButtonVolume: 1
   clickButtonClip: {fileID: 0}
+  otherVolume: 0.8421547
