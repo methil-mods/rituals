@@ -9871,7 +9871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Core.Props.BookStand
   detectionTileOffset: {x: 0, y: 0, z: 0}
   interactionIndicator: {fileID: 6334240024248078232}
-  bookData: {fileID: 11400000, guid: 9e94b87bb94784051b54366720b8b4ed, type: 2}
+  bookData: {fileID: 11400000, guid: a17bac34e4a6a469a835498a3d96edc2, type: 2}
 --- !u!1 &4321326574993256327
 GameObject:
   m_ObjectHideFlags: 0
