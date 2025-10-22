@@ -151,7 +151,6 @@ namespace World
                 var spriteRendererParent = interactibleChild.GetComponent<SpriteRenderer>();
                 if(spriteRendererParent != null)
                 {
-                    Debug.Log(interactibleChild.name);
                     spriteRendererParent.material = interactibleMaterial;
                 }
                 

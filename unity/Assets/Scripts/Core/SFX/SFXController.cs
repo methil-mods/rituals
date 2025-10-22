@@ -43,12 +43,6 @@ namespace Core.SFX
 
         public void UpdateVolume()
         {
-            Debug.Log("SFX Controler UpdateVolume m" + SFXDatabase.Instance.musicVolume);
-            Debug.Log("SFX Controler UpdateVolume t" + SFXDatabase.Instance.talkVolume);
-            Debug.Log("SFX Controler UpdateVolume p" + SFXDatabase.Instance.pageOpenVolume);
-            Debug.Log("SFX Controler UpdateVolume w" + SFXDatabase.Instance.walkVolume);
-            Debug.Log("SFX Controler UpdateVolume o" + SFXDatabase.Instance.otherVolume);
-            
             talkingUiAudioSource.volume = SFXDatabase.Instance.talkVolume;
             bookUiAudioSource.volume = SFXDatabase.Instance.pageOpenVolume;
             walkingUiAudioSource.volume = SFXDatabase.Instance.walkVolume;
