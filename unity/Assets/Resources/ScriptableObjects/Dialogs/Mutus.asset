@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf1184d09ecd41a88c91ff5b95e69a0b, type: 3}
   m_Name: Mutus
   m_EditorClassIdentifier: Assembly-CSharp::Core.Dialog.DialogData
-  talkAudioClip: {fileID: 8300000, guid: 5f6c8628f924a4208bc865f1ee35bc20, type: 3}
+  talkAudioClip: {fileID: 8300000, guid: 60115bb9357c942cb9c4be67e0beba1d, type: 3}
   contents:
   - entity: {fileID: 11400000, guid: da0951c92e2604082aee49d4969983d4, type: 2}
     content: ...

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf1184d09ecd41a88c91ff5b95e69a0b, type: 3}
   m_Name: Regium
   m_EditorClassIdentifier: Assembly-CSharp::Core.Dialog.DialogData
-  talkAudioClip: {fileID: 8300000, guid: 5f6c8628f924a4208bc865f1ee35bc20, type: 3}
+  talkAudioClip: {fileID: 8300000, guid: d3478109b9e72441280bdccd86c2dbf1, type: 3}
   contents:
   - entity: {fileID: 11400000, guid: 00c3aae559b5b4a65b4bcc80483b218c, type: 2}
     content: Everythings goes to an end...
