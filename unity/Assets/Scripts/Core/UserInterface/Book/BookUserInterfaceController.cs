@@ -1,11 +1,12 @@
+using System;
 using Core.SFX;
-using Framework.Action;
 using Framework.Controller;
 using ScriptableObjects.Book;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using Action = Framework.Action.Action;
 
 namespace Core.UserInterface.Book
 {
@@ -34,9 +35,15 @@ namespace Core.UserInterface.Book
             previousButton?.onClick.AddListener(PreviousPage);
             nextButton?.onClick.AddListener(NextPage);
             quitButton?.onClick.AddListener(ClosePanel);
+            PauseUserInterfaceController.Instance.OnPanelOpen += ClosePanel;
         }
 
-         public void OpenBook(BookData bookData) 
+        private void OnDisable()
+        {
+            PauseUserInterfaceController.Instance.OnPanelOpen -= ClosePanel;
+        }
+
+        public void OpenBook(BookData bookData) 
          {
             if (bookData == null || bookData.bookContent.Count == 0)
                 return;

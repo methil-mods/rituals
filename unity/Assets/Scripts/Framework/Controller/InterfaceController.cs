@@ -39,6 +39,7 @@ namespace Framework.Controller
 
         public void ClosePanel()
         {
+            if (PanelIsActive() == false) return;
             if (panel == null)
             {
                 OnPanelClose?.Invoke();
@@ -47,9 +48,23 @@ namespace Framework.Controller
             
             PauseController.Instance.PerformResume();
 
+            _isTransitioningToDisapear = true;
             OnPanelClose?.Invoke();
-            AnimateEffects(0f, 1f, () => panel.SetActive(false));
+            AnimateEffects(0f, 1f, () =>
+            {
+                _isTransitioningToDisapear = false;
+                panel.SetActive(false);
+            });
         }
+
+        private bool _isTransitioningToDisapear = false;
+        private bool PanelIsActive()
+        {
+            if (panel.activeSelf == false) return false;
+            if (_isTransitioningToDisapear == true) return false;
+            return true;
+        }
+        
 
         protected void AnimateEffects(float from, float to, System.Action onComplete)
         {

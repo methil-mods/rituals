@@ -37,6 +37,13 @@ namespace Core.UserInterface
             sfxController = SFXController.Instance;
             if (skipButton != null)
                 skipButton.onClick.AddListener(OnSkipButtonClick);
+            
+            PauseUserInterfaceController.Instance.OnPanelOpen += ClosePanel;
+        }
+
+        private void OnDisable()
+        {
+            PauseUserInterfaceController.Instance.OnPanelOpen -= ClosePanel;
         }
 
         private void AddDialogEntityData(EntityData entityData)

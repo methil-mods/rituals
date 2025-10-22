@@ -1,5 +1,6 @@
 using System;
 using Coffee.UIEffects;
+using Core.UserInterface;
 using Framework.Controller;
 using ScriptableObjects.Enigma;
 using TMPro;
@@ -7,7 +8,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Action = Framework.Action.Action;
 
-namespace Core.Enigma
+namespace Core.UserInterfae.Enigma
 {
     public class EnigmaController : InterfaceController<EnigmaController>
     {
@@ -49,6 +50,13 @@ namespace Core.Enigma
             buttonReset.onClick.AddListener(ResetCode);
             buttonClose.onClick.AddListener(CloseEnigmaPanel);
             buttonSubmit.onClick.AddListener(TryResolveEnigma);
+            
+            PauseUserInterfaceController.Instance.OnPanelOpen += ClosePanel;
+        }
+
+        private void OnDisable()
+        {
+            PauseUserInterfaceController.Instance.OnPanelOpen -= ClosePanel;
         }
 
         private void OnNumberClicked(int number)

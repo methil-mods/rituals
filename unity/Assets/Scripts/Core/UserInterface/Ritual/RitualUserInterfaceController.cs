@@ -24,6 +24,13 @@ namespace Core.UserInterface.Ritual
             base.Start();
             
             closeButton.onClick.AddListener(ClosePanel);
+            
+            PauseUserInterfaceController.Instance.OnPanelOpen += ClosePanel;
+        }
+
+        private void OnDisable()
+        {
+            PauseUserInterfaceController.Instance.OnPanelOpen -= ClosePanel;
         }
 
         public void LaunchRitualAnimation(EntityData entityData)
