@@ -27,7 +27,7 @@ MonoBehaviour:
       through creation like a blade of symmetry.\nHe pressed the rectangular base
       against the cracks to save his realm, but the foundation folded inward.\nKing
       and kingdom sank together into the endless hollow \u2014 the Limbus."
-    contentRightImage: {fileID: 7050371295067600686, guid: 7f5ae2ed2f29340e0a7e5c57c5a2d84c, type: 3}
+    contentRightImage: {fileID: 0}
     onPageOpen:
     - rid: 4367808213698216011
   - contentLeft: "In the Limbus, Regium\u2019s form repeats forever: a rectangle
@@ -38,7 +38,7 @@ MonoBehaviour:
       To complete it is to wear his curse."
     contentLeftImage: {fileID: 0}
     contentRight: 
-    contentRightImage: {fileID: 7050371295067600686, guid: 7f5ae2ed2f29340e0a7e5c57c5a2d84c, type: 3}
+    contentRightImage: {fileID: 21300000, guid: 7f5ae2ed2f29340e0a7e5c57c5a2d84c, type: 3}
     onPageOpen:
     - rid: 4367808213698216011
   references:
