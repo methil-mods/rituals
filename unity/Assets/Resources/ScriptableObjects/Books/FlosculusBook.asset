@@ -32,7 +32,7 @@ MonoBehaviour:
       \u0336\u0309\u033C in order to contact the savior to grant him immortality."
     contentLeftImage: {fileID: 0}
     contentRight: 
-    contentRightImage: {fileID: 0}
+    contentRightImage: {fileID: 21300000, guid: 8c77f91a5c4f14392bbd6db0f637ae20, type: 3}
     onPageOpen:
     - rid: 4367808074176528471
   references:

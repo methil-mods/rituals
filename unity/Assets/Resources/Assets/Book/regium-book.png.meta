@@ -1,0 +1,5967 @@
+fileFormatVersion: 2
+guid: 7f5ae2ed2f29340e0a7e5c57c5a2d84c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7050371295067600686
+    second: regium-book_0
+  - first:
+      213: 8436853451621502847
+    second: regium-book_1
+  - first:
+      213: -7546720806567994138
+    second: regium-book_2
+  - first:
+      213: -5686517789102747741
+    second: regium-book_3
+  - first:
+      213: 5990352773511800903
+    second: regium-book_4
+  - first:
+      213: 3618956283299020649
+    second: regium-book_5
+  - first:
+      213: 187279404419155808
+    second: regium-book_6
+  - first:
+      213: -3401126261043188705
+    second: regium-book_7
+  - first:
+      213: 6072043726060462798
+    second: regium-book_8
+  - first:
+      213: -1768894894643948789
+    second: regium-book_9
+  - first:
+      213: 3406932750260585058
+    second: regium-book_10
+  - first:
+      213: -7051523673483570576
+    second: regium-book_11
+  - first:
+      213: 5022882412159487475
+    second: regium-book_12
+  - first:
+      213: 3037581532438070950
+    second: regium-book_13
+  - first:
+      213: -4212253343474810461
+    second: regium-book_14
+  - first:
+      213: -7556949724807291517
+    second: regium-book_15
+  - first:
+      213: 491984789123674500
+    second: regium-book_16
+  - first:
+      213: -4596332388067814586
+    second: regium-book_17
+  - first:
+      213: 6296926939516547194
+    second: regium-book_18
+  - first:
+      213: -74558812585266718
+    second: regium-book_19
+  - first:
+      213: -8606779371022446151
+    second: regium-book_20
+  - first:
+      213: -2168742950137043465
+    second: regium-book_21
+  - first:
+      213: -5497560658619241610
+    second: regium-book_22
+  - first:
+      213: 2589545780593774737
+    second: regium-book_23
+  - first:
+      213: -2403203068706309746
+    second: regium-book_24
+  - first:
+      213: 5488048550863869072
+    second: regium-book_25
+  - first:
+      213: -334687447868052823
+    second: regium-book_26
+  - first:
+      213: 8392212032194051182
+    second: regium-book_27
+  - first:
+      213: -4086930628831003927
+    second: regium-book_28
+  - first:
+      213: -5459205480250201977
+    second: regium-book_29
+  - first:
+      213: -227059687004199840
+    second: regium-book_30
+  - first:
+      213: -3127569793775133128
+    second: regium-book_31
+  - first:
+      213: 5332825282577831099
+    second: regium-book_32
+  - first:
+      213: -8500565531464343843
+    second: regium-book_33
+  - first:
+      213: 1973828768977801861
+    second: regium-book_34
+  - first:
+      213: 1657782640634300257
+    second: regium-book_35
+  - first:
+      213: 6030457447178416892
+    second: regium-book_36
+  - first:
+      213: -5247380347827020022
+    second: regium-book_37
+  - first:
+      213: 3688171565039220815
+    second: regium-book_38
+  - first:
+      213: 2584275959671797272
+    second: regium-book_39
+  - first:
+      213: 3601151295916320910
+    second: regium-book_40
+  - first:
+      213: -6214757587590443266
+    second: regium-book_41
+  - first:
+      213: -5685573110580586159
+    second: regium-book_42
+  - first:
+      213: -8294711352794650475
+    second: regium-book_43
+  - first:
+      213: 2241155027229236955
+    second: regium-book_44
+  - first:
+      213: -5110512111478715440
+    second: regium-book_45
+  - first:
+      213: 2814558714490950284
+    second: regium-book_46
+  - first:
+      213: 277227733947092565
+    second: regium-book_47
+  - first:
+      213: -6928265166352258133
+    second: regium-book_48
+  - first:
+      213: -313449326018470169
+    second: regium-book_49
+  - first:
+      213: -1738648533488903858
+    second: regium-book_50
+  - first:
+      213: -5350863834696801421
+    second: regium-book_51
+  - first:
+      213: -2779539051263049956
+    second: regium-book_52
+  - first:
+      213: 3480683284931526382
+    second: regium-book_53
+  - first:
+      213: 2108245020320594883
+    second: regium-book_54
+  - first:
+      213: -6503475712390153850
+    second: regium-book_55
+  - first:
+      213: -4792960783770003031
+    second: regium-book_56
+  - first:
+      213: 639382534152279063
+    second: regium-book_57
+  - first:
+      213: -5922151954659444850
+    second: regium-book_58
+  - first:
+      213: -3194176682551478644
+    second: regium-book_59
+  - first:
+      213: 4531252582937450324
+    second: regium-book_60
+  - first:
+      213: -921618002579822823
+    second: regium-book_61
+  - first:
+      213: 3525649302651120925
+    second: regium-book_62
+  - first:
+      213: 867706644442647283
+    second: regium-book_63
+  - first:
+      213: 4542488968372883981
+    second: regium-book_64
+  - first:
+      213: 6008541117686294745
+    second: regium-book_65
+  - first:
+      213: 7584704984601175870
+    second: regium-book_66
+  - first:
+      213: 8154932849954663395
+    second: regium-book_67
+  - first:
+      213: -7281371911693291666
+    second: regium-book_68
+  - first:
+      213: -2199590535461342409
+    second: regium-book_69
+  - first:
+      213: -1033587394692401041
+    second: regium-book_70
+  - first:
+      213: 1137488577301116760
+    second: regium-book_71
+  - first:
+      213: 4830133746780246833
+    second: regium-book_72
+  - first:
+      213: 6259141158490967836
+    second: regium-book_73
+  - first:
+      213: -1774920743940974869
+    second: regium-book_74
+  - first:
+      213: 5235660462337208202
+    second: regium-book_75
+  - first:
+      213: -5343882980869234290
+    second: regium-book_76
+  - first:
+      213: 5831501200755636014
+    second: regium-book_77
+  - first:
+      213: -5620693343482706678
+    second: regium-book_78
+  - first:
+      213: -4747358995158102763
+    second: regium-book_79
+  - first:
+      213: -8777602862059801168
+    second: regium-book_80
+  - first:
+      213: -2281763359942527121
+    second: regium-book_81
+  - first:
+      213: 421163097222992902
+    second: regium-book_82
+  - first:
+      213: -4092877811332231001
+    second: regium-book_83
+  - first:
+      213: -6091999445182704868
+    second: regium-book_84
+  - first:
+      213: -1359508538825112734
+    second: regium-book_85
+  - first:
+      213: 58348423922811643
+    second: regium-book_86
+  - first:
+      213: -7994128074478456185
+    second: regium-book_87
+  - first:
+      213: -4847624555996489034
+    second: regium-book_88
+  - first:
+      213: -4326906441802362214
+    second: regium-book_89
+  - first:
+      213: 703169947974554222
+    second: regium-book_90
+  - first:
+      213: -4195919277894453741
+    second: regium-book_91
+  - first:
+      213: -2707459842964215591
+    second: regium-book_92
+  - first:
+      213: -4051366037129192742
+    second: regium-book_93
+  - first:
+      213: -5751702958175038120
+    second: regium-book_94
+  - first:
+      213: -81299649281460107
+    second: regium-book_95
+  - first:
+      213: 1871949464616749788
+    second: regium-book_96
+  - first:
+      213: -1499575423197028686
+    second: regium-book_97
+  - first:
+      213: 2166940203990947135
+    second: regium-book_98
+  - first:
+      213: 7912139628023704862
+    second: regium-book_99
+  - first:
+      213: -4142496616486484866
+    second: regium-book_100
+  - first:
+      213: 2201299484479142568
+    second: regium-book_101
+  - first:
+      213: 6016669571114898756
+    second: regium-book_102
+  - first:
+      213: 1912823353695291013
+    second: regium-book_103
+  - first:
+      213: -5178156859915822863
+    second: regium-book_104
+  - first:
+      213: -7944216601898058106
+    second: regium-book_105
+  - first:
+      213: -7391615116631297179
+    second: regium-book_106
+  - first:
+      213: 8709327680842873249
+    second: regium-book_107
+  - first:
+      213: -6810115509754682252
+    second: regium-book_108
+  - first:
+      213: 9221576792624739639
+    second: regium-book_109
+  - first:
+      213: -4134591774688127903
+    second: regium-book_110
+  - first:
+      213: 6466318633922076976
+    second: regium-book_111
+  - first:
+      213: 5481589137010493663
+    second: regium-book_112
+  - first:
+      213: -5529152869188030289
+    second: regium-book_113
+  - first:
+      213: 5789205071785453163
+    second: regium-book_114
+  - first:
+      213: 1455942360277998416
+    second: regium-book_115
+  - first:
+      213: -3830680123143749472
+    second: regium-book_116
+  - first:
+      213: -8436342626014483466
+    second: regium-book_117
+  - first:
+      213: 8358841746148894536
+    second: regium-book_118
+  - first:
+      213: 1146813758539005900
+    second: regium-book_119
+  - first:
+      213: -8901619289001304383
+    second: regium-book_120
+  - first:
+      213: -8578788062333008221
+    second: regium-book_121
+  - first:
+      213: 3356836897077710617
+    second: regium-book_122
+  - first:
+      213: 2308744251359394001
+    second: regium-book_123
+  - first:
+      213: -6188670351685369721
+    second: regium-book_124
+  - first:
+      213: -1381545431672945825
+    second: regium-book_125
+  - first:
+      213: -806824807240659160
+    second: regium-book_126
+  - first:
+      213: 5016758811965980884
+    second: regium-book_127
+  - first:
+      213: -1526238118719685423
+    second: regium-book_128
+  - first:
+      213: -8540874803105921060
+    second: regium-book_129
+  - first:
+      213: 6278491156278527924
+    second: regium-book_130
+  - first:
+      213: -7067831289479065662
+    second: regium-book_131
+  - first:
+      213: 8429512114453954252
+    second: regium-book_132
+  - first:
+      213: 1611547446672750336
+    second: regium-book_133
+  - first:
+      213: -7787163134602776424
+    second: regium-book_134
+  - first:
+      213: 3072057482345824780
+    second: regium-book_135
+  - first:
+      213: -2300110110716086872
+    second: regium-book_136
+  - first:
+      213: -2980243779674021574
+    second: regium-book_137
+  - first:
+      213: -6117545155128981230
+    second: regium-book_138
+  - first:
+      213: 4412555520240118520
+    second: regium-book_139
+  - first:
+      213: 5730004870731443692
+    second: regium-book_140
+  - first:
+      213: -592140120160574087
+    second: regium-book_141
+  - first:
+      213: -4603806488489418225
+    second: regium-book_142
+  - first:
+      213: -4571536773120787166
+    second: regium-book_143
+  - first:
+      213: -3314848560778098250
+    second: regium-book_144
+  - first:
+      213: 5165675237581232796
+    second: regium-book_145
+  - first:
+      213: -6468655012703028908
+    second: regium-book_146
+  - first:
+      213: -829195712505370791
+    second: regium-book_147
+  - first:
+      213: -7440376427391874224
+    second: regium-book_148
+  - first:
+      213: -8420556811731656693
+    second: regium-book_149
+  - first:
+      213: 4218175665014773669
+    second: regium-book_150
+  - first:
+      213: -7801196002209118812
+    second: regium-book_151
+  - first:
+      213: 7646625602868529999
+    second: regium-book_152
+  - first:
+      213: -5439534938436019113
+    second: regium-book_153
+  - first:
+      213: -772160153430361295
+    second: regium-book_154
+  - first:
+      213: 8129367544386871735
+    second: regium-book_155
+  - first:
+      213: 3042037040374237371
+    second: regium-book_156
+  - first:
+      213: 7969592406572886473
+    second: regium-book_157
+  - first:
+      213: 3647846725591080215
+    second: regium-book_158
+  - first:
+      213: 2494209846723571314
+    second: regium-book_159
+  - first:
+      213: 2263771341317261557
+    second: regium-book_160
+  - first:
+      213: 4315169216155048467
+    second: regium-book_161
+  - first:
+      213: 242786202639414127
+    second: regium-book_162
+  - first:
+      213: 8770493258072601684
+    second: regium-book_163
+  - first:
+      213: -8776066988543760499
+    second: regium-book_164
+  - first:
+      213: 2791543167008644779
+    second: regium-book_165
+  - first:
+      213: -7897141870986871983
+    second: regium-book_166
+  - first:
+      213: 45523723941604754
+    second: regium-book_167
+  - first:
+      213: 2603197421760186619
+    second: regium-book_168
+  - first:
+      213: 8704007541285452382
+    second: regium-book_169
+  - first:
+      213: 7297797868374300646
+    second: regium-book_170
+  - first:
+      213: 4061183479225223803
+    second: regium-book_171
+  - first:
+      213: -7172010832142774161
+    second: regium-book_172
+  - first:
+      213: -1952210214932820317
+    second: regium-book_173
+  - first:
+      213: -1531660585752817674
+    second: regium-book_174
+  - first:
+      213: -2167123341478868061
+    second: regium-book_175
+  - first:
+      213: -3545162431993781759
+    second: regium-book_176
+  - first:
+      213: -6752470374174480310
+    second: regium-book_177
+  - first:
+      213: -6756531871654115078
+    second: regium-book_178
+  - first:
+      213: 3131304024282018038
+    second: regium-book_179
+  - first:
+      213: -5739148943175928354
+    second: regium-book_180
+  - first:
+      213: -6887402414224654173
+    second: regium-book_181
+  - first:
+      213: -2272396576843010957
+    second: regium-book_182
+  - first:
+      213: 5776602969568380330
+    second: regium-book_183
+  - first:
+      213: -4385371233273342782
+    second: regium-book_184
+  - first:
+      213: 1140177822423367794
+    second: regium-book_185
+  - first:
+      213: -1149064669802125829
+    second: regium-book_186
+  - first:
+      213: -6594025681785364861
+    second: regium-book_187
+  - first:
+      213: 2405948498107520042
+    second: regium-book_188
+  - first:
+      213: 930275007580379704
+    second: regium-book_189
+  - first:
+      213: -1269021003602951776
+    second: regium-book_190
+  - first:
+      213: 2708141415017067432
+    second: regium-book_191
+  - first:
+      213: -1248636020244693593
+    second: regium-book_192
+  - first:
+      213: -414612164569353608
+    second: regium-book_193
+  - first:
+      213: -5769379557785549683
+    second: regium-book_194
+  - first:
+      213: -2896683286760392696
+    second: regium-book_195
+  - first:
+      213: 9016127041761074404
+    second: regium-book_196
+  - first:
+      213: -7696872985272785494
+    second: regium-book_197
+  - first:
+      213: 8609911339533452336
+    second: regium-book_198
+  - first:
+      213: 2329271310182450641
+    second: regium-book_199
+  - first:
+      213: -6138304575595113500
+    second: regium-book_200
+  - first:
+      213: -2087918175128432651
+    second: regium-book_201
+  - first:
+      213: -6411078880739711848
+    second: regium-book_202
+  - first:
+      213: 6164999741190897606
+    second: regium-book_203
+  - first:
+      213: 1434264236328728126
+    second: regium-book_204
+  - first:
+      213: -3466701402557163214
+    second: regium-book_205
+  - first:
+      213: -3573642904034350870
+    second: regium-book_206
+  - first:
+      213: 6993606688312413440
+    second: regium-book_207
+  - first:
+      213: -8778030982859670067
+    second: regium-book_208
+  - first:
+      213: -6506041486905331208
+    second: regium-book_209
+  - first:
+      213: -8533591018017844755
+    second: regium-book_210
+  - first:
+      213: -4744552244571698037
+    second: regium-book_211
+  - first:
+      213: 8239631051807233461
+    second: regium-book_212
+  - first:
+      213: 3093514365416953818
+    second: regium-book_213
+  - first:
+      213: -5169676302830785900
+    second: regium-book_214
+  - first:
+      213: 5005862070980058357
+    second: regium-book_215
+  - first:
+      213: 5375718002669568887
+    second: regium-book_216
+  - first:
+      213: 7776306025830637998
+    second: regium-book_217
+  - first:
+      213: 8519912679125041076
+    second: regium-book_218
+  - first:
+      213: -7057289297120706743
+    second: regium-book_219
+  - first:
+      213: 3464448814627568825
+    second: regium-book_220
+  - first:
+      213: 2949262513821350085
+    second: regium-book_221
+  - first:
+      213: -2749511733017423700
+    second: regium-book_222
+  - first:
+      213: 4176510801010757367
+    second: regium-book_223
+  - first:
+      213: -8722052054285721476
+    second: regium-book_224
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: regium-book_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1997
+        width: 549
+        height: 745
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e277d11a653f7d160800000000000000
+      internalID: 7050371295067600686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_1
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 2204
+        width: 816
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f8ded8389b51570800000000000000
+      internalID: 8436853451621502847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_2
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 2191
+        width: 189
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec17712969a44790800000000000000
+      internalID: -7546720806567994138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_3
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 2301
+        width: 287
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af4793033e6511b0800000000000000
+      internalID: -5686517789102747741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_4
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 2173
+        width: 316
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7486278fb12022350800000000000000
+      internalID: 5990352773511800903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_5
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 2131
+        width: 103
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96fb4bbc09d193230800000000000000
+      internalID: 3618956283299020649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_6
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 2214
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067862640a9599200800000000000000
+      internalID: 187279404419155808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_7
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2187
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ca44e7fa5ccc0d0800000000000000
+      internalID: -3401126261043188705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_8
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 2182
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec22978099b344450800000000000000
+      internalID: 6072043726060462798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_9
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 2198
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03debf177f9377e0800000000000000
+      internalID: -1768894894643948789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_10
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 2191
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2624de0294bd74f20800000000000000
+      internalID: 3406932750260585058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_11
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 2180
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07211cc5494f32e90800000000000000
+      internalID: -7051523673483570576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_12
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2186
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fdc25501fcd4b540800000000000000
+      internalID: 5022882412159487475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_13
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 2180
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a602495f48a72a20800000000000000
+      internalID: 3037581532438070950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_14
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 951
+        width: 1038
+        height: 1231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a18b3ec6e11b85c0800000000000000
+      internalID: -4212253343474810461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_15
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2172
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d10638342502790800000000000000
+      internalID: -7556949724807291517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_16
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 2181
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481bc9e1f81e3d600800000000000000
+      internalID: 491984789123674500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_17
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 2174
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6435893ab0c8630c0800000000000000
+      internalID: -4596332388067814586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_18
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 2157
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70b87e50bd236750800000000000000
+      internalID: 6296926939516547194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_19
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 2151
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1fafca72d17fef0800000000000000
+      internalID: -74558812585266718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_20
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 2154
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b11c0243c39e8880800000000000000
+      internalID: -8606779371022446151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_21
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 2140
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5e2fff6c317e1e0800000000000000
+      internalID: -2168742950137043465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_22
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1570
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b66d355bdb4b3b0800000000000000
+      internalID: -5497560658619241610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_23
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1169
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19057edda2aefe320800000000000000
+      internalID: 2589545780593774737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_24
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1176
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89b1aeaa8b16aed0800000000000000
+      internalID: -2403203068706309746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_25
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 1024
+        width: 66
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09496508417792c40800000000000000
+      internalID: 5488048550863869072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_26
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1163
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aaea071a83fa5bf0800000000000000
+      internalID: -334687447868052823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_27
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 1158
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c7fa22160277470800000000000000
+      internalID: 8392212032194051182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_28
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1150
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea3dde1f3e4847c0800000000000000
+      internalID: -4086930628831003927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_29
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1135
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78822d13a810d34b0800000000000000
+      internalID: -5459205480250201977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_30
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1133
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064ad4dea6259dcf0800000000000000
+      internalID: -227059687004199840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_31
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1121
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e9ac7d7d3a894d0800000000000000
+      internalID: -3127569793775133128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_32
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 1118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb416490750020a40800000000000000
+      internalID: 5332825282577831099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_33
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1118
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde5323eface70a80800000000000000
+      internalID: -8500565531464343843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_34
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1119
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5825e5ebec2746b10800000000000000
+      internalID: 1973828768977801861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_35
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 21
+        width: 921
+        height: 1089
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16701d14780a10710800000000000000
+      internalID: 1657782640634300257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_36
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1106
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2bd24f81d70b350800000000000000
+      internalID: 6030457447178416892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_37
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1106
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f976e106f8d27b0800000000000000
+      internalID: -5247380347827020022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_38
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1110
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48fbd46f740f2330800000000000000
+      internalID: 3688171565039220815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_39
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 1099
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816b1d11b413dd320800000000000000
+      internalID: 2584275959671797272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_40
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1065
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88a78f160cd9f130800000000000000
+      internalID: 3601151295916320910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_41
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 549
+        width: 253
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe028ab6eeb0c9a0800000000000000
+      internalID: -6214757587590443266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_42
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 766
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159d45f1169c811b0800000000000000
+      internalID: -5685573110580586159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_43
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 732
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598664ec8f343ec80800000000000000
+      internalID: -8294711352794650475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_44
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 439
+        width: 244
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde54948f9e2a1f10800000000000000
+      internalID: 2241155027229236955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_45
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 341
+        width: 276
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbcafeaf40d319b0800000000000000
+      internalID: -5110512111478715440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_46
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 349
+        width: 268
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8296b81d325f0720800000000000000
+      internalID: 2814558714490950284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 747
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e8dcbb729e8d300800000000000000
+      internalID: 277227733947092565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_48
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 743
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab6cd9e98bd9df90800000000000000
+      internalID: -6928265166352258133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_49
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 738
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee559baf7766abf0800000000000000
+      internalID: -313449326018470169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_50
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 744
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49d32cde541fd7e0800000000000000
+      internalID: -1738648533488903858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_51
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 733
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373a96341b9edb5b0800000000000000
+      internalID: -5350863834696801421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_52
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 730
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fb322a5f71d69d0800000000000000
+      internalID: -2779539051263049956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_53
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 707
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeebbf5910fdd4030800000000000000
+      internalID: 3480683284931526382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_54
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 697
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbf1bf0dadf14d10800000000000000
+      internalID: 2108245020320594883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_55
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 695
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689ba95eb430fb5a0800000000000000
+      internalID: -6503475712390153850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_56
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 662
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9d205bf8bfb7db0800000000000000
+      internalID: -4792960783770003031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_57
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 670
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7145cb7f60b8fd800800000000000000
+      internalID: 639382534152279063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_58
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 554
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8773a49c2a40dda0800000000000000
+      internalID: -5922151954659444850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_59
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 449
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86feae0b310ca3d0800000000000000
+      internalID: -3194176682551478644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_60
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 435
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457de81773e32ee30800000000000000
+      internalID: 4531252582937450324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_61
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 393
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917ef914f41c533f0800000000000000
+      internalID: -921618002579822823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_62
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 346
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1daf1f6c5f9de030800000000000000
+      internalID: 3525649302651120925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_63
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 406
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa00478896ba0c00800000000000000
+      internalID: 867706644442647283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_64
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 380
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d021ffb46a92a0f30800000000000000
+      internalID: 4542488968372883981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_65
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 380
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8250adf40a26350800000000000000
+      internalID: 6008541117686294745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_66
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 389
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37a94d7ff8424960800000000000000
+      internalID: 7584704984601175870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_67
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 378
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb26b868342c2170800000000000000
+      internalID: 8154932849954663395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_68
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 390
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fa30e13de53fa90800000000000000
+      internalID: -7281371911693291666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_69
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 386
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733f38adf0c7971e0800000000000000
+      internalID: -2199590535461342409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_70
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 393
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68b90f9db5f7a1f0800000000000000
+      internalID: -1033587394692401041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_71
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 331
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857f81a95db29cf00800000000000000
+      internalID: 1137488577301116760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_72
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 377
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13396723d05180340800000000000000
+      internalID: 4830133746780246833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_73
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 366
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f81e6a8bfecd650800000000000000
+      internalID: 6259141158490967836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_74
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 373
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be61de0ccf63e57e0800000000000000
+      internalID: -1774920743940974869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_75
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 381
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8faa26637dc8a840800000000000000
+      internalID: 5235660462337208202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_76
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 368
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81a804fdb6b6d5b0800000000000000
+      internalID: -5343882980869234290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_77
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 376
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27bd4a0277ade050800000000000000
+      internalID: 5831501200755636014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_78
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 374
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a058f4e0f294ff1b0800000000000000
+      internalID: -5620693343482706678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_79
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 377
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d8850852efd1eb0800000000000000
+      internalID: -4747358995158102763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_80
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 373
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b53973e3b0bf2680800000000000000
+      internalID: -8777602862059801168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_81
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 362
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67bf1d305c8550e0800000000000000
+      internalID: -2281763359942527121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_82
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 367
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604da720b9548d500800000000000000
+      internalID: 421163097222992902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_83
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 362
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0d67ac05d2337c0800000000000000
+      internalID: -4092877811332231001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_84
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 366
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13120a08ced47ba0800000000000000
+      internalID: -6091999445182704868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_85
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 368
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263083adf2e022de0800000000000000
+      internalID: -1359508538825112734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_86
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 357
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf28f19159b4fc000800000000000000
+      internalID: 58348423922811643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_87
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 368
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782fbb7fed62f0190800000000000000
+      internalID: -7994128074478456185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_88
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 369
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba5e5f6627c9bcb0800000000000000
+      internalID: -4847624555996489034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_89
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 355
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a925500248db3f3c0800000000000000
+      internalID: -4326906441802362214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_90
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 369
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62d0c5975922c900800000000000000
+      internalID: 703169947974554222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_91
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 367
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31633eec5a915c5c0800000000000000
+      internalID: -4195919277894453741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_92
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 357
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8ab781e9b2d6ad0800000000000000
+      internalID: -2707459842964215591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_93
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 333
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada15d5ed08a6c7c0800000000000000
+      internalID: -4051366037129192742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_94
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 362
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855d96422a8dd20b0800000000000000
+      internalID: -5751702958175038120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_95
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 358
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578f634566a2fdef0800000000000000
+      internalID: -81299649281460107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_96
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 356
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdac6fbbe108af910800000000000000
+      internalID: 1871949464616749788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_97
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 359
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be5f620910703be0800000000000000
+      internalID: -1499575423197028686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_98
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 335
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35946472a4821e10800000000000000
+      internalID: 2166940203990947135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_99
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 349
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1de4a542119dcd60800000000000000
+      internalID: 7912139628023704862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_100
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 338
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74c0137645e286c0800000000000000
+      internalID: -4142496616486484866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_101
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 347
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa31a8d7369c8e10800000000000000
+      internalID: 2201299484479142568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_102
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 322
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4459435e8118f7350800000000000000
+      internalID: 6016669571114898756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_103
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 346
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5864413a4b6bb8a10800000000000000
+      internalID: 1912823353695291013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_104
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 352
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8177d55cd7328b0800000000000000
+      internalID: -5178156859915822863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_105
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 344
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68efa11471970c190800000000000000
+      internalID: -7944216601898058106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_106
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 344
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563b8c0c635bb6990800000000000000
+      internalID: -7391615116631297179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_107
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 351
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9bd19b16fbdd870800000000000000
+      internalID: 8709327680842873249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_108
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 322
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474a1b1860c9d71a0800000000000000
+      internalID: -6810115509754682252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_109
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 336
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73532612c3f99ff70800000000000000
+      internalID: 9221576792624739639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_110
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 336
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164567adfaafe96c0800000000000000
+      internalID: -4134591774688127903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_111
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 339
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0312a6b998afcb950800000000000000
+      internalID: 6466318633922076976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_112
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 334
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd886240744821c40800000000000000
+      internalID: 5481589137010493663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_113
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 323
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0373b92c08443b0800000000000000
+      internalID: -5529152869188030289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_114
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 317
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6669ab1753675050800000000000000
+      internalID: 5789205071785453163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_115
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 318
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b50dddcdb843410800000000000000
+      internalID: 1455942360277998416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_116
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 314
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a00edb49b0b6dac0800000000000000
+      internalID: -3830680123143749472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_117
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 329
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbabec44171cea80800000000000000
+      internalID: -8436342626014483466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_118
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 320
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84729e4f742900470800000000000000
+      internalID: 8358841746148894536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_119
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 327
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf7f3d890d4aef00800000000000000
+      internalID: 1146813758539005900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_120
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 312
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cedf416b68177480800000000000000
+      internalID: -8901619289001304383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_121
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 329
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6874da5b502f880800000000000000
+      internalID: -8578788062333008221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_122
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 328
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fcd336f51e59e20800000000000000
+      internalID: 3356836897077710617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_123
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 318
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d870831aae4a0020800000000000000
+      internalID: 2308744251359394001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_124
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 317
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7804dc7aa1d6d1aa0800000000000000
+      internalID: -6188670351685369721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_125
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 317
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f530218efb3c3dce0800000000000000
+      internalID: -1381545431672945825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_126
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 326
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f8270dc159dc4f0800000000000000
+      internalID: -806824807240659160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_127
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 296
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d00b0f3f8b1f9540800000000000000
+      internalID: 5016758811965980884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_128
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 306
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc7d037486b1dae0800000000000000
+      internalID: -1526238118719685423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_129
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 303
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd789c93e97b87980800000000000000
+      internalID: -8540874803105921060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_130
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 289
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7c967117ea12750800000000000000
+      internalID: 6278491156278527924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_131
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 281
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf8532a3e40aed90800000000000000
+      internalID: -7067831289479065662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_132
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce31eb4b94abf470800000000000000
+      internalID: 8429512114453954252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_133
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 306
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007fd994ddd5d5610800000000000000
+      internalID: 1611547446672750336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_134
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 296
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890fbf123607ee390800000000000000
+      internalID: -7787163134602776424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_135
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 305
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02cdc4f00422aa20800000000000000
+      internalID: 3072057482345824780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_136
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 294
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5bb727a0e5410e0800000000000000
+      internalID: -2300110110716086872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_137
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 284
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a316678821c04a6d0800000000000000
+      internalID: -2980243779674021574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_138
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 297
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2190023f71d1a1ba0800000000000000
+      internalID: -6117545155128981230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_139
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 302
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fae99feddb8c3d30800000000000000
+      internalID: 4412555520240118520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_140
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 280
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceda4313211158f40800000000000000
+      internalID: 5730004870731443692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_141
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 289
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9756290b2bb48c7f0800000000000000
+      internalID: -592140120160574087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_142
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 279
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0223f6046efb10c0800000000000000
+      internalID: -4603806488489418225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_143
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 278
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22dff70a683ae80c0800000000000000
+      internalID: -4571536773120787166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_144
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 281
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b94b9afbca4ff1d0800000000000000
+      internalID: -3314848560778098250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_145
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 278
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a9f09724a20b740800000000000000
+      internalID: 5165675237581232796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_146
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 284
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4593941d988ba36a0800000000000000
+      internalID: -6468655012703028908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_147
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 243
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95727da84ea1e74f0800000000000000
+      internalID: -829195712505370791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_148
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 270
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b0e126f097eb890800000000000000
+      internalID: -7440376427391874224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_149
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 266
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b002db9913c242b80800000000000000
+      internalID: -8420556811731656693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_150
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 267
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a717612b68f98a30800000000000000
+      internalID: 4218175665014773669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_151
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 251
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5c02981959cb390800000000000000
+      internalID: -7801196002209118812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_152
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 272
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bc265e8754e1a60800000000000000
+      internalID: 7646625602868529999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_153
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 270
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75cd13b1bc3e284b0800000000000000
+      internalID: -5439534938436019113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_154
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 226
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b72197e6cb845f0800000000000000
+      internalID: -772160153430361295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_155
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 254
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1e4cbd5b051d070800000000000000
+      internalID: 8129367544386871735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_156
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 250
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb84611229c773a20800000000000000
+      internalID: 3042037040374237371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_157
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 189
+        width: 18
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c96d6ea11ea99e60800000000000000
+      internalID: 7969592406572886473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_158
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 257
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d9de11541cf9230800000000000000
+      internalID: 3647846725591080215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_159
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 239
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e6d3504a63d9220800000000000000
+      internalID: 2494209846723571314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_160
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 247
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8cceb7a088a6f10800000000000000
+      internalID: 2263771341317261557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_161
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 226
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a5f921a8f82eb30800000000000000
+      internalID: 4315169216155048467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_162
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 237
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6330b4d3cc8e5300800000000000000
+      internalID: 242786202639414127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_163
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 228
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4543060762d07b970800000000000000
+      internalID: 8770493258072601684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_164
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 234
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8721de4295253680800000000000000
+      internalID: -8776066988543760499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_165
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 236
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae18bc58bd8db620800000000000000
+      internalID: 2791543167008644779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_166
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 254
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bb6f62f47b76290800000000000000
+      internalID: -7897141870986871983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_167
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 246
+        width: 59
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d6462f59bb1a000800000000000000
+      internalID: 45523723941604754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_168
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 208
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf88a34434a602420800000000000000
+      internalID: 2603197421760186619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_169
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 224
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5af3a43eb8dac870800000000000000
+      internalID: 8704007541285452382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_170
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 218
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e79d03fe7cf64560800000000000000
+      internalID: 7297797868374300646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_171
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 205
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a87e67bd83c5830800000000000000
+      internalID: 4061183479225223803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_172
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 209
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6050e8a526e77c90800000000000000
+      internalID: -7172010832142774161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_173
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 182
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae4a0c172b58e4e0800000000000000
+      internalID: -1952210214932820317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_174
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 169
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff8cb5ffc27ebae0800000000000000
+      internalID: -1531660585752817674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_175
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 187
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abc1b68dc4dce1e0800000000000000
+      internalID: -2167123341478868061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_176
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 185
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10263f91d8d0dcec0800000000000000
+      internalID: -3545162431993781759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_177
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 179
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a482bf688f76a42a0800000000000000
+      internalID: -6752470374174480310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_178
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 145
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af883747f0afb32a0800000000000000
+      internalID: -6756531871654115078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_179
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 185
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0b4137b60a47b20800000000000000
+      internalID: 3131304024282018038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_180
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 169
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5b0f881727a50b0800000000000000
+      internalID: -5739148943175928354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_181
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 160
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0c8facef70b60a0800000000000000
+      internalID: -6887402414224654173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_182
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 177
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c65706a53d670e0800000000000000
+      internalID: -2272396576843010957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_183
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 178
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa507998bcd9a2050800000000000000
+      internalID: 5776602969568380330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_184
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 171
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4968819180423c0800000000000000
+      internalID: -4385371233273342782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_185
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 167
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270c25640b9b2df00800000000000000
+      internalID: 1140177822423367794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_186
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 162
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf52e7455c3bd00f0800000000000000
+      internalID: -1149064669802125829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_187
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 151
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e516d34905d74a0800000000000000
+      internalID: -6594025681785364861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_188
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 158
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2455996965a36120800000000000000
+      internalID: 2405948498107520042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_189
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 160
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a904ac03009ec00800000000000000
+      internalID: 930275007580379704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_190
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 147
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a18cbbee18836ee0800000000000000
+      internalID: -1269021003602951776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_191
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 121
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3bd93c440459520800000000000000
+      internalID: 2708141415017067432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_192
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 116
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adbe87b724fbaee0800000000000000
+      internalID: -1248636020244693593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_193
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 135
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872b94bde600f3af0800000000000000
+      internalID: -414612164569353608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_194
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 44
+        width: 33
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84cac31cdb0fefa0800000000000000
+      internalID: -5769379557785549683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_195
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 108
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808f5d1e5e9ecc7d0800000000000000
+      internalID: -2896683286760392696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_196
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 117
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec56f566c7bf1d70800000000000000
+      internalID: 9016127041761074404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_197
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 119
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5e387bcc63f2590800000000000000
+      internalID: -7696872985272785494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_198
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 110
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034cf7cfebc8c7770800000000000000
+      internalID: 8609911339533452336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_199
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 113
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d50fe46aeb335020800000000000000
+      internalID: 2329271310182450641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_200
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 111
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e39f78b28c50daa0800000000000000
+      internalID: -6138304575595113500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_201
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 108
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff43636b793603e0800000000000000
+      internalID: -2087918175128432651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_202
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 107
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894208ea9b54707a0800000000000000
+      internalID: -6411078880739711848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_203
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 104
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cffe0ed99a7e8550800000000000000
+      internalID: 6164999741190897606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_204
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 73
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36bb6059b787e310800000000000000
+      internalID: 1434264236328728126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_205
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 88
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2395b36117dc3efc0800000000000000
+      internalID: -3466701402557163214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_206
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 87
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8efe676bed76ec0800000000000000
+      internalID: -3573642904034350870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_207
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 41
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d48a3ba384e0160800000000000000
+      internalID: 6993606688312413440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_208
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 52
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdb64f345b2e2680800000000000000
+      internalID: -8778030982859670067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_209
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 45
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1bd07fcb5e5b5a0800000000000000
+      internalID: -6506041486905331208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_210
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 30
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de115989e28929980800000000000000
+      internalID: -8533591018017844755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_211
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 0
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c850c0fd6f72eb0800000000000000
+      internalID: -4744552244571698037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_212
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 35
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b59f3349cc095270800000000000000
+      internalID: 8239631051807233461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_213
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 24
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7de3adcee5eea20800000000000000
+      internalID: 3093514365416953818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_214
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 25
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a240eeace9148b0800000000000000
+      internalID: -5169676302830785900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_215
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 25
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc1e570805687540800000000000000
+      internalID: 5005862070980058357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_216
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 17
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773cac9aa036a9a40800000000000000
+      internalID: 5375718002669568887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_217
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 21
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea16d5e312dfaeb60800000000000000
+      internalID: 7776306025830637998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_218
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 16
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf3894f07fcc3670800000000000000
+      internalID: 8519912679125041076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_219
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 14
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f34ff76c87f0e90800000000000000
+      internalID: -7057289297120706743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_220
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 10
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc366a67d1341030800000000000000
+      internalID: 3464448814627568825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_221
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 4
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c872b561a2ede820800000000000000
+      internalID: 2949262513821350085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_222
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 0
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca05ab775a5c7d9d0800000000000000
+      internalID: -2749511733017423700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_223
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe04d60272f5f930800000000000000
+      internalID: 4176510801010757367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regium-book_224
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7065d73edb05f680800000000000000
+      internalID: -8722052054285721476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      regium-book_0: 7050371295067600686
+      regium-book_1: 8436853451621502847
+      regium-book_10: 3406932750260585058
+      regium-book_100: -4142496616486484866
+      regium-book_101: 2201299484479142568
+      regium-book_102: 6016669571114898756
+      regium-book_103: 1912823353695291013
+      regium-book_104: -5178156859915822863
+      regium-book_105: -7944216601898058106
+      regium-book_106: -7391615116631297179
+      regium-book_107: 8709327680842873249
+      regium-book_108: -6810115509754682252
+      regium-book_109: 9221576792624739639
+      regium-book_11: -7051523673483570576
+      regium-book_110: -4134591774688127903
+      regium-book_111: 6466318633922076976
+      regium-book_112: 5481589137010493663
+      regium-book_113: -5529152869188030289
+      regium-book_114: 5789205071785453163
+      regium-book_115: 1455942360277998416
+      regium-book_116: -3830680123143749472
+      regium-book_117: -8436342626014483466
+      regium-book_118: 8358841746148894536
+      regium-book_119: 1146813758539005900
+      regium-book_12: 5022882412159487475
+      regium-book_120: -8901619289001304383
+      regium-book_121: -8578788062333008221
+      regium-book_122: 3356836897077710617
+      regium-book_123: 2308744251359394001
+      regium-book_124: -6188670351685369721
+      regium-book_125: -1381545431672945825
+      regium-book_126: -806824807240659160
+      regium-book_127: 5016758811965980884
+      regium-book_128: -1526238118719685423
+      regium-book_129: -8540874803105921060
+      regium-book_13: 3037581532438070950
+      regium-book_130: 6278491156278527924
+      regium-book_131: -7067831289479065662
+      regium-book_132: 8429512114453954252
+      regium-book_133: 1611547446672750336
+      regium-book_134: -7787163134602776424
+      regium-book_135: 3072057482345824780
+      regium-book_136: -2300110110716086872
+      regium-book_137: -2980243779674021574
+      regium-book_138: -6117545155128981230
+      regium-book_139: 4412555520240118520
+      regium-book_14: -4212253343474810461
+      regium-book_140: 5730004870731443692
+      regium-book_141: -592140120160574087
+      regium-book_142: -4603806488489418225
+      regium-book_143: -4571536773120787166
+      regium-book_144: -3314848560778098250
+      regium-book_145: 5165675237581232796
+      regium-book_146: -6468655012703028908
+      regium-book_147: -829195712505370791
+      regium-book_148: -7440376427391874224
+      regium-book_149: -8420556811731656693
+      regium-book_15: -7556949724807291517
+      regium-book_150: 4218175665014773669
+      regium-book_151: -7801196002209118812
+      regium-book_152: 7646625602868529999
+      regium-book_153: -5439534938436019113
+      regium-book_154: -772160153430361295
+      regium-book_155: 8129367544386871735
+      regium-book_156: 3042037040374237371
+      regium-book_157: 7969592406572886473
+      regium-book_158: 3647846725591080215
+      regium-book_159: 2494209846723571314
+      regium-book_16: 491984789123674500
+      regium-book_160: 2263771341317261557
+      regium-book_161: 4315169216155048467
+      regium-book_162: 242786202639414127
+      regium-book_163: 8770493258072601684
+      regium-book_164: -8776066988543760499
+      regium-book_165: 2791543167008644779
+      regium-book_166: -7897141870986871983
+      regium-book_167: 45523723941604754
+      regium-book_168: 2603197421760186619
+      regium-book_169: 8704007541285452382
+      regium-book_17: -4596332388067814586
+      regium-book_170: 7297797868374300646
+      regium-book_171: 4061183479225223803
+      regium-book_172: -7172010832142774161
+      regium-book_173: -1952210214932820317
+      regium-book_174: -1531660585752817674
+      regium-book_175: -2167123341478868061
+      regium-book_176: -3545162431993781759
+      regium-book_177: -6752470374174480310
+      regium-book_178: -6756531871654115078
+      regium-book_179: 3131304024282018038
+      regium-book_18: 6296926939516547194
+      regium-book_180: -5739148943175928354
+      regium-book_181: -6887402414224654173
+      regium-book_182: -2272396576843010957
+      regium-book_183: 5776602969568380330
+      regium-book_184: -4385371233273342782
+      regium-book_185: 1140177822423367794
+      regium-book_186: -1149064669802125829
+      regium-book_187: -6594025681785364861
+      regium-book_188: 2405948498107520042
+      regium-book_189: 930275007580379704
+      regium-book_19: -74558812585266718
+      regium-book_190: -1269021003602951776
+      regium-book_191: 2708141415017067432
+      regium-book_192: -1248636020244693593
+      regium-book_193: -414612164569353608
+      regium-book_194: -5769379557785549683
+      regium-book_195: -2896683286760392696
+      regium-book_196: 9016127041761074404
+      regium-book_197: -7696872985272785494
+      regium-book_198: 8609911339533452336
+      regium-book_199: 2329271310182450641
+      regium-book_2: -7546720806567994138
+      regium-book_20: -8606779371022446151
+      regium-book_200: -6138304575595113500
+      regium-book_201: -2087918175128432651
+      regium-book_202: -6411078880739711848
+      regium-book_203: 6164999741190897606
+      regium-book_204: 1434264236328728126
+      regium-book_205: -3466701402557163214
+      regium-book_206: -3573642904034350870
+      regium-book_207: 6993606688312413440
+      regium-book_208: -8778030982859670067
+      regium-book_209: -6506041486905331208
+      regium-book_21: -2168742950137043465
+      regium-book_210: -8533591018017844755
+      regium-book_211: -4744552244571698037
+      regium-book_212: 8239631051807233461
+      regium-book_213: 3093514365416953818
+      regium-book_214: -5169676302830785900
+      regium-book_215: 5005862070980058357
+      regium-book_216: 5375718002669568887
+      regium-book_217: 7776306025830637998
+      regium-book_218: 8519912679125041076
+      regium-book_219: -7057289297120706743
+      regium-book_22: -5497560658619241610
+      regium-book_220: 3464448814627568825
+      regium-book_221: 2949262513821350085
+      regium-book_222: -2749511733017423700
+      regium-book_223: 4176510801010757367
+      regium-book_224: -8722052054285721476
+      regium-book_23: 2589545780593774737
+      regium-book_24: -2403203068706309746
+      regium-book_25: 5488048550863869072
+      regium-book_26: -334687447868052823
+      regium-book_27: 8392212032194051182
+      regium-book_28: -4086930628831003927
+      regium-book_29: -5459205480250201977
+      regium-book_3: -5686517789102747741
+      regium-book_30: -227059687004199840
+      regium-book_31: -3127569793775133128
+      regium-book_32: 5332825282577831099
+      regium-book_33: -8500565531464343843
+      regium-book_34: 1973828768977801861
+      regium-book_35: 1657782640634300257
+      regium-book_36: 6030457447178416892
+      regium-book_37: -5247380347827020022
+      regium-book_38: 3688171565039220815
+      regium-book_39: 2584275959671797272
+      regium-book_4: 5990352773511800903
+      regium-book_40: 3601151295916320910
+      regium-book_41: -6214757587590443266
+      regium-book_42: -5685573110580586159
+      regium-book_43: -8294711352794650475
+      regium-book_44: 2241155027229236955
+      regium-book_45: -5110512111478715440
+      regium-book_46: 2814558714490950284
+      regium-book_47: 277227733947092565
+      regium-book_48: -6928265166352258133
+      regium-book_49: -313449326018470169
+      regium-book_5: 3618956283299020649
+      regium-book_50: -1738648533488903858
+      regium-book_51: -5350863834696801421
+      regium-book_52: -2779539051263049956
+      regium-book_53: 3480683284931526382
+      regium-book_54: 2108245020320594883
+      regium-book_55: -6503475712390153850
+      regium-book_56: -4792960783770003031
+      regium-book_57: 639382534152279063
+      regium-book_58: -5922151954659444850
+      regium-book_59: -3194176682551478644
+      regium-book_6: 187279404419155808
+      regium-book_60: 4531252582937450324
+      regium-book_61: -921618002579822823
+      regium-book_62: 3525649302651120925
+      regium-book_63: 867706644442647283
+      regium-book_64: 4542488968372883981
+      regium-book_65: 6008541117686294745
+      regium-book_66: 7584704984601175870
+      regium-book_67: 8154932849954663395
+      regium-book_68: -7281371911693291666
+      regium-book_69: -2199590535461342409
+      regium-book_7: -3401126261043188705
+      regium-book_70: -1033587394692401041
+      regium-book_71: 1137488577301116760
+      regium-book_72: 4830133746780246833
+      regium-book_73: 6259141158490967836
+      regium-book_74: -1774920743940974869
+      regium-book_75: 5235660462337208202
+      regium-book_76: -5343882980869234290
+      regium-book_77: 5831501200755636014
+      regium-book_78: -5620693343482706678
+      regium-book_79: -4747358995158102763
+      regium-book_8: 6072043726060462798
+      regium-book_80: -8777602862059801168
+      regium-book_81: -2281763359942527121
+      regium-book_82: 421163097222992902
+      regium-book_83: -4092877811332231001
+      regium-book_84: -6091999445182704868
+      regium-book_85: -1359508538825112734
+      regium-book_86: 58348423922811643
+      regium-book_87: -7994128074478456185
+      regium-book_88: -4847624555996489034
+      regium-book_89: -4326906441802362214
+      regium-book_9: -1768894894643948789
+      regium-book_90: 703169947974554222
+      regium-book_91: -4195919277894453741
+      regium-book_92: -2707459842964215591
+      regium-book_93: -4051366037129192742
+      regium-book_94: -5751702958175038120
+      regium-book_95: -81299649281460107
+      regium-book_96: 1871949464616749788
+      regium-book_97: -1499575423197028686
+      regium-book_98: 2166940203990947135
+      regium-book_99: 7912139628023704862
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

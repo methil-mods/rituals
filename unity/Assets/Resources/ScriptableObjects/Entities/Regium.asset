@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e83a1db1e824ba9b674305c4117c708, type: 3}
-  m_Name: Mutus
+  m_Name: Regium
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Entity.EntityData
-  entityName: Mutus
-  entitySprite: {fileID: -7075342609982135175, guid: 5e97c86df20534f58aeda9ff4fd9b32c, type: 3}
+  entityName: Regium
+  entitySprite: {fileID: -2032120305414199623, guid: 9c1a9d612ce8d4f4ab4efdff2cbc7a52, type: 3}
   entityDescription: '-'
   summonableOnce: 0
   normalDialog: {fileID: 11400000, guid: fecf6d8f2a5944e9d89ca725e2e448c4, type: 2}

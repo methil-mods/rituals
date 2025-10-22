@@ -17,6 +17,9 @@ namespace ScriptableObjects.SFX
         [Header("Talk")]
         public float talkVolume = 1f;
         
+        [Header("Monster")]
+        public AudioClip saviorClip;
+        
         [Header("User Interface")]
         public float pageOpenVolume = 1f;
         public AudioClip pageOpenClip;

@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 8c77f91a5c4f14392bbd6db0f637ae20
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2995053120220102376
+    second: flosculus-book_0
+  - first:
+      213: -1972820980995236555
+    second: flosculus-book_1
+  - first:
+      213: 2463266118817346162
+    second: flosculus-book_2
+  - first:
+      213: 4595374890326460164
+    second: flosculus-book_3
+  - first:
+      213: -7948084183652661533
+    second: flosculus-book_4
+  - first:
+      213: 5471744104871543480
+    second: flosculus-book_5
+  - first:
+      213: 533971142480421028
+    second: flosculus-book_6
+  - first:
+      213: -7668725489838793253
+    second: flosculus-book_7
+  - first:
+      213: -1596456407570846707
+    second: flosculus-book_8
+  - first:
+      213: -142240767211798955
+    second: flosculus-book_9
+  - first:
+      213: 4690723211204803979
+    second: flosculus-book_10
+  - first:
+      213: 5141005166082120647
+    second: flosculus-book_11
+  - first:
+      213: -8102782577608859946
+    second: flosculus-book_12
+  - first:
+      213: 6553320367075066939
+    second: flosculus-book_13
+  - first:
+      213: -9027045201199555862
+    second: flosculus-book_14
+  - first:
+      213: 2288282345011021630
+    second: flosculus-book_15
+  - first:
+      213: -8633081305384576529
+    second: flosculus-book_16
+  - first:
+      213: 6623242879204909253
+    second: flosculus-book_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flosculus-book_0
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1892
+        width: 219
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8110bdd3e0f6f66d0800000000000000
+      internalID: -2995053120220102376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flosculus-book_1
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1962
+        width: 119
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d575e25c12f94e0800000000000000
+      internalID: -1972820980995236555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flosculus-book_2
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 2048
+        width: 137
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272fc5feb774f2220800000000000000
+      internalID: 2463266118817346162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flosculus-book_3
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1973
+        width: 180
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40788ab8d1d06cf30800000000000000
+      internalID: 4595374890326460164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flosculus-book_4
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 2127
+        width: 236
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e68b74bb8bb2b190800000000000000
+      internalID: -7948084183652661533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flosculus-book_5
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 2292
+        width: 128
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2c4b8d54a8feb40800000000000000
+      internalID: 5471744104871543480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flosculus-book_6
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 2189
+        width: 212
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0eadbcceb096700800000000000000
+      internalID: 533971142480421028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flosculus-book_7
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 2062
+        width: 296
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdddc223cc6339590800000000000000
+      internalID: -7668725489838793253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flosculus-book_8
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1321
+        width: 185
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ce75f0b5f38d9e0800000000000000
+      internalID: -1596456407570846707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flosculus-book_9
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1345
+        width: 190
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ef2cd96c8a60ef0800000000000000
+      internalID: -142240767211798955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flosculus-book_10
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1096
+        width: 161
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8dba8778ebc81140800000000000000
+      internalID: 4690723211204803979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flosculus-book_11
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1119
+        width: 159
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbd5c8d5f4885740800000000000000
+      internalID: 5141005166082120647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flosculus-book_12
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 201
+        width: 316
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de56611d222d8f80800000000000000
+      internalID: -8102782577608859946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flosculus-book_13
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 249
+        width: 265
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3487d2272212fa50800000000000000
+      internalID: 6553320367075066939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flosculus-book_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 281
+        width: 286
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea1b13873e79b280800000000000000
+      internalID: -9027045201199555862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flosculus-book_15
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 282
+        width: 228
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e370e204bac91cf10800000000000000
+      internalID: 2288282345011021630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flosculus-book_16
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 213
+        width: 159
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe99c73fa42213880800000000000000
+      internalID: -8633081305384576529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flosculus-book_17
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 266
+        width: 195
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0e424ae4c7aeb50800000000000000
+      internalID: 6623242879204909253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flosculus-book_0: -2995053120220102376
+      flosculus-book_1: -1972820980995236555
+      flosculus-book_10: 4690723211204803979
+      flosculus-book_11: 5141005166082120647
+      flosculus-book_12: -8102782577608859946
+      flosculus-book_13: 6553320367075066939
+      flosculus-book_14: -9027045201199555862
+      flosculus-book_15: 2288282345011021630
+      flosculus-book_16: -8633081305384576529
+      flosculus-book_17: 6623242879204909253
+      flosculus-book_2: 2463266118817346162
+      flosculus-book_3: 4595374890326460164
+      flosculus-book_4: -7948084183652661533
+      flosculus-book_5: 5471744104871543480
+      flosculus-book_6: 533971142480421028
+      flosculus-book_7: -7668725489838793253
+      flosculus-book_8: -1596456407570846707
+      flosculus-book_9: -142240767211798955
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

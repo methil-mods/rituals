@@ -20,6 +20,7 @@ namespace Core.SFX
         public AudioSource talkingUiAudioSource;
         public AudioSource bookUiAudioSource;
         public AudioSource walkingUiAudioSource;
+        public AudioSource saviorAudioSource;
         public AudioSource otherUiAudioSource;
 
         protected override void Awake()
@@ -61,6 +62,13 @@ namespace Core.SFX
         {
             if (musicAudioSource != null && musicAudioSource.isPlaying)
                 musicAudioSource.Stop();
+        }
+
+        public void PlaySaviorSound()
+        {
+            saviorAudioSource.volume = SFXDatabase.Instance.otherVolume;
+            saviorAudioSource.loop = false;
+            saviorAudioSource.PlayOneShot(SFXDatabase.Instance.saviorClip);
         }
 
         public void PlayOpenBookSound()

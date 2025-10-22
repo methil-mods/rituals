@@ -66,11 +66,14 @@ namespace Core.UserInterface.Book
             textField.text = text ?? string.Empty;
             textField.pageToDisplay = 1;
             textField.ForceMeshUpdate();
-
+            
             bool hasImage = image != null;
             imageField.gameObject.SetActive(hasImage);
             if (hasImage)
+            {
+                Debug.Log(image);
                 imageField.sprite = image;
+            }
         }
 
         private void UpdatePagination()

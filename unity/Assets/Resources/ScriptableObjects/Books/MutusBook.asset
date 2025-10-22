@@ -14,17 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.Book.BookData
   bookName: Mutus Book
   bookContent:
-  - contentLeft: "Once a gnome of the Limbo, Murmur \u2014 whose tongue defied the
+  - contentLeft: "Once a gnome of the Limbo, Mutus \u2014 whose tongue defied the
       very boundaries of silence \u2014 at last provoked the ire of a demigod. As
       punishment, he was granted immortality, and within his mouth was sown a living
       galaxy: a spiraling abyss of stars and void that devoured forever the sound
       of his voice. "
     contentLeftImage: {fileID: 0}
-    contentRight: Now eternally mute, Murmur drifts through endless torment, a vessel
+    contentRight: Now eternally mute, Mutus drifts through endless torment, a vessel
       of cosmic agony condemned to suffer beyond the reach of time itself.
     contentRightImage: {fileID: 0}
     onPageOpen:
     - rid: 4367808213698216011
+  - contentLeft: 
+    contentLeftImage: {fileID: 21300000, guid: ca593795cbde54643ad20679d5b87523, type: 3}
+    contentRight: 
+    contentRightImage: {fileID: 0}
+    onPageOpen: []
   references:
     version: 2
     RefIds:

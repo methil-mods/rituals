@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Core.PostProcess;
 using Core.Savior;
+using Core.SFX;
 using Framework.Controller;
 using UnityEngine;
 using World;
@@ -22,6 +23,7 @@ namespace Core.UserInterface.End
         {
             savior.animator.SetTrigger("animation");
             PostProcessingController.Instance.SetEndGamePostProcessingEffect();
+            SFXController.Instance.PlaySaviorSound();
             WorldController.Instance.HideAllMap();
             yield return new WaitForEndOfFrame();
             // TODO : VERIFY THAT WE CAN'T PAUSE GAME IN THIS ANIMATION
