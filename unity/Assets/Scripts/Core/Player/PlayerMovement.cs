@@ -42,7 +42,7 @@ namespace Player
             if (PauseController.Instance.isPaused || (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject()))
                 return;
             
-            if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
+            if (!isMoving && Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
             {
                 Vector3 mouseWorld = CameraUtils.ScreenToWorld(Mouse.current.position.ReadValue());
                 Vector3Int clickedTile = WorldController.Instance.worldGrid.WorldToCell(mouseWorld);
