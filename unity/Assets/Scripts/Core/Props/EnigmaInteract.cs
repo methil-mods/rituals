@@ -1,4 +1,3 @@
-using Core.Enigma;
 using Framework.Props;
 using ScriptableObjects.Enigma;
 
